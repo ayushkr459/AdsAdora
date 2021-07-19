@@ -22,7 +22,7 @@ $result = mysqli_query($conn, $sql);
                 echo '
                     <div class="item py-2 m-2">
                         <div class="flyer">
-                        <a href="' . $url . '" name="query"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '"  width="200" height="150"></a>
+                        <a href="' . $url . '" name="query"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '"  width="200" height="300"></a>
                             <div class="text-center mt-4">
                             <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
                                 <div class="date">
@@ -33,61 +33,6 @@ $result = mysqli_query($conn, $sql);
                     </div>';
             }
             ?>
-            <!-- <div class="item py-2">
-                <div class="flyer">
-                    <a href="../weekly-ads.php"><img src="./assets/images/product01.png" alt="' . $row['flyers_meta'] . '" class="img-fluid"></a>
-                    <div class="text-center">
-                        <h6 style="color: #dc3545;">Store Name</h6>
-                        <div class="date">
-                            <span>21-07-2021</span>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="item py-2">
-                <div class="flyer">
-                    <a href=""><img src="./assets/images/product02.png" alt="Product1" class="img-fluid"></a>
-                    <div class="text-center">
-                        <h6 style="color: #dc3545;">Store Name</h6>
-                        <div class="date">
-                            <span>21-07-2021</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item py-2">
-                <div class="flyer">
-                    <a href="../weekly-ads.php"><img src="./assets/images/product03.png" alt="Product1" class="img-fluid"></a>
-                    <div class="text-center">
-                        <h6 style="color: #dc3545;">Store Name</h6>
-                        <div class="date">
-                            <span>21-07-2021</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item py-2">
-                <div class="flyer">
-                    <a href=""><img src="./assets/images/product04.png" alt="Product1" class="img-fluid"></a>
-                    <div class="text-center">
-                        <h6 style="color: #dc3545;">Store Name</h6>
-                        <div class="date">
-                            <span>21-07-2021</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item py-2">
-                <div class="flyer">
-                    <a href=""><img src="./assets/images/product04.png" alt="Product1" class="img-fluid"></a>
-                    <div class="text-center">
-                        <h6 style="color: #dc3545;">Store Name</h6>
-                        <div class="date">
-                            <span>21-07-2021</span>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </section>
