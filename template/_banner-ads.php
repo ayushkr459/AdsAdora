@@ -15,14 +15,16 @@ $result = mysqli_query($conn, $sql);
             <?php
 
             while ($row = mysqli_fetch_assoc($result)) {
+                $store_name = $row['store_name'];
+                $url = "store.php?storename=" . $store_name;
                 $start_date = date("d/m/Y", strtotime($row['start_date']));
                 $end_date = date("d/m/Y", strtotime($row['end_date']));
                 echo '
                     <div class="item py-2 m-2">
                         <div class="flyer">
-                            <a href="../weekly-ads.php"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '"  width="200" height="150"></a>
+                        <a href="' . $url . '" name="query"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '"  width="200" height="150"></a>
                             <div class="text-center mt-4">
-                                <h6 style="color: #dc3545;">' . $row['store_name'] . '</h6>
+                            <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
                                 <div class="date">
                                     <span>' . $start_date . ' - ' . $end_date . '</span>
                                 </div>
