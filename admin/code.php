@@ -20,6 +20,7 @@ if (isset($_POST['category_update_btn'])) {
     $edit_category_name = $_POST['edit_category_name'];
     $edit_category_image = $_FILES['category_img']['name'];
     $edit_category_description = $_POST['edit_category_description'];
+    $edit_category_description = str_replace("'", "\'", $edit_category_description);
     $edit_category_meta = $_POST['edit_category_meta'];
 
     $query = "UPDATE category SET category_name='$edit_category_name', category_img='$edit_category_image', 
@@ -92,6 +93,7 @@ if (isset($_POST['store_update_btn'])) {
     $edit_store_name = $_POST['edit_store_name'];
     $edit_store_image = $_FILES['store_img']['name'];
     $edit_store_description = $_POST['edit_store_description'];
+    $edit_store_description = str_replace("'", "\'", $edit_store_description);
     $edit_store_meta = $_POST['edit_store_meta'];
 
     $query = "UPDATE store SET category_name='$edit_category_name', store_img='$edit_store_image', 
@@ -165,6 +167,7 @@ if (isset($_POST['flyers_update_btn'])) {
     $edit_start_date = $_POST['edit_startdate'];
     $edit_end_date = $_POST['edit_enddate'];
     $edit_flyers_description = $_POST['edit_flyers_description'];
+    $edit_flyers_description = str_replace("'", "\'", $edit_flyers_description);
     $edit_flyers_meta = $_POST['edit_flyers_meta'];
 
     $query = "UPDATE flyers SET store_name='$edit_store_name', flyers_img='$edit_flyers_image', 

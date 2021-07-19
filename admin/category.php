@@ -71,6 +71,7 @@ include('sidebar.php')
             $tempname = $_FILES["image"]["tmp_name"];
             $folder = "image/" . $image;
             $description = $_REQUEST['description'];
+            $description = str_replace("'", "\'", $description);
             $meta = $_REQUEST['meta'];
 
             // $conn = mysqli_connect("localhost", "deepdive-admin", "Admin@999", "adsadora");
@@ -78,7 +79,7 @@ include('sidebar.php')
             include('../template/_dbconnect.php');
 
             // Get all the submitted data from the form
-            $sql = "INSERT INTO category (category_name, category_img, category_description, category_meta) VALUES ('$categoryname', '$image', '$description', '$meta')";
+            $sql = "INSERT INTO category (category_name, category_img, category_description, category_meta, visible) VALUES ('$categoryname', '$image', '$description', '$meta', '0')";
 
             if (mysqli_query($conn, $sql)) {
                 echo '<script>alert("Data inserted successfully")</script>';

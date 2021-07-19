@@ -137,73 +137,88 @@
 
             <?php
 
-            $sql = "SELECT * FROM flyers where store_name = '$query'";
-            $result = mysqli_query($conn, $sql);
-            $row = mysqli_fetch_assoc($result);
+            // $sql = "SELECT * FROM flyers where store_name = '$query'";
+
+
+            // $result = mysqli_query($conn, $sql);
+            // $row = mysqli_fetch_assoc($result);
 
             ?>
+
+            <?php
+            //establish database connection
+            include('./template/_dbconnect.php');
+
+            $per_page = 1;
+            $page = 0;
+            $current_page = 1;
+            if (isset($_GET['page'])) {
+                $page = $_GET['page'];
+                if ($page <= 0) {
+                    $page = 0;
+                    $current_page = 1;
+                } else {
+
+                    $current_page = $page;
+                    $page--;
+                    $page = $page * $per_page;
+                }
+            }
+            $num_rows = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM flyers where store_name = '$query'"));
+            $record = $num_rows;
+            $pagi = ceil($record / $per_page);
+
+            $sql = "SELECT * FROM flyers where store_name = '$query' limit $page,$per_page";
+            $result = mysqli_query($conn, $sql);
+            // $row = mysqli_fetch_assoc($result);
+
+            ?>
+
             <!-- owl carousel -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8 m-3">
-                        <h3 class="text-center" style="color:#dc3545;">
-                            <?php
-                            echo $row['store_name'] . ' Weekly Ads';
-                            ?></h3>
-                        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-                            <ol class="carousel-indicators">
+                        <h3 class="text-center mb-4" style="color: #dc3545;"><?php echo $store_name ?> Weekly Ads</h3>
+                        <?php
+                        if (mysqli_num_rows($result) > 0) {
 
-                                <?php
-
-                                $i = 0;
-                                foreach ($result as $row) {
-                                    $actives = '';
-                                    if ($i == 0) {
-                                        $actives = 'active';
-                                    }
-                                ?>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="<?= $i ?>" class="<?= $actives ?>"></li>
-                                <?php $i++;
-                                }
-                                ?>
-                            </ol>
-                            <div class="carousel-inner" role="listbox">
-
-                                <?php
-                                $i = 0;
-                                foreach ($result as $row) {
-                                    $actives = '';
-                                    if ($i == 0) {
-                                        $actives = 'active';
-                                    }
-                                ?>
-
-                                    <div class="carousel-item <?= $actives ?>">
-                                        <img class="d-block" src="<?= 'admin/image/' . $row['flyers_img'] ?>" width="900" height="400" alt="<?= $row['flyers_description'] ?>" />
-                                        <div class="carousel-caption">
-                                            <h3 style="background-color: #fff; color:#000; border-style: hidden;"><?= $row['start_date'] . ' - ' . $row['end_date'] ?></h3>
+                            while ($row = mysqli_fetch_assoc($result)) {
+                                $store_name = $row['store_name'];
+                                $url = "store.php?storename=" . $store_name;
+                                $start_date = date("d/m/Y", strtotime($row['start_date']));
+                                $end_date = date("d/m/Y", strtotime($row['end_date']));
+                                echo '<div class="flyer">
+                                <a href="' . $url . '" name="query"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '" class="img-fluid"></a>
+                                    <div class="text-center mt-4">
+                                    <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
+                                        <div class="date">
+                                            <span>' . $start_date . ' - ' . $end_date . '</span>
                                         </div>
                                     </div>
-                                <?php $i++;
+                                </div>';
+                            };
+                        } else {
+                            echo '<h3>No Records Found</h3>';
+                        }
+                        ?>
+                        <ul class="pagination mt-3 justify-content-center" style="color:#dc3545;">
+                            <?php
+                            for ($i = 1; $i <= $pagi; $i++) {
+                                $class = '';
+                                if ($current_page == $i) {
+                                    $class = 'active';
                                 }
-                                ?>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
+                                echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="store.php?storename=" .'.$store_name.'. ?page=' . $i . '" name="query" class="page-link" style="color:#dc3545;">' . $i . '</a></li>';
+                            }
+                            ?>
+                            <!-- Current Page Not Clickable -->
+                        </ul>
                     </div>
                     <div class="col-lg-2"></div>
                 </div>
             </div>
             <!-- Owl Carousel Ends -->
-
         </div>
 
 

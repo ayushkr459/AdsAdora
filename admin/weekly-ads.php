@@ -109,6 +109,7 @@ include('sidebar.php')
             $startdate = $_REQUEST['startdate'];
             $enddate = $_REQUEST['enddate'];
             $description = $_REQUEST['description'];
+            $description = str_replace("'", "\'", $description);
             $meta = $_REQUEST['meta'];
 
             // $conn = mysqli_connect("localhost", "deepdive-admin", "Admin@999", "adsadora");
@@ -116,8 +117,8 @@ include('sidebar.php')
             include('../template/_dbconnect.php');
 
             // Get all the submitted data from the form
-            $sql = "INSERT INTO flyers (store_name, flyers_img, start_date, end_date, flyers_description, flyers_meta)
-             VALUES ('$storename', '$image', '$startdate', '$enddate', '$description', '$meta')";
+            $sql = "INSERT INTO flyers (store_name, flyers_img, start_date, end_date, flyers_description, flyers_meta, visible)
+             VALUES ('$storename', '$image', '$startdate', '$enddate', '$description', '$meta', '0')";
 
             if (mysqli_query($conn, $sql)) {
                 echo '<script>alert("Data inserted successfully")</script>';
