@@ -90,14 +90,6 @@
                 </form>
             </div>
         </nav>
-        <!-- Search Bar AutoComplete -->
-        <!-- <div class=" d-flex justify-content-end my-2" style="margin-right: 100px;">
-      <div class="list-group" id="show-list">
-        <a href="" class="list-group-item list-group-item-action">Search</a>
-        <a href="" class="list-group-item list-group-item-action border-1"></a>
-        <a href="" class="list-group-item list-group-item-action border-1"> </a>
-      </div>
-    </div> -->
         <!-- Navigation Bar Ends -->
     </header>
     <!-- Header Section Ends -->
@@ -132,17 +124,6 @@
             </div>
             ';
             }
-            ?>
-
-
-            <?php
-
-            // $sql = "SELECT * FROM flyers where store_name = '$query'";
-
-
-            // $result = mysqli_query($conn, $sql);
-            // $row = mysqli_fetch_assoc($result);
-
             ?>
 
             <?php
@@ -180,6 +161,18 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8 m-3">
                         <h3 class="text-center mb-4" style="color: #dc3545;"><?php echo $store_name ?> Weekly Ads</h3>
+                        <ul class="pagination mt-3 justify-content-center" style="color:#dc3545;">
+                            <?php
+                            for ($i = 1; $i <= $pagi; $i++ and $query!== null) {
+                                $class = '';
+                                if ($current_page == $i) {
+                                    $class = 'active';
+                                }
+                                echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="store.php?storename='.$store_name.'?page='.$i.'" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
+                            }
+                            ?>
+                            <!-- Current Page Not Clickable -->
+                        </ul>
                         <?php
                         if (mysqli_num_rows($result) > 0) {
 
@@ -189,7 +182,7 @@
                                 $start_date = date("d/m/Y", strtotime($row['start_date']));
                                 $end_date = date("d/m/Y", strtotime($row['end_date']));
                                 echo '<div class="flyer">
-                                <a href="' . $url . '" name="query"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '" class="img-fluid"></a>
+                                <img class="img-fluid zoom" id="zoom1" src="admin/image/' . $row['flyers_img'] . '" data-zoom-image="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '">
                                     <div class="text-center mt-4">
                                     <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
                                         <div class="date">
@@ -199,17 +192,17 @@
                                 </div>';
                             };
                         } else {
-                            echo '<h3>No Records Found</h3>';
+                            echo '<h3 class="text-center">No Records Found</h3>';
                         }
                         ?>
                         <ul class="pagination mt-3 justify-content-center" style="color:#dc3545;">
                             <?php
-                            for ($i = 1; $i <= $pagi; $i++) {
+                            for ($i = 1; $i <= $pagi; $i++ and $query!== null) {
                                 $class = '';
                                 if ($current_page == $i) {
                                     $class = 'active';
                                 }
-                                echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="store.php?storename=" .'.$store_name.'. ?page=' . $i . '" name="query" class="page-link" style="color:#dc3545;">' . $i . '</a></li>';
+                                echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="store.php?storename='.$store_name.'?page='.$i.'" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
                             }
                             ?>
                             <!-- Current Page Not Clickable -->
@@ -220,9 +213,6 @@
             </div>
             <!-- Owl Carousel Ends -->
         </div>
-
-
-
 
         <?php
         // include footer.php

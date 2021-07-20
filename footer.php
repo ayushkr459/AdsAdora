@@ -26,10 +26,10 @@
             <h3 class="footer-title">Pages</h3>
             <ul class="footer-links">
               <li><a href="./index.php">Home</a></li>
-              <li><a href="./stores.php">Stores</a></li>
-              <li><a href="./category.php">Categories</a></li>
-              <li><a href="./weekly-ads.php">Weekly-Ads</a></li>
-              <li><a href="#">Sitemap</a></li>
+              <li><a href="./about.php">About Us</a></li>
+              <li><a href="./contact.php">Contact Us</a></li>
+              <li><a href="./privacy.php">Privacy Policy</a></li>
+              <li><a href="./terms.php">Terms</a></li>
             </ul>
           </div>
         </div>
@@ -209,8 +209,10 @@ if (isset($_POST['subscribe'])) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js" integrity="sha512-UH428GPLVbCa8xDVooDWXytY8WASfzVv3kxCvTAFkxD2vPjouf1I3+RJ2QcSckESsb7sI+gv3yhsgw9ZhM7sDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Custom Javascript -->
+<script src="./medium-zoom.min.js"></script>
 <script src="./index.js"></script>
 </body>
 

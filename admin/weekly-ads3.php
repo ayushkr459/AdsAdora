@@ -59,7 +59,7 @@ include('sidebar.php')
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10 text-center">
-                            <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Upload</button>
                         </div>
                     </div> 
                     <?php
@@ -86,31 +86,4 @@ include('sidebar.php')
                     ?>
                 </form>
             </div>
-        </div>    
-        <div class="row justify-content-center">
-            <div class="col-lg-10 mt-4">
-                <div class="row p-2" id="images-preview">
-                    
-                </div>
-            </div>
         </div>
-
-
-    <script src=""></script>
-    <script>
-           $("#image-upload").submit(function(e){
-               e.preventDefault();
-               $.ajax({
-                   url:'#',
-                   method:'post',
-                   processData: false,
-                   contentType: false,
-                   cache: false,
-                   data: new FormData(this),
-                   success: function(response){
-                       alert("Images Upload Successfully");
-                   }
-               });
-           });        
-        
-    </script>

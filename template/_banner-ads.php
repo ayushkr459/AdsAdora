@@ -2,7 +2,7 @@
 //establish database connection
 include('template/_dbconnect.php');
 
-$sql = "SELECT * FROM `flyers` LIMIT 8";
+$sql = "SELECT * from `flyers` GROUP BY store_name LIMIT 8";
 $result = mysqli_query($conn, $sql);
 ?>
 

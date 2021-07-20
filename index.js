@@ -1,3 +1,7 @@
+// mediumZoom('.zoom', {
+//   margin:50
+// });
+
 $(document).ready(function () {
   //Banner Owl Carousel
   //   $("#banner-area .owl-carousel").owlCarousel({
@@ -5,6 +9,13 @@ $(document).ready(function () {
   //     items: 1,
   //   });
   // Banner Flyers Owl Carousel
+
+  $("#zoom1").elevateZoom({
+    zoomType: "lens",
+    lensShape: "round",
+    lensSize: 200,
+  });
+
   $("#flyers .owl-carousel").owlCarousel({
     loop: true,
     nav: true,
@@ -94,5 +105,4 @@ $(document).ready(function ($) {
   $(".prev").click(function () {
     owl.trigger("owl.prev");
   });
-
 });
