@@ -212,7 +212,6 @@ if (isset($_POST['subscribe'])) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js" integrity="sha512-UH428GPLVbCa8xDVooDWXytY8WASfzVv3kxCvTAFkxD2vPjouf1I3+RJ2QcSckESsb7sI+gv3yhsgw9ZhM7sDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Custom Javascript -->
-<script src="./medium-zoom.min.js"></script>
 <script src="./index.js"></script>
 </body>
 

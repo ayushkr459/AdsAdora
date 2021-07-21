@@ -3,26 +3,42 @@
 // });
 
 $(document).ready(function () {
-  //Banner Owl Carousel
-  //   $("#banner-area .owl-carousel").owlCarousel({
-  //     dots: true,
-  //     items: 1,
-  //   });
-  // Banner Flyers Owl Carousel
+  $("#zoom1").on("click", function () {
+    if ($(".enabled").length === 0) {
+      $(".zoomContainer").show();
+      $("#zoom1").elevateZoom({
+        zoomType: "inner",
+        cursor: "crosshair",
+      });
+      $(this).toggleClass("enabled");
+    } else {
+      $(this).toggleClass("enabled");
+      $(".zoomContainer").hide();
+    }
+  });
+});
+
+$(document).ready(function () {
 
   // $("#zoom1").elevateZoom({
-  //   zoomType: "lens",
-  //   lensShape: "round",
-  //   lensSize: 200,
+  //   zoomType: "inner",
+  //   cursor: "cursor",
   // });
 
-  $("#zoom1").elevateZoom({
-    zoomType: "inner",
-    cursor: "crosshair"
-  });
-  // $(window).resize(function (e) {
-  //   $(".zoomContainer").remove();
-  //   $("#zoom1").elevateZoom();
+  // $("#zoom1").on("click", function () {
+  //   if ($(".enabled").length === 0) {
+  //     $(".zoomContainer").show();
+  //     $("#zoom1").elevateZoom({
+  //       zoomType: "inner",
+  //       cursor: "crosshair",
+  //       zoomWindowFadeIn: 500,
+  //       zoomWindowFadeOut: 750,
+  //     });
+  //     $(this).toggleClass("enabled");
+  //   } else {
+  //     $(this).toggleClass("enabled");
+  //     $(".zoomContainer").hide();
+  //   }
   // });
 
   $("#flyers .owl-carousel").owlCarousel({
