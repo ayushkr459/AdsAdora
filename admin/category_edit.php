@@ -42,8 +42,9 @@ include('sidebar.php')
                         <input type="text" name="edit_category_name" value="<?php echo $row['category_name'] ?>" id="edit_category_name" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Category Image</label>
-                        <input type="file" name="category_img" value="<?php echo $row['category_img'] ?>" id="category_img" class="form-control">
+                        <label>Category Image</label> <br>
+                        <?php echo '<img src="image/' . $row['category_img'] . '" alt="" width="100px;" height="100px;">' ?> <br>
+                        <input type="file" name="category_img" value="" id="category_img" class="form-control">
                     </div>
                     <div class="form-group">
                         <label>Category Description</label>

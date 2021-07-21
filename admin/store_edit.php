@@ -40,7 +40,7 @@ include('sidebar.php')
                     <div class="form-group">
                         <label>Select Category</label>
                         <select class="form-control" id="edit_category_name" name="edit_category_name" required>
-                            <option value="" class="form-control"><?php echo $row['category_name'] ?></option>
+                            <option value="<?php echo $row['category_name'] ?>" class="form-control"><?php echo $row['category_name'] ?></option>
                             <?php
                             include('../template/_dbconnect.php');
 
@@ -63,9 +63,13 @@ include('sidebar.php')
                         <input type="text" name="edit_store_name" value="<?php echo $row['store_name'] ?>" id="edit_store_name" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Category Image</label>
-                        <input type="file" name="store_img" value="<?php echo $row['store_img'] ?>" id="store_img" class="form-control">
+                        <label>Category Image</label> <br>
+                        <?php echo '<img src="image/' . $row['store_img'] . '" alt="" width="100px;" height="100px;">' ?> <br>
+                        <input type="file" name="store_img" value="" id="store_img" class="form-control">
                     </div>
+                    <?php
+                    // echo $row['store_img'];
+                    ?>
                     <div class="form-group">
                         <label>Category Description</label>
                         <input type="text" name="edit_store_description" value="<?php echo $row['store_description'] ?>" id="edit_store_description" class="form-control">

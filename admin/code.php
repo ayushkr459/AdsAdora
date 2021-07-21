@@ -23,19 +23,28 @@ if (isset($_POST['category_update_btn'])) {
     $edit_category_description = str_replace("'", "\'", $edit_category_description);
     $edit_category_meta = $_POST['edit_category_meta'];
 
-    $query = "UPDATE category SET category_name='$edit_category_name', category_img='$edit_category_image', 
-    category_description='$edit_category_description', category_meta='$edit_category_meta' WHERE category_id='$edit_id'";
+    if ($edit_category_image != "") {
+        $query = "UPDATE category SET category_name='$edit_category_name', category_img='$edit_category_image', 
+        category_description='$edit_category_description', category_meta='$edit_category_meta' WHERE category_id='$edit_id'";
 
-    $query_run = mysqli_query($conn, $query);
+        $query_run = mysqli_query($conn, $query);
 
-    if ($query_run) {
-        move_uploaded_file($_FILES["category_img"]["tmp_name"], "image/" . $_FILES["category_img"]["name"]);
-        echo '<script>alert("Data Updated successfully")</script>';
-        header('Location:category.php');
+        if ($query_run) {
+            move_uploaded_file($_FILES["category_img"]["tmp_name"], "image/" . $_FILES["category_img"]["name"]);
+            echo '<script>alert("Data Updated successfully")</script>';
+            header('Location:category.php');
+        } else {
+            echo '<script>alert("Data not updated")</script>';
+            echo ("Error description: " . mysqli_error($conn)) . "Give this error back to developer";
+            // header('Location:category.php');
+        }
     } else {
-        echo '<script>alert("Data not updated")</script>';
-        echo ("Error description: " . mysqli_error($conn)) . "Give this error back to developer";
-        // header('Location:category.php');
+        $query = "UPDATE category SET category_name='$edit_category_name', 
+        category_description='$edit_category_description', category_meta='$edit_category_meta' WHERE category_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+
+        header('Location:category.php');
     }
 }
 
@@ -88,27 +97,36 @@ if (isset($_POST['delete_multiple_data'])) {
 
 // Store Update 
 if (isset($_POST['store_update_btn'])) {
+
     $edit_id = $_POST['edit_id'];
     $edit_category_name = $_POST['edit_category_name'];
     $edit_store_name = $_POST['edit_store_name'];
-    $edit_store_image = $_FILES['store_img']['name'];
     $edit_store_description = $_POST['edit_store_description'];
     $edit_store_description = str_replace("'", "\'", $edit_store_description);
     $edit_store_meta = $_POST['edit_store_meta'];
+    $edit_store_image = $_FILES['store_img']['name'];
 
-    $query = "UPDATE store SET category_name='$edit_category_name', store_img='$edit_store_image', 
-    store_description='$edit_store_description', store_meta='$edit_store_meta' WHERE store_id='$edit_id'";
+    if ($edit_store_image != "") {
+        $query = "UPDATE store SET category_name='$edit_category_name', store_img='$edit_store_image', 
+                store_description='$edit_store_description', store_meta='$edit_store_meta' WHERE store_id='$edit_id'";
 
-    $query_run = mysqli_query($conn, $query);
+        $query_run = mysqli_query($conn, $query);
 
-    if ($query_run) {
-        move_uploaded_file($_FILES["store_img"]["tmp_name"], "image/" . $_FILES["store_img"]["name"]);
-        echo '<script>alert("Data Updated successfully")</script>';
-        header('Location:stores.php');
+        if ($query_run) {
+            move_uploaded_file($_FILES["store_img"]["tmp_name"], "image/" . $_FILES["store_img"]["name"]);
+            echo '<script>alert("Data Updated successfully")</script>';
+            header('Location:stores.php');
+        } else {
+            echo '<script>alert("Data not updated")</script>';
+            echo ("Error description: " . mysqli_error($conn)) . "Give this error back to developer";
+            // header('Location:stores.php');
+        }
     } else {
-        echo '<script>alert("Data not updated")</script>';
-        echo ("Error description: " . mysqli_error($conn)) . "Give this error back to developer";
-        // header('Location:stores.php');
+        $query = "UPDATE store SET category_name='$edit_category_name', 
+                store_description='$edit_store_description', store_meta='$edit_store_meta' WHERE store_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+        header('Location:stores.php');
     }
 }
 
@@ -159,7 +177,7 @@ if (isset($_POST['delete_multiple_store'])) {
 // **********  Flyers Section     **************
 
 
-// Store Update 
+// Flyers Update 
 if (isset($_POST['flyers_update_btn'])) {
     $edit_id = $_POST['edit_id'];
     $edit_store_name = $_POST['edit_store_name'];
@@ -170,23 +188,48 @@ if (isset($_POST['flyers_update_btn'])) {
     $edit_flyers_description = str_replace("'", "\'", $edit_flyers_description);
     $edit_flyers_meta = $_POST['edit_flyers_meta'];
 
-    $query = "UPDATE flyers SET store_name='$edit_store_name', flyers_img='$edit_flyers_image', 
-    start_date='$edit_start_date', end_date='$edit_end_date' WHERE flyers_id='$edit_id'";
+    if ($edit_flyers_image !== "") {
+        $query = "UPDATE flyers SET store_name='$edit_store_name', flyers_img='$edit_flyers_image', 
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
 
-    $query_run = mysqli_query($conn, $query);
+        $query_run = mysqli_query($conn, $query);
 
-    if ($query_run) {
-        move_uploaded_file($_FILES["flyers_img"]["tmp_name"], "image/" . $_FILES["flyers_img"]["name"]);
-        echo '<script>alert("Data Updated successfully")</script>';
+        if ($query_run) {
+            move_uploaded_file($_FILES["flyers_img"]["tmp_name"], "image/" . $_FILES["flyers_img"]["name"]);
+            echo '<script>alert("Data Updated successfully")</script>';
+            header('Location:weekly-ads.php');
+        } else {
+            echo '<script>alert("Data not updated")</script>';
+            echo ("Error description: " . mysqli_error($conn)) . " Give this error back to developer";
+            // header('Location:stores.php');
+        }
+    }
+    else if($edit_start_date !== ""){
+        $query = "UPDATE flyers SET store_name='$edit_store_name', start_date='$edit_start_date',
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
         header('Location:weekly-ads.php');
-    } else {
-        echo '<script>alert("Data not updated")</script>';
-        echo ("Error description: " . mysqli_error($conn)) . " Give this error back to developer";
-        // header('Location:stores.php');
+    }
+    else if($edit_end_date !== ""){
+        $query = "UPDATE flyers SET store_name='$edit_store_name', end_date='$edit_end_date',
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+        header('Location:weekly-ads.php');
+    }
+    else{
+        $query = "UPDATE flyers SET store_name='$edit_store_name', 
+                flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' 
+                WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+
+        header('Location:weekly-ads.php');
     }
 }
 
-// Store Delete 
+// Flyers Delete 
 if (isset($_POST['flyers_delete_btn'])) {
     $id = $_POST['delete_id'];
 
@@ -203,7 +246,7 @@ if (isset($_POST['flyers_delete_btn'])) {
 }
 
 
-// Search Checked Store 
+// Search Checked Flyers 
 if (isset($_POST['search_data'])) {
     $id = $_POST['id'];
     $visible = $_POST['visible'];
@@ -214,7 +257,7 @@ if (isset($_POST['search_data'])) {
 }
 
 
-// Delete all checked stores 
+// Delete all checked flyers 
 if (isset($_POST['delete_multiple_flyers'])) {
     $id = "1";
 
@@ -231,9 +274,9 @@ if (isset($_POST['delete_multiple_flyers'])) {
 }
 
 
-// --------------------- Neswletter Delete Users ------------------
+// --------------------- Newsletter Delete Users ------------------
 
-// Store Delete 
+// User Delete 
 if (isset($_POST['users_delete_btn'])) {
     $id = $_POST['delete_id'];
 

@@ -40,7 +40,7 @@ include('sidebar.php')
                     <div class="form-group">
                         <label>Select Store</label>
                         <select class="form-control" id="edit_store_name" name="edit_store_name" required>
-                            <option value="" class="form-control"><?php echo $row['store_name'] ?></option>
+                            <option value="<?php echo $row['store_name'] ?>" class="form-control"><?php echo $row['store_name'] ?></option>
                             <?php
                             include('../template/_dbconnect.php');
 
@@ -61,16 +61,19 @@ include('sidebar.php')
 
 
                     <div class="form-group">
-                        <label>Flyers Image</label>
-                        <input type="file" name="flyers_img" value="<?php echo $row['flyers_img'] ?>" id="flyers_img" class="form-control">
+                        <label>Flyers Image</label> <br>
+                        <?php echo '<img src="image/' . $row['flyers_img'] . '" alt="" width="100px;" height="100px;">' ?>
+                        <input type="file" name="flyers_img" value="" id="flyers_img" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Start Date</label>
-                        <input type="date" name="edit_startdate" value="<?php echo $row['startdate'] ?>" id="edit_startdate" class="form-control">
+                        <label>Start Date</label> <br>
+                        <?php echo $row['start_date'] ?>
+                        <input type="date" name="edit_startdate" value="" id="edit_startdate" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>End Date</label>
-                        <input type="date" name="edit_enddate" value="<?php echo $row['enddate'] ?>" id="edit_enddate" class="form-control">
+                        <label>End Date</label> <br>
+                        <?php echo $row['end_date'] ?>
+                        <input type="date" name="edit_enddate" value="" id="edit_enddate" class="form-control">
                     </div>
                     <div class="form-group">
                         <label>Flyers Description</label>
