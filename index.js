@@ -10,11 +10,20 @@ $(document).ready(function () {
   //   });
   // Banner Flyers Owl Carousel
 
+  // $("#zoom1").elevateZoom({
+  //   zoomType: "lens",
+  //   lensShape: "round",
+  //   lensSize: 200,
+  // });
+
   $("#zoom1").elevateZoom({
-    zoomType: "lens",
-    lensShape: "round",
-    lensSize: 200,
+    zoomType: "inner",
+    cursor: "crosshair"
   });
+  // $(window).resize(function (e) {
+  //   $(".zoomContainer").remove();
+  //   $("#zoom1").elevateZoom();
+  // });
 
   $("#flyers .owl-carousel").owlCarousel({
     loop: true,
