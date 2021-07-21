@@ -17,6 +17,9 @@
   // include store.php
   include('template/_store.php');
 
+  //include blog.php
+  include('template/_blog.php');
+
   // include newsletter.php
   include('template/_newsletter.php');
 ?>
