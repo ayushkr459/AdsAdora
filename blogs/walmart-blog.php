@@ -22,7 +22,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>Target Blog | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>Walmart Blog | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 
@@ -47,6 +47,7 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px">
             <a class="navbar-brand font-rale" href="./index.php">AdsAdora</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -92,10 +93,8 @@
         <!-- Bootstrap Static Header -->
         <div style="background: url(https://i.postimg.cc/3N7wnb75/background.jpg)" class="jumbotron bg-cover text-white">
             <div class="container py-5 text-center">
-                <h1 class="display-4 font-weight-bold">Best-Ever Offers for College Students!</h1>
-                <p class="font-italic mb-0">It won’t be an understatement to say that college students are all the more excited to go back to college campus.
-                    With the Covid-19 situation getting better, schools and colleges are all set to reopen.
-                    This excitement and happiness can be enhanced by shopping for the best-ever goodies for your college life! </p>
+                <h1 class="display-4 font-weight-bold">Hop into fabulous deals for school students</h1>
+                <p class="font-italic mb-0">The eagerness of going back to school cannot be described in words, isn’t it? Students have been at their homes for the past one year. With the Covid-19 situation normalising, schools are starting to reopen. </p>
                 <!-- <p class="font-italic">Snippe by
                     <a href="https://bootstrapious.com" class="text-white">
                         <u>Bootstrapious</u>

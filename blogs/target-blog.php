@@ -47,6 +47,7 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px">
             <a class="navbar-brand font-rale" href="./index.php">AdsAdora</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -208,10 +209,12 @@
                     <p class="font-italic text-muted">
                     <h4>5. Beauty Products-</h4>
                     All the college girls are fascinated with makeup and beauty products, right? Makeup not just helps us look better from outside, but it also makes us feel better from inside. So, you can get some makeup and beauty products to look the best in your college.
-                    <br><h4>Some beauty tips for college girls-</h4>
+                    <br>
+                    <h4>Some beauty tips for college girls-</h4>
                     A tip for everyone out there is to buy makeup products only from trusted websites like Target! Apart from that you can take help of YouTube to see which products will suit you the best. Always practice skin-care and wear sunscreen whenever you step out.
                     So, ace your college look and buy the best beauty products from Target.
-                    <br><h4>Bottom Line-</h4>
+                    <br>
+                    <h4>Bottom Line-</h4>
                     To offer concluding remarks, college life is indeed the beginning of a new phase in your life. Make sure you enjoy your college life to the most by joining various clubs and courses. We have put together for you some college must -haves that will make your life simpler.
                     To fill your college life with joys, Target is providing breath-taking offers. You can shop for all the stuff that you will need to ace your college life. Don’t forget to check out the latest deals on their Website.
                     </p>

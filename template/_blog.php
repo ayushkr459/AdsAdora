@@ -1,10 +1,10 @@
 <div class="container mt-2 mb-3">
     <h3 class="text-center">Our Recent Blogs</h3>
     <div class="row justify-content-center mt-3 mb-5">
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2 d-flex">
             <div class="card">
                 <img class="card-img img-fluid" src="./assets/images/target-blog-2.jpg" alt="image">
-                <div class="card-body text-center">
+                <div class="card-body text-center flex-fill">
                     <h4 class="card-title">Target</h4>
 
                     <p class="card-text">Best-Ever Offers for College Students!</p>
@@ -12,10 +12,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2 d-flex">
             <div class="card">
                 <img class="card-img img-fluid" src="./assets/images/walmart-blog-1.jpg" alt="image">
-                <div class="card-body text-center">
+                <div class="card-body text-center flex-fill">
                     <h4 class="card-title">Walmart</h4>
 
                     <p class="card-text">Hop into fabulous deals for school students</p>
@@ -23,14 +23,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mt-2 d-flex">
             <div class="card">
-                <img class="card-img" src="./assets/images/target-blog-2.jpg" alt="image">
-                <div class="card-body text-center">
-                    <h4 class="card-title">Target</h4>
+                <img class="card-img" src="./assets/images/travel.jpg" alt="image">
+                <div class="card-body text-center flex-fill">
+                    <h4 class="card-title">Travel</h4>
 
-                    <p class="card-text">Best-Ever Offers for College Students!</p>
-                    <a href="./blogs/target-blog.php" class="btn btn-danger">Read More</a>
+                    <p class="card-text">Travel Ideas post Pandemic!</p>
+                    <a href="./blogs/travel-ideas.php" class="btn btn-danger">Read More</a>
                 </div>
             </div>
         </div>
