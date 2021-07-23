@@ -48,7 +48,7 @@ button:focus {
 }
 
 .color-second-bg {
-  background: #FF4A64 !important;
+  background: #15161d !important;
 }
 
 .color-yellow {
@@ -218,7 +218,7 @@ h3.text-center {
 /* NewsLetter Section*/
 
 #newsletter.section {
-  border-top: 2px solid #E4E7ED;
+  /* border-top: 2px solid #E4E7ED; */
   border-bottom: 3px solid #FF4A64;
   margin-top: 30px;
 }

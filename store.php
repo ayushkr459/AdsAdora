@@ -81,7 +81,7 @@
                         <a class="nav-link" href="./weekly-ads.php">Weekly Ads</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blogs.php">Blogs</a>
+                        <a class="nav-link" href="./blogs/target-blog.php">Blogs</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="search.php" method="GET">
