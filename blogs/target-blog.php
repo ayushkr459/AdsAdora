@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
     <script src="https://kit.fontawesome.com/595d13cf2d.js" crossorigin="anonymous"></script>
+    <script data-ad-client="ca-pub-4254949403223799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <link rel="icon" href="../assets/images/logo.png" type="image/gif" sizes="32x32">
 
@@ -47,7 +48,7 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px">
+            <img src="../assets/images/logo.png" class="img-fluid" alt="" width="50px">
             <a class="navbar-brand font-rale" href="./index.php">AdsAdora</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
