@@ -67,8 +67,8 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" action="search.php" method="GET">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search for Stores" name="query" aria-label="Search">
-          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search for Stores" name="query" aria-label="Search" required>
+          <button class="btn btn-outline-dark search-store my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
