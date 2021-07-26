@@ -120,7 +120,7 @@
           <p>Get special offers directly in your inbox!</p>
         </div>
         <div class="d-flex justify-content-center">
-          <form class="form-inline subscribe-form" action="" method="POST" >
+          <form class="form-inline subscribe-form" action="" method="POST">
             <div class="form-group">
               <label class="sr-only" for="email4">Email</label>
               <input type="text" class="form-control mr-2" id="email4" name="email" placeholder="Enter your E-mail">
@@ -154,6 +154,7 @@ if (isset($_POST['subscribe'])) {
 
 
 ?>
+
 <!-- Window PopUp End -->
 
 <!-- PopUp Script -->
@@ -203,6 +204,13 @@ if (isset($_POST['subscribe'])) {
 </script> -->
 <!-- PopUp Script Ends -->
 
+<!-- Cookie Consent Popup Event Listener -->
+<!-- <script>
+  window.addEventListener("cookieAlertAccept", function() {
+    alert("cookies accepted")
+  })
+</script> -->
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
@@ -210,6 +218,7 @@ if (isset($_POST['subscribe'])) {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js" integrity="sha512-UH428GPLVbCa8xDVooDWXytY8WASfzVv3kxCvTAFkxD2vPjouf1I3+RJ2QcSckESsb7sI+gv3yhsgw9ZhM7sDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 
 <!-- Custom Javascript -->
 <script src="./index.js"></script>

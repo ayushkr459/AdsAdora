@@ -119,8 +119,17 @@ h3.text-center {
   margin-top: 50px;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+
 .navbar-dark .navbar-nav .nav-link:hover{
   color: #dc3545;
+}
+
+.search-store{
+  color: #fff;
 }
 
 .search-store:hover{
