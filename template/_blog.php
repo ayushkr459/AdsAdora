@@ -5,10 +5,11 @@
             <div class="card">
                 <img class="card-img img-fluid" src="./assets/images/target-blog-2.jpg" alt="image">
                 <div class="card-body text-center flex-fill">
-                    <h4 class="card-title">Target</h4>
-
-                    <p class="card-text">Best-Ever Offers for College Students!</p>
-                    <a href="./blogs/target-blog.php" class="btn btn-danger">Read More</a>
+                    <!-- <h4 class="card-title">Target</h4> -->
+                    <p class="card-text font-italic">Best-Ever Offers for College Students!</p>
+                </div>
+                <div class="card-footer text-center" style="border-top:none; background-color:rgb(0, 0, 0, 0)">
+                    <a href="./blogs/target-blog.php" class="btn btn-danger mt-2 mb-1">Read More</a>
                 </div>
             </div>
         </div>
@@ -16,10 +17,11 @@
             <div class="card">
                 <img class="card-img img-fluid" src="./assets/images/walmart-blog-1.jpg" alt="image">
                 <div class="card-body text-center flex-fill">
-                    <h4 class="card-title">Walmart</h4>
-
-                    <p class="card-text">Hop into fabulous deals for school students</p>
-                    <a href="./blogs/walmart-blog.php" class="btn btn-danger">Read More</a>
+                    <!-- <h4 class="card-title">Walmart</h4> -->
+                    <p class="card-text font-italic">Hop into fabulous deals for school students</p>
+                </div>
+                <div class="card-footer text-center" style="border-top:none; background-color:rgb(0, 0, 0, 0)">
+                    <a href="./blogs/walmart-blog.php" class="btn btn-danger mt-2 mb-1">Read More</a>
                 </div>
             </div>
         </div>
@@ -27,10 +29,11 @@
             <div class="card">
                 <img class="card-img" src="./assets/images/travel.jpg" alt="image">
                 <div class="card-body text-center flex-fill">
-                    <h4 class="card-title">Travel</h4>
-
-                    <p class="card-text">Travel Ideas post Pandemic!</p>
-                    <a href="./blogs/travel-ideas.php" class="btn btn-danger">Read More</a>
+                    <!-- <h4 class="card-title">Travel</h4> -->
+                    <p class="card-text font-italic flex-fill">Travel Ideas post Pandemic!</p>
+                </div>
+                <div class="card-footer text-center" style="border-top:none; background-color:rgb(0, 0, 0, 0)">
+                    <a href="./blogs/travel-ideas.php" class="btn btn-danger mt-2 mb-1">Read More</a>
                 </div>
             </div>
         </div>
