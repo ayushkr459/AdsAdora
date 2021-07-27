@@ -127,7 +127,7 @@ include('sidebar.php')
         // $result = mysqli_query($db, "SELECT * FROM image");
         ?>
 
-        <div class="table-responsive">
+        <div class="table-responsive text-center">
 
             <?php
 
@@ -187,7 +187,7 @@ include('sidebar.php')
                     </tbody>
                     <tfoot>
                         <form action="code.php" method="POST">
-                            <button type="submit" name="delete_multiple_store" class="btn btn-danger mb-2">Delete Checked Stores</button>
+                            <button type="submit" name="delete_multiple_store" class="btn btn-danger mb-2" style="display: block;">Delete Checked Stores</button>
                         </form>
                     </tfoot>
                 </table>

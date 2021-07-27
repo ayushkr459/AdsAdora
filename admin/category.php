@@ -112,7 +112,7 @@ include('sidebar.php')
             if (mysqli_num_rows($query_run) > 0) {
 
             ?>
-                <table class="table-bordered" id="dataTable" width="100%" collspacing="0">
+                <table class="table-bordered table-responsive text-center" id="dataTable" width="100%" collspacing="0">
                     <thead>
                         <tr>
                             <th>Check</th>
