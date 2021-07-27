@@ -3,7 +3,46 @@
 include('header.php');
 ?>
 
-<h5>Will be redesigned</h5>
+<!-- Search Results -->
+
+<div class="container my-3" style="min-height: 100vh;">
+    <h2 class="my-4">AdsAdora Blogs</h2>
+    <hr>
+    <div class="result my-2 p-2">
+        <h4><a href="./blogs/target-blog.php" style="color:#dc3545;">Best-Ever Offers for College Students!</a></h4>
+        <div class="d-flex d-flex-row justify-content-between">
+            <p class="my-4 text-muted">It won’t be an understatement to say that college students are all the more excited to go back to college campus.
+                With the Covid-19 situation getting better, schools and colleges are all set to reopen. This excitement and happiness can be enhanced by shopping for
+                the best-ever goodies for your college life...
+                <strong><a href="./blogs/target-blog.php" style="color: #15161d;">Read More</a></strong>
+            </p>
+            <img src="./assets/images/target-blog-2.jpg" alt="'.$store_img.'" class="d-flex" width="150" height="150">
+        </div>
+        <hr>
+    </div>
+    <div class="result my-2 p-2">
+        <h4><a href="./blogs/walmart-blog.php" style="color:#dc3545;">Hop into fabulous deals for school students</a></h4>
+        <div class="d-flex d-flex-row justify-content-between">
+            <p class="my-4 text-muted">The eagerness of going back to school cannot be described in words, isn’t it? 
+                Students have been at their homes for the past one year. With the Covid-19 situation normalising, schools are starting to reopen...
+                <strong><a href="./blogs/walmart-blog.php" style="color: #15161d;">Read More</a></strong>
+            </p>
+            <img src="./assets/images/walmart-blog-1.jpg" alt="School Student Offers" class="d-flex" width="150" height="150">
+        </div>
+        <hr>
+    </div>
+    <div class="result my-2 p-2">
+        <h4><a href="./blogs/travel-blog.php" style="color:#dc3545;">Travel Ideas post Pandemic!</a></h4>
+        <div class="d-flex d-flex-row justify-content-between">
+            <p class="my-4 text-muted">Who doesn’t want to travel to beautiful places and enjoy life? Everyone, right?
+                 Present is the time to travel to all the amazing destinations in your bucket-list...
+                 <strong><a href="./blogs/travel-blog.php" style="color: #15161d;">Read More</a></strong>
+            </p>
+            <img src="./assets/images/travel.jpg" alt="Travel Ideas" class="d-flex" width="150" height="150">
+        </div>
+        <hr>
+    </div>
+</div>
 
 
 <?php
