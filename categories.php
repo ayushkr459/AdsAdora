@@ -63,6 +63,7 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <a href="./index.php"><img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
             <a class="navbar-brand font-rale" href="./index.php">AdsAdora</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

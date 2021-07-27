@@ -83,6 +83,90 @@ include('sidebar.php')
                 </form>
             </div>
         </div>
+        <div class="table-responsive text-center">
+
+            <?php
+
+            //establish database connection
+            include('../template/_dbconnect.php');
+            $query = "SELECT * FROM flyers";
+            $query_run = mysqli_query($conn, $query);
+
+            if (mysqli_num_rows($query_run) > 0) {
+
+            ?>
+                <table class="table-bordered" id="dataTable" width="100%" collspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Check</th>
+                            <th>S.No</th>
+                            <th>Store Name</th>
+                            <th>Flyers Image</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Flyers Description</th>
+                            <th>Flyers Meta</th>
+                            <th>Add & Save</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                        while ($row = mysqli_fetch_assoc($query_run)) {
+
+                        ?>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" onclick="toggleCheckbox(this)" value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
+                                </td>
+                                <td><?php echo $row['flyers_id'] ?></td>
+                                <td><?php echo $row['store_name'] ?></td>
+                                <td><?php echo '<img src="image/' . $row['flyers_img'] . '" alt="" width="100px;" height="100px;">' ?>
+                                </td>
+                                <td><?php echo $row['start_date'] ?></td>
+                                <td><?php echo $row['end_date'] ?></td>
+                                <td><?php echo $row['flyers_description'] ?></td>
+                                <td><?php echo $row['flyers_meta'] ?></td>
+                                <td>
+                                    <button type="submit" class="btn-info">Add</button>
+                                </td>
+                                <td>
+                                    <form action="flyers_edit.php" method="POST">
+                                        <input type="hidden" name="edit_id" value="<?php echo $row['flyers_id'] ?>">
+                                        <button type="submit" name="edit_flyers_btn" class="btn btn-primary">Edit</button>
+                                    </form>
+                                </td>
+                                <td>
+                                    <form action="code.php" method="POST">
+                                        <input type="hidden" name="delete_id" value="<?php echo $row['flyers_id'] ?>">
+                                        <button type="submit" name="flyers_delete_btn" class="btn btn-danger">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        <?php
+                        } ?>
+                    </tbody>
+                    <tfoot>
+                        <form action="code.php" method="POST">
+                            <button type="submit" name="delete_multiple_flyers" class="btn btn-danger mb-4" style="display: block;">Delete Checked Flyers</button>
+                        </form>
+                    </tfoot>
+                </table>
+            <?php
+            } else {
+                echo "No Record Found";
+            }
+            ?>
+
+        </div>
+
+
+
+
+
+
+
         <script>
             $(document).ready(function() {
                 function load_image_data() {

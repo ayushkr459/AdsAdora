@@ -291,3 +291,83 @@ if (isset($_POST['users_delete_btn'])) {
         echo ("Error description: " . mysqli_error($conn)) . "Give this error back to developer";
     }
 }
+
+
+
+// --------------------- Multiple Flyers Upload ------------------
+
+$query = "SELECT * FROM flyers";
+
+
+$statement = $connect->prepare($query);
+$statement->execute();
+$result = $statement->fetchAll();
+$number_of_rows = $statement->rowCount();
+$output = '';
+$output .= '
+            <table class="table-bordered" id="dataTable" width="100%" collspacing="0">
+            <thead>
+                <tr>
+                    <th>Check</th>
+                    <th>S.No</th>
+                    <th>Store Name</th>
+                    <th>Flyers Image</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Flyers Description</th>
+                    <th>Flyers Meta</th>
+                    <th>Add & Save</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            ';
+            if($number_of_rows > 0)
+            {
+                $count = 0;
+                foreach($result as $row)
+                {
+                    $count ++; 
+                    $output .= '
+                    <tr>
+                        <td>
+                        <input type="checkbox" onclick="toggleCheckbox(this)" value="'.$row["flyers_id"].'" '. $row["visible"] == 1 ? "checked" : "".'>
+                        </td>
+                        <td>'.$row["flyers_id"].'</td>
+                        <td>'.$row["store_name"].'</td>
+                        <td>"<img src="image/' . $row["flyers_img"] . '" alt="" width="100px;" height="100px;">" ?>
+                        </td>
+                        <td>'.$row["start_date"].'</td>
+                        <td>'.$row["end_date"].'</td>
+                        <td>'.$row["flyers_description"].'</td>
+                        <td>'.$row["flyers_meta"].'</td>
+                        <td>
+                            <button type="submit" class="btn-info">Add</button>
+                        </td>
+                        <td>
+                            <form action="flyers_edit.php" method="POST">
+                                <input type="hidden" name="edit_id" value="'.$row["flyers_id"] .'">
+                                <button type="submit" name="edit_flyers_btn" class="btn btn-primary">Edit</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="code.php" method="POST">
+                                <input type="hidden" name="delete_id" value="'.$row["flyers_id"] .'">
+                                <button type="submit" name="flyers_delete_btn" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    ';
+                }
+            }       
+            else
+            {
+                $output .= '
+                <tr>
+                <td colspan="6" align="center">No Data Found</td>
+                </tr>
+                ';
+            }
+            $output .= '</table>';  
+            echo $output;
+            ?>

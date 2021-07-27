@@ -1,4 +1,15 @@
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php [NC,L]
+# RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteRule ^(.*)$ https://www.adsadora.com/$1 [R,L]
+RewriteRule ^about/ about.php [NC,L]
+RewriteRule ^blog/ blogs.php [NC,L]
+RewriteRule ^category/ category.php [NC,L]
+RewriteRule ^contact/ contact.php [NC,L]
+RewriteRule ^home/ index.php [NC,L]
+RewriteRule ^privacy/ privacy.php [NC,L]
+RewriteRule ^search/ search.php [NC,L]
+RewriteRule ^stores/ stores.php [NC,L]
+RewriteRule ^terms/ terms.php [NC,L]
+RewriteRule ^weekly-ads/ weekly-ads.php [NC,L]
