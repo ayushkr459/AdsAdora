@@ -45,7 +45,7 @@ include('header.php');
     <div class="row mb-2">
         <div class="col-md-12">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
+                <div class="card-body blog-big d-flex flex-column align-items-start">
                     <strong class="d-inline-block mb-2 text-success">Offers</strong>
                     <h4 class="mb-2">
                         <a href="./blogs/target-blog.php" style="color: #dc3545;">Best-Ever Offers for College Students!</a>
@@ -63,21 +63,7 @@ include('header.php');
     <div class="row mb-2">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-success">Offers</strong>
-                    <h3 class="mb-0">
-                        <a href="./blogs/walmart-blog.php" style="color:#dc3545;">Hop into fabulous deals for school students</a>
-                    </h3>
-                    <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-                    <p class="card-text mb-auto mt-2 text-muted">The eagerness of going back to school cannot be described in words, isn’t it? ...</p>
-                    <strong><a href="./blogs/walmart-blog.php" style="color: #15161d;">Continue reading</a></strong>
-                </div>
-                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px;" src="./assets/images/walmart-blog-1.jpg" alt="School Student Offers" />
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
+                <div class="card-body blog-small d-flex flex-column align-items-start">
                     <strong class="d-inline-block mb-2 text-warning">Travel</strong>
                     <h3 class="mb-0">
                         <a href="./blogs/travel-blog.php" style="color: #dc3545;">Travel Ideas post Pandemic!</a>
@@ -87,6 +73,20 @@ include('header.php');
                     <strong><a href="./blogs/travel-blog.php" style="color: #15161d;">Continue reading</a></strong>
                 </div>
                 <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px;" alt="Travel" src="./assets/images/travel.jpg" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body blog-small d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Offers</strong>
+                    <h4 class="mb-0">
+                        <a href="./blogs/walmart-blog.php" style="color:#dc3545;">Hop into fabulous deals</a>
+                    </h4>
+                    <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+                    <p class="card-text mb-auto mt-2 text-muted">The eagerness of going back to school cannot be described in words, isn’t it? ...</p>
+                    <strong><a href="./blogs/walmart-blog.php" style="color: #15161d;">Continue reading</a></strong>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px;" src="./assets/images/walmart-blog-1.jpg" alt="School Student Offers" />
             </div>
         </div>
     </div>

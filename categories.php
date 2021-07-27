@@ -164,10 +164,12 @@
                         $url = "store.php?storename=" . $store_name;
 
                         echo '
-                        <div class="col-lg-3 col-md-4 col-6">
-                            <a href="' . $url . '" name="query"><img src="admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto m-3 p-4" width="300" height="300"></a>
-                            <h5 class="text-center"> <a href="' . $url . '" name="query" class="text-dark">' . $store_name . '</a></h5>
-                        </div>     
+                        <div class="col-lg-4S col-md-4 col-sm-6 col-xs-6 justify-content-center mt-3 mb-2 p-2">
+                        <a href="' . $url . '" name="query"><img src="admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>
+                        <div class="mt-3">
+                          <h5 class="text-center"> <a href="' . $url . '" name="query" style="color:#dc3545;">' . $store_name . '</a></h5>
+                        </div>
+                        </div>    
                     ';
                     }
                     ?>

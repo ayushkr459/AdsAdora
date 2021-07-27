@@ -655,3 +655,30 @@ h6 {
     display: none;
   }
 }
+
+/* Space For Ads */
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 760px;
+  }
+  .flyers-img {
+    width: 100%;
+    height: 200px;
+    aspect-ratio: auto 200 / 250;
+  }
+  .date {
+    inline-size: max-content;
+    font-size: small;
+  }
+  .blog-big {
+    font-size: small;
+  }
+  .blog-small {
+    font-size: x-small;
+  }
+}

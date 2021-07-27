@@ -57,7 +57,7 @@ $result = mysqli_query($conn, $sql);
                                 <img class="img-fluid" id="zoom1" src="admin/image/' . $row['flyers_img'] . '" data-zoom-image="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '">
                                 <div class="text-center mt-4">
                                     <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
-                                    <div class="date">
+                                    <div class="weekly-ads-date">
                                         <span>' . $start_date . ' - ' . $end_date . '</span>
                                     </div>
                                 </div>

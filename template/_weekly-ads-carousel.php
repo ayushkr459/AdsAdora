@@ -45,7 +45,7 @@ $result = mysqli_query($conn, $sql);
           <a href="' . $url . '" name="query"><img src="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '" class="img-fluid"></a>
               <div class="text-center mt-4">
               <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
-                  <div class="date">
+                  <div class="weekly-ads-date">
                       <span>' . $start_date . ' - ' . $end_date . '</span>
                   </div>
               </div>
