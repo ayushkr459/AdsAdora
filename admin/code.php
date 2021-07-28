@@ -188,7 +188,23 @@ if (isset($_POST['flyers_update_btn'])) {
     $edit_flyers_description = str_replace("'", "\'", $edit_flyers_description);
     $edit_flyers_meta = $_POST['edit_flyers_meta'];
 
-    if ($edit_flyers_image !== "") {
+    if($edit_start_date && $edit_end_date && $edit_flyers_image !==""){
+        $query = "UPDATE flyers SET store_name='$edit_store_name',flyers_img='$edit_flyers_image', start_date='$edit_start_date', end_date='$edit_end_date',
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+        if ($query_run) {
+            move_uploaded_file($_FILES["flyers_img"]["tmp_name"], "image/" . $_FILES["flyers_img"]["name"]);
+            echo '<script>alert("Data Updated successfully")</script>';
+            header('Location:weekly-ads.php');
+        } else {
+            echo '<script>alert("Data not updated")</script>';
+            echo ("Error description: " . mysqli_error($conn)) . " Give this error back to developer";
+            // header('Location:stores.php');
+        }
+        // header('Location:weekly-ads.php');
+    }
+    else if ($edit_flyers_image !== "") {
         $query = "UPDATE flyers SET store_name='$edit_store_name', flyers_img='$edit_flyers_image', 
                  flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
 
@@ -203,6 +219,13 @@ if (isset($_POST['flyers_update_btn'])) {
             echo ("Error description: " . mysqli_error($conn)) . " Give this error back to developer";
             // header('Location:stores.php');
         }
+    }
+    else if($edit_start_date && $edit_end_date !==""){
+        $query = "UPDATE flyers SET store_name='$edit_store_name', start_date='$edit_start_date', end_date='$edit_end_date',
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+        header('Location:weekly-ads.php');
     }
     else if($edit_start_date !== ""){
         $query = "UPDATE flyers SET store_name='$edit_store_name', start_date='$edit_start_date',
@@ -291,83 +314,3 @@ if (isset($_POST['users_delete_btn'])) {
         echo ("Error description: " . mysqli_error($conn)) . "Give this error back to developer";
     }
 }
-
-
-
-// --------------------- Multiple Flyers Upload ------------------
-
-$query = "SELECT * FROM flyers";
-
-
-$statement = $connect->prepare($query);
-$statement->execute();
-$result = $statement->fetchAll();
-$number_of_rows = $statement->rowCount();
-$output = '';
-$output .= '
-            <table class="table-bordered" id="dataTable" width="100%" collspacing="0">
-            <thead>
-                <tr>
-                    <th>Check</th>
-                    <th>S.No</th>
-                    <th>Store Name</th>
-                    <th>Flyers Image</th>
-                    <th>Start Date</th>
-                    <th>End Date</th>
-                    <th>Flyers Description</th>
-                    <th>Flyers Meta</th>
-                    <th>Add & Save</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            ';
-            if($number_of_rows > 0)
-            {
-                $count = 0;
-                foreach($result as $row)
-                {
-                    $count ++; 
-                    $output .= '
-                    <tr>
-                        <td>
-                        <input type="checkbox" onclick="toggleCheckbox(this)" value="'.$row["flyers_id"].'" '. $row["visible"] == 1 ? "checked" : "".'>
-                        </td>
-                        <td>'.$row["flyers_id"].'</td>
-                        <td>'.$row["store_name"].'</td>
-                        <td>"<img src="image/' . $row["flyers_img"] . '" alt="" width="100px;" height="100px;">" ?>
-                        </td>
-                        <td>'.$row["start_date"].'</td>
-                        <td>'.$row["end_date"].'</td>
-                        <td>'.$row["flyers_description"].'</td>
-                        <td>'.$row["flyers_meta"].'</td>
-                        <td>
-                            <button type="submit" class="btn-info">Add</button>
-                        </td>
-                        <td>
-                            <form action="flyers_edit.php" method="POST">
-                                <input type="hidden" name="edit_id" value="'.$row["flyers_id"] .'">
-                                <button type="submit" name="edit_flyers_btn" class="btn btn-primary">Edit</button>
-                            </form>
-                        </td>
-                        <td>
-                            <form action="code.php" method="POST">
-                                <input type="hidden" name="delete_id" value="'.$row["flyers_id"] .'">
-                                <button type="submit" name="flyers_delete_btn" class="btn btn-danger">Delete</button>
-                            </form>
-                        </td>
-                    </tr>
-                    ';
-                }
-            }       
-            else
-            {
-                $output .= '
-                <tr>
-                <td colspan="6" align="center">No Data Found</td>
-                </tr>
-                ';
-            }
-            $output .= '</table>';  
-            echo $output;
-            ?>
