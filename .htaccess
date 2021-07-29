@@ -1,8 +1,8 @@
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
-# RewriteRule ^(.*)$ $1.php [NC,L]
-RewriteRule ^(.*)$ https://www.adsadora.com/$1 [R,L]
+RewriteRule ^(.*)$ $1.php [NC,L]
+# RewriteRule ^(.*)$ https://www.adsadora.com/$1 [R,L]
 RewriteRule ^about/ about.php [NC,L]
 RewriteRule ^blog/ blogs.php [NC,L]
 RewriteRule ^category/ category.php [NC,L]
