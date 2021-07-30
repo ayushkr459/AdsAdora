@@ -12,7 +12,7 @@
                     <p class="card-text font-italic">Best-Ever Offers for College Students!</p>
                 </div>
                 <div class="card-footer text-center" style="border-top:none; background-color:rgb(0, 0, 0, 0)">
-                    <a href="./blogs/target-blog.php" class="btn btn-danger mt-2 mb-1">Read More</a>
+                    <a href="./blogs/target-blog" class="btn btn-danger mt-2 mb-1">Read More</a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                     <p class="card-text font-italic">Hop into fabulous deals for school students</p>
                 </div>
                 <div class="card-footer text-center" style="border-top:none; background-color:rgb(0, 0, 0, 0)">
-                    <a href="./blogs/walmart-blog.php" class="btn btn-danger mt-2 mb-1">Read More</a>
+                    <a href="./blogs/walmart-blog" class="btn btn-danger mt-2 mb-1">Read More</a>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                     <p class="card-text font-italic flex-fill">Travel Ideas post Pandemic!</p>
                 </div>
                 <div class="card-footer text-center" style="border-top:none; background-color:rgb(0, 0, 0, 0)">
-                    <a href="./blogs/travel-ideas.php" class="btn btn-danger mt-2 mb-1">Read More</a>
+                    <a href="./blogs/travel-ideas" class="btn btn-danger mt-2 mb-1">Read More</a>
                 </div>
             </div>
         </div>

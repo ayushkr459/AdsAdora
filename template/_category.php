@@ -34,7 +34,7 @@ include('template/_dbconnect.php');
 
   </div>
   <div class="wrapper">
-    <a class="btn home-btn m-3 p-2" href="category.php" role="button">View All Categories</a>
+    <a class="btn home-btn m-3 p-2" href="./category" role="button">View All Categories</a>
   </div>
 </div>
 <!-- Categories Section Ends -->

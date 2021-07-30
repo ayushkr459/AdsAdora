@@ -71,19 +71,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto font-rubik">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.php">Home</a>
+                        <a class="nav-link" href="./index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./category.php">Categories</a>
+                        <a class="nav-link" href="./category">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./stores.php">Stores</a>
+                        <a class="nav-link" href="./stores">Stores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./weekly-ads.php">Weekly Ads</a>
+                        <a class="nav-link" href="./weekly-ads">Weekly Ads</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blogs.php">Blogs</a>
+                        <a class="nav-link" href="./blog/">Blogs</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="search.php" method="GET">

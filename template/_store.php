@@ -33,7 +33,7 @@ include('template/_dbconnect.php');
     ?>
   </div>
   <div class="wrapper">
-    <a class="btn home-btn m-3 p-2" href="stores.php" role="button">View All Stores</a>
+    <a class="btn home-btn m-3 p-2" href="./stores" role="button">View All Stores</a>
   </div>
 </div>
 <!-- Stores Section Ends -->

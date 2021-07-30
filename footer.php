@@ -25,11 +25,11 @@
           <div class="footer">
             <h3 class="footer-title">Pages</h3>
             <ul class="footer-links">
-              <li><a href="./index.php">Home</a></li>
-              <li><a href="./about.php">About Us</a></li>
-              <li><a href="./contact.php">Contact Us</a></li>
-              <li><a href="./privacy.php">Privacy Policy</a></li>
-              <li><a href="./terms.php">Terms</a></li>
+              <li><a href="./index">Home</a></li>
+              <li><a href="./about">About Us</a></li>
+              <li><a href="./contact">Contact Us</a></li>
+              <li><a href="./privacy">Privacy Policy</a></li>
+              <li><a href="./terms">Terms</a></li>
             </ul>
           </div>
         </div>
@@ -81,7 +81,7 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p>Copyright © 2021 <a href="/">AdsAdora.com</a>. All rights reserved. Copying the texts without the written
+      <p>Copyright © 2021 <a href="./index">AdsAdora.com</a>. All rights reserved. Copying the texts without the written
         consent of the site operator is prohibited. </p>
     </div>
   </div>

@@ -112,7 +112,14 @@ textarea.input {
 /* ---------  Navbar     ---------- */
 
 #header {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+}
+.collapse{
+  padding-left: 5.4rem;
+  
+}
+.navbar-dark .navbar-nav .nav-link{
+  margin-left: 1.5rem;
 }
 
 h3.text-center {
@@ -129,8 +136,8 @@ h3.text-center {
 
 .search-store {
   color: #fff;
+  background: #ED4662;
 }
-
 .search-store:hover {
   background-color: #dc3545;
 }
