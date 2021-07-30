@@ -90,6 +90,41 @@ include('header.php');
             </div>
         </div>
     </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body blog-small d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-warning">Shows</strong>
+                    <h3 class="mb-0">
+                        <a href="./blogs/tvshows-blog.php" style="color: #dc3545; font-size: 20px">5 US TV Shows to binge watch this International Friendship day!</a>
+                    </h3>
+                    <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+                    <p class="card-text mb-auto mt-2 text-muted">It is absolutely true that the pandemic has made us realize the value of true friends and loved ones. Well, do you remember that International Friendship Day is around the corner? This, indeed, is the perfect time to shower your friends with all the love, care and joy!...</p>
+                    <strong><a href="./blogs/tvshows-blog.php" style="color: #15161d;">Continue reading</a></strong>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="./assets/images/image2.jpeg" />
+            </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body blog-small d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-warning">Food</strong>
+                    <h3 class="mb-0">
+                        <a href="./blogs/chickenwings-blog.php" style="color: #dc3545; font-size: 20px">Overcoming #FOMO this National Chicken Wings’ Day</a>
+                    </h3>
+                    <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+                    <p class="card-text mb-auto mt-2 text-muted">Suffering from post-pandemic stress? Running late to work? Living alone or don’t know how to cook? Or trying to make things work for you and your partner?
+
+Don’t worry! We have your back! With our amazing offers and attractive deals, we are happy to be your happy-go-lucky partner.
+...</p>
+                    <strong><a href="./blogs/chickenwings-blog.php" style="color: #15161d;">Continue reading</a></strong>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="food" src="./assets/images/chicken.png" />
+            </div>
+        </div>
+    </div>
 </div>
 
 
