@@ -1,3 +1,6 @@
+<?PHP
+session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".htsessions");
+?>
 <!DOCTYPE html>
 <html lang="en">
 

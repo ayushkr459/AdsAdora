@@ -63,7 +63,7 @@ include('sidebar.php')
                         <input type="text" name="edit_store_name" value="<?php echo $row['store_name'] ?>" id="edit_store_name" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Category Image</label> <br>
+                        <label>Store Image</label> <br>
                         <?php echo '<img src="image/' . $row['store_img'] . '" alt="" width="100px;" height="100px;">' ?> <br>
                         <input type="file" name="store_img" value="" id="store_img" class="form-control">
                     </div>
@@ -71,11 +71,11 @@ include('sidebar.php')
                     // echo $row['store_img'];
                     ?>
                     <div class="form-group">
-                        <label>Category Description</label>
+                        <label>Store Description</label>
                         <input type="text" name="edit_store_description" value="<?php echo $row['store_description'] ?>" id="edit_store_description" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Category Meta</label>
+                        <label>Store Meta</label>
                         <input type="text" name="edit_store_meta" value="<?php echo $row['store_meta'] ?>" id="edit_store_meta" class="form-control">
                     </div>
 

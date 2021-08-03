@@ -23,11 +23,9 @@ RewriteRule ^bike-blog/ bike-blog.php [NC,L]
 RewriteRule ^maskGuide-blog/ maskGuide-blog.php [NC,L]
 RewriteRule ^summer-blog/ summer-blog.php [NC,L]
 
-
-
+RewriteRule ^store/([0-9a-zA-Z_-]+) store.php?storename=$1 [NC,L]
 
 
 
 # RewriteRule ^categories/([0-9a-zA-Z_-]+) /categories.php?categoryname=$1 [NC,L]
-# RewriteRule ^store/([0-9a-zA-Z_-]+) /store.php?storename=$1 [NC,L]
 # RewriteRule ^([^/\.]+)/([^/\.]+)?$ categories.php?type=$1&categoryname=$2

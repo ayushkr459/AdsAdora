@@ -88,23 +88,6 @@
 </footer>
 <!-- Footer Section Ends -->
 
-<!-- Window PopUp -->
-<!-- <div class="login-popup">
-  <div class="box">
-    <div class="img-area">
-      <div class="img">
-      </div>
-    </div>
-    <div class="form">
-      <div class="close">&times;</div>
-      <h1>Welcome to AdsAdora</h1>
-      <p>Receive the latest offers by e-mail and don´t miss out on any special offer
-      </p>
-      <a href="#" class="btn btn-success">Subscribe Now</a>
-    </div>
-  </div>
-</div> -->
-
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -138,78 +121,39 @@
 
 
 if (isset($_POST['subscribe'])) {
-  $email = $_REQUEST['email'];
 
-
-  include('./template/_dbconnect.php');
-
-  $sql = "INSERT INTO newsletter(email) VALUES ('$email')";
-
-  if (mysqli_query($conn, $sql)) {
-    echo '<script>alert("Thanks for Subscribing!")</script>';
-  } else {
-    echo '<script>alert("Error Occured! Network Failure")</script>';
+  //check email blank
+  if (empty($_POST['email'])) {
+    echo '<script>alert("<span class="text-danger">An email is required</span> </br>")</script>'; 
+    //echo "<span class='text-danger'>An email is required</span> </br>";
   }
+
+  //validate email
+  elseif (!filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)) {
+    echo '<script>alert("<span class="text-danger">Invalid Email Format </span> </br>")</script>'; 
+    // echo "<span class='text-danger'> Invalid Email Format </br> ";
+  }
+
+  //submit email
+
+  else 
+  {
+    $email = htmlspecialchars($_REQUEST['email']);
+
+    include('./template/_dbconnect.php');
+
+    $sql = "INSERT INTO newsletter(email) VALUES ('$email')";
+
+    if (mysqli_query($conn, $sql)) {
+      echo '<script>alert("Thanks for Subscribing!")</script>';
+    } else {
+      echo '<script>alert("Error Occured! Network Failure")</script>';
+    }
+  }
+
 }
 
-
 ?>
-
-<!-- Window PopUp End -->
-
-<!-- PopUp Script -->
-<!-- <script>
-  var box = document.querySelector(".box");
-  const loginPopup = document.querySelector(".login-popup");
-  const close = document.querySelector(".close");
-
-
-  document.addEventListener("click", function(event) {
-    // If user clicks inside the element, do nothing
-    if (event.target.closest(".box")) return;
-
-    // If user clicks outside the element, hide it!
-    loginPopup.classList.remove("show");
-  });
-
-  window.addEventListener("load", function() {
-
-    showPopup();
-    // setTimeout(function(){
-    //   loginPopup.classList.add("show");
-    // },5000)
-
-  })
-
-  function showPopup() {
-    const timeLimit = 2 // seconds;
-    let i = 0;
-    const timer = setInterval(function() {
-      i++;
-      if (i == timeLimit) {
-        clearInterval(timer);
-        loginPopup.classList.add("show");
-      }
-      console.log(i)
-    }, 1000);
-  }
-
-  close.addEventListener("click", function() {
-    loginPopup.classList.remove("show");
-  })
-
-  setTimeout(function() {
-    loginPopup.classList.remove("show");
-  }, 10000);
-</script> -->
-<!-- PopUp Script Ends -->
-
-<!-- Cookie Consent Popup Event Listener -->
-<!-- <script>
-  window.addEventListener("cookieAlertAccept", function() {
-    alert("cookies accepted")
-  })
-</script> -->
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

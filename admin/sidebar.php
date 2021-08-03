@@ -3,7 +3,8 @@
         session_start();
         if (!isset($_SESSION['AdminLoginId'])) {
             header("location:login.php");
-        } else {
+        } 
+        else {
         ?>
             <!-- Sidebar -->
             <ul class="navbar-nav bg-dark sidebar sidebar-dark accordion" data-spy="affix" data-offset-top="205" id="accordionSidebar">

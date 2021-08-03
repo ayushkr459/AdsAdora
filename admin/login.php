@@ -1,7 +1,47 @@
 <?php
-
+error_reporting(E_ALL);
+ini_set("display_errors", "On");
+session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".htsessions");
+session_start();
+if (isset($_SESSION['AdminLoginId'])) {
+    header("location:category.php");
+}
 //establish database connection
 include('../template/_dbconnect.php');
+
+
+
+
+
+if (isset($_POST['login'])) {
+    //Method 1 
+    $query = "SELECT * FROM `admin` WHERE `user_name` = '$_POST[user_name]' LIMIT 1";
+    $result = mysqli_query($conn, $query);
+    // $row = mysqli_fetch_assoc($result);
+
+    // echo $row['user_name'];
+    if (mysqli_num_rows($result) == 1) {
+        // echo "Hello";
+        $row = mysqli_fetch_assoc($result);
+        // echo $row['user_name'];
+        // echo $row['password'];
+        // echo "\r\n";
+        // echo password_verify($_POST['password'],$row['password']);
+        if (password_verify($_POST['password'], $row['password']) == true) {
+            $_SESSION['AdminLoginId'] = $_POST['user_name'];
+            $site_url = "https://adsadora.com/admin";
+            $myURL = $site_url . '/category.php';
+            header('Location: ' . $myURL);
+            header("location:category.php");
+            exit();
+        } 
+        else {
+            echo "<script>alert('Incorrect Credentials')</script>";
+        }
+    } else {
+        echo "<script>alert('Incorrect Credentials')</script>";
+    }
+}
 
 ?>
 
@@ -58,12 +98,6 @@ include('../template/_dbconnect.php');
                                         <button type="submit" class="btn btn-primary btn-user btn-block" name="login">Sign-In</button>
                                         <hr>
                                     </form>
-                                    <div class="text-center">
-                                        <a class="small" href="#">Forgot Password?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="#">Create an Account!</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,23 +107,6 @@ include('../template/_dbconnect.php');
             </div>
 
         </div>
-        <?php 
-            if(isset($_POST['login']))
-            {
-                $query = "SELECT * FROM `admin` WHERE `user_name` = '$_POST[user_name]' AND `password` = '$_POST[password]'";
-                $result = mysqli_query($conn,$query);
-                if(mysqli_num_rows($result)==1)
-                {
-                    session_start();
-                    $_SESSION['AdminLoginId'] = $_POST['user_name'];
-                    header("location:category.php");
-                }
-                else
-                {
-                    echo "<script>alert('Incorrect Credentials')</script>";
-                }
-            }
-        ?>
 
     </div>
 

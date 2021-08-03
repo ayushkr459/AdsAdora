@@ -1,6 +1,3 @@
-<?PHP
-session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".htsessions");
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -280,7 +277,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                         <table class="table-bordered text-center" id="dataTable" width="100%" collspacing="0">
                             <thead>
                                 <tr>
-                                    <th><input type="checkbox" id="select-all">Select All</th>
+                                    <th><input type="checkbox" id="checkAll">All</th>
                                     <th>S.No</th>
                                     <th>Store Name</th>
                                     <th>Flyers Image</th>
@@ -299,7 +296,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                                 ?>
                                     <tr>
                                         <td>
-                                            <input type="checkbox" name='check[]' onclick="toggleCheckbox(this)" value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
+                                            <input type="checkbox" class="checkItem" name='check[]' onclick="toggleCheckbox(this)" value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
                                         </td>
                                         <td><?php echo $row['flyers_id'] ?></td>
                                         <td><?php echo $row['store_name'] ?></td>
@@ -362,7 +359,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
     </a>
 
     <!-- Custom Script -->
-    <script>
+    <!-- <script>
         function toggleCheckbox(box) {
             var id = $(box).attr('value');
 
@@ -387,7 +384,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                 }
             })
         }
-    </script>
+    </script> -->
 
 
     <!-- Bootstrap core JavaScript-->
@@ -404,9 +401,13 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
     <script>
         $(document).ready(function() {
             $('#dataTable').DataTable();
-
-            $("#select-all").click(function(){
-                $("input[type='checkbox']").prop('checked',this.checked);
+            $("#checkAll").click(function(){
+                if($(this).is(":checked")){
+                    $(".checkItem").prop('checked',true);
+                }
+                else{
+                    $(".checkItem").prop('checked',false);
+                }
             });
         });
     </script>
