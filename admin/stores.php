@@ -94,12 +94,14 @@ include('sidebar.php')
 
             $categoryname = $_REQUEST['categoryname'];
             $storename = $_REQUEST['storename'];
+            $storename = str_replace("'", "\'", $storename);
             $image = $_FILES["image"]["name"];
             $tempname = $_FILES["image"]["tmp_name"];
             $folder = "image/" . $image;
             $description = $_REQUEST['description'];
             $description = str_replace("'", "\'", $description);
             $meta = $_REQUEST['meta'];
+            $meta = str_replace("'", "\'", $meta);
 
             // $conn = mysqli_connect("localhost", "deepdive-admin", "Admin@999", "adsadora");
 

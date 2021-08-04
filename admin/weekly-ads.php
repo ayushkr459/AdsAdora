@@ -66,6 +66,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                     $description = $_REQUEST['description'];
                     $description = str_replace("'", "\'", $description);
                     $meta = $_REQUEST['meta'];
+                    $meta = str_replace("'", "\'", $meta);
                     for ($i = 0; $i < $fileCount; $i++) {
                         $fileName = $_FILES['file']['name'][$i];
                         $sql = $sql = "INSERT INTO flyers (store_name, flyers_img, start_date, end_date, flyers_description, flyers_meta, visible)

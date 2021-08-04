@@ -73,6 +73,7 @@ include('sidebar.php')
             $description = $_REQUEST['description'];
             $description = str_replace("'", "\'", $description);
             $meta = $_REQUEST['meta'];
+            $meta = str_replace("'", "\'", $meta);
 
             // $conn = mysqli_connect("localhost", "deepdive-admin", "Admin@999", "adsadora");
 
