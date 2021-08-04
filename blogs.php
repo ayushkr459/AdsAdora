@@ -270,6 +270,70 @@
           </div>
         </div>
       </div>
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body blog-small d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-warning">Covid-19</strong>
+              <h3 class="mb-0">
+                <a href="../blogs/battleCovid" style="color: #dc3545; font-size: 20px">The battle against Covid-19 in the US- a question of time?</a>
+              </h3>
+              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+              <p class="card-text mb-auto mt-2 text-muted">There is a well known saying among flight attendants: if any time during the course of the flight, it hits turbulence, and in case of an emergency the masks come down, it is advised to put on the mask on you and then turn to others for help. </p>
+              <strong><a href="../blogs/battleCovid" style="color: #15161d;">Continue reading</a></strong>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/covid1.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body blog-small d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-warning">Food</strong>
+              <h3 class="mb-0">
+                <a href="../blogs/usaFood" style="color: #dc3545; font-size: 20px">The most iconic fast food chains in the USA! </a>
+              </h3>
+              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+              <p class="card-text mb-auto mt-2 text-muted">Fast- food is tremendously popular among Americans. Undeniably, the majority of Americans are fond of eating fast food. Research shows that most Americans prefer having fast food owing to the fact that they can be prepared quickly. </p>
+              <strong><a href="../blogs/usaFood" style="color: #15161d;">Continue reading</a></strong>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/food2.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body blog-small d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-warning">Sports</strong>
+              <h3 class="mb-0">
+                <a href="../blogs/epicKyrie" style="color: #dc3545; font-size: 20px">Going down the memory lane with ‘The Epic Kyrie’ </a>
+              </h3>
+              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+              <p class="card-text mb-auto mt-2 text-muted">Basketball, one of the United States' foundational games and a multibillion-dollar industry, is one of the most popular sports among today's youth. It's a ten-players game with two teams of five people each. But what is more popular than the game is the all-time greats that the N.B.A. has produced, like Michael Jordan, LeBron James, Kobe Bryant, and Kyrie Irving. </p>
+              <strong><a href="../blogs/epicKyrie" style="color: #15161d;">Continue reading</a></strong>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/kyrie1.png" />
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body blog-small d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-warning">Sports</strong>
+              <h3 class="mb-0">
+                <a href="../blogs/tokyOlympic" style="color: #dc3545; font-size: 20px">Tokyo Olympics: A breather or ventilator for US big shots?</a>
+              </h3>
+              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+              <p class="card-text mb-auto mt-2 text-muted">After a long hauled, stress-filled, and air-tight lockdown protocol, US in now hoping that Tokyo Olympics might be their knight in shining armor. If things go according to the plan, big shot brands will be able to resurrect themselves and make a four-fold comeback.</p>
+              <strong><a href="../blogs/tokyOlympic" style="color: #15161d;">Continue reading</a></strong>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/olym1.jpeg" />
+          </div>
+        </div>
+      </div>
     </div>
 
   </main>
@@ -396,38 +460,36 @@
   <?php
 
 
-if (isset($_POST['subscribe'])) {
+  if (isset($_POST['subscribe'])) {
 
-  //check email blank
-  if (empty($_POST['email'])) {
-    echo '<script>alert("<span class="text-danger">An email is required</span> </br>")</script>'; 
-    //echo "<span class='text-danger'>An email is required</span> </br>";
-  }
+    //check email blank
+    if (empty($_POST['email'])) {
+      echo '<script>alert("<span class="text-danger">An email is required</span> </br>")</script>';
+      //echo "<span class='text-danger'>An email is required</span> </br>";
+    }
 
-  //validate email
-  elseif (!filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)) {
-    echo '<script>alert("<span class="text-danger">Invalid Email Format </span> </br>")</script>'; 
-    // echo "<span class='text-danger'> Invalid Email Format </br> ";
-  }
+    //validate email
+    elseif (!filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)) {
+      echo '<script>alert("<span class="text-danger">Invalid Email Format </span> </br>")</script>';
+      // echo "<span class='text-danger'> Invalid Email Format </br> ";
+    }
 
-  //submit email
+    //submit email
 
-  else 
-  {
-    $email = htmlspecialchars($_REQUEST['email']);
+    else {
+      $email = htmlspecialchars($_REQUEST['email']);
 
-    include('./template/_dbconnect.php');
+      include('./template/_dbconnect.php');
 
-    $sql = "INSERT INTO newsletter(email) VALUES ('$email')";
+      $sql = "INSERT INTO newsletter(email) VALUES ('$email')";
 
-    if (mysqli_query($conn, $sql)) {
-      echo '<script>alert("Thanks for Subscribing!")</script>';
-    } else {
-      echo '<script>alert("Error Occured! Network Failure")</script>';
+      if (mysqli_query($conn, $sql)) {
+        echo '<script>alert("Thanks for Subscribing!")</script>';
+      } else {
+        echo '<script>alert("Error Occured! Network Failure")</script>';
+      }
     }
   }
-
-}
 
 
   ?>
