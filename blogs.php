@@ -228,7 +228,7 @@
             <div class="card-body blog-small d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-warning">Creativity</strong>
               <h3 class="mb-0">
-                <a href=".../blogs/art-blog" style="color: #dc3545; font-size: 20px">Want to be the next Pedro Linares? Here's what you need!</a>
+                <a href="../blogs/art-blog" style="color: #dc3545; font-size: 20px">Want to be the next Pedro Linares? Here's what you need!</a>
               </h3>
               <!-- <div class="mb-1 text-muted">Nov 11</div> -->
               <p class="card-text mb-auto mt-2 text-muted">Pedro Linares is regarded as a great artist of all times. He is best- known for his phenomenal craft work. He is famous worldwide and has won several awards. Well, Do you aspire to become like Pedro Linares? Don't you worry. We have got your back. </p>

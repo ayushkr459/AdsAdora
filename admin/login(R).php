@@ -15,37 +15,31 @@ include('../template/_dbconnect.php');
 
 if (isset($_POST['login'])) {
     //Method 1 
-    $query = "SELECT * FROM `admin` WHERE `user_name` = ? LIMIT 1";
-    $stmt = mysqli_stmt_init($conn);
-    if(!mysqli_stmt_prepare($stmt, $query)){
-        echo "Sql Statement Failed";
-    }else{
-        //Binding Parameter to placeholder
-        mysqli_stmt_bind_param($stmt, "s", $_POST['user_name']);
-        //Run parameter inside database
-        mysqli_stmt_execute($stmt);
-        $result = mysqli_stmt_get_result($stmt);
-        if (mysqli_num_rows($result) == 1) {
-            // echo "Hello";
-            $row = mysqli_fetch_assoc($result);
-            // echo $row['user_name'];
-            // echo $row['password'];
-            // echo "\r\n";
-            // echo password_verify($_POST['password'],$row['password']);
-            if (password_verify($_POST['password'], $row['password']) == true) {
-                $_SESSION['AdminLoginId'] = $_POST['user_name'];
-                $site_url = "https://adsadora.com/admin";
-                $myURL = $site_url . '/category.php';
-                header('Location: ' . $myURL);
-                header("location:category.php");
-                exit();
-            } 
-            else {
-                echo "<script>alert('Incorrect Credentials')</script>";
-            }
-        } else {
+    $query = "SELECT * FROM `admin` WHERE `user_name` = '$_POST[user_name]' LIMIT 1";
+    $result = mysqli_query($conn, $query);
+    // $row = mysqli_fetch_assoc($result);
+
+    // echo $row['user_name'];
+    if (mysqli_num_rows($result) == 1) {
+        // echo "Hello";
+        $row = mysqli_fetch_assoc($result);
+        // echo $row['user_name'];
+        // echo $row['password'];
+        // echo "\r\n";
+        // echo password_verify($_POST['password'],$row['password']);
+        if (password_verify($_POST['password'], $row['password']) == true) {
+            $_SESSION['AdminLoginId'] = $_POST['user_name'];
+            $site_url = "https://adsadora.com/admin";
+            $myURL = $site_url . '/category.php';
+            header('Location: ' . $myURL);
+            header("location:category.php");
+            exit();
+        } 
+        else {
             echo "<script>alert('Incorrect Credentials')</script>";
         }
+    } else {
+        echo "<script>alert('Incorrect Credentials')</script>";
     }
 }
 
