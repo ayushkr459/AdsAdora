@@ -81,7 +81,7 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p>Copyright © 2021 <a href="./index">AdsAdora.com</a>. All rights reserved. Copying the texts without the written
+      <p>Copyright © 2021 <a href="https://adsadora.com/">AdsAdora.com</a>. All rights reserved. Copying the texts without the written
         consent of the site operator is prohibited. </p>
     </div>
   </div>

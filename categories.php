@@ -32,9 +32,9 @@
     <script src="https://kit.fontawesome.com/595d13cf2d.js" crossorigin="anonymous"></script>
     <script data-ad-client="ca-pub-4254949403223799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <link rel="icon" href="./assets/images/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="../assets/images/logo.png" type="image/gif" sizes="32x32">
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
     <title> ' . $category_name . '  | AdsAdora | Weekly Ads, Sales and Ads Preview </title>
     <style>
@@ -63,27 +63,27 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="./index.php"><img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
-            <a class="navbar-brand font-rale" href="./index.php">AdsAdora</a>
+            <a href="https://adsadora.com/"><img src="../assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
+            <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto font-rubik">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index">Home</a>
+                        <a class="nav-link" href="https://adsadora.com/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./category">Categories</a>
+                        <a class="nav-link" href="../category">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./stores">Stores</a>
+                        <a class="nav-link" href="../stores">Stores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./weekly-ads">Weekly Ads</a>
+                        <a class="nav-link" href="../weekly-ads">Weekly Ads</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blog/">Blogs</a>
+                        <a class="nav-link" href="../blog/">Blogs</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="search.php" method="GET">
@@ -107,12 +107,6 @@
     <!-- Main Section -->
     <main id="main-site">
 
-
-
-
-
-
-
         <div class="container my-3" style="min-height: 100vh;">
             <?php
 
@@ -134,7 +128,7 @@
                 <h3 style="color:#dc3545;">About ' . $category_name . '</h3>
                 <div class="d-flex d-flex-row justify-content-between">
                     <p class="my-4">' . $category_description . '</p>
-                    <img src="admin/image/' . $category_img . '" alt="' . $category_meta . '" class="d-flex" width="150" height="150">
+                    <img src="../admin/image/' . $category_img . '" alt="' . $category_meta . '" class="d-flex" width="150" height="150">
                 </div>
             </div>
             ';
@@ -161,11 +155,11 @@
                     while ($row = mysqli_fetch_assoc($result)) {
                         $store_name = $row['store_name'];
                         $store_img = $row['store_img'];
-                        $url = "storename/" . $store_name;
+                        $url = "../storename/" . $store_name;
 
                         echo '
                         <div class="col-lg-4S col-md-4 col-sm-6 col-xs-6 justify-content-center mt-3 mb-2 p-2">
-                        <a href="' . $url . '" name="query"><img src="admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>
+                        <a href="' . $url . '" name="query"><img src="../admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>
                         <div class="mt-3">
                           <h5 class="text-center"> <a href="' . $url . '" name="query" style="color:#dc3545;">' . $store_name . '</a></h5>
                         </div>

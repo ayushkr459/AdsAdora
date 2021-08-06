@@ -45,15 +45,15 @@
   <header id="header">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-      <a href="./index"><img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
-      <a class="navbar-brand font-rale" href="./index">AdsAdora</a>
+      <a href="https://adsadora.com/"><img src="./assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
+      <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav m-auto font-rubik">
           <li class="nav-item">
-            <a class="nav-link" href="index">Home</a>
+            <a class="nav-link" href="https://adsadora.com/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="category">Categories</a>

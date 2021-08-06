@@ -40,7 +40,7 @@ $result = mysqli_query($conn, $sql);
                     if ($current_page == $i) {
                         $class = 'active';
                     }
-                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="store.php?storename=' . $store_name . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
+                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="../store.php?storename=' . $store_name . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
                 }
                 ?>
                 <!-- Current Page Not Clickable -->
@@ -54,7 +54,7 @@ $result = mysqli_query($conn, $sql);
                     $start_date = date("d/m/Y", strtotime($row['start_date']));
                     $end_date = date("d/m/Y", strtotime($row['end_date']));
                     echo '<div class="flyer">
-                                <img class="img-fluid" id="zoom1" src="admin/image/' . $row['flyers_img'] . '" data-zoom-image="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '">
+                                <img class="img-fluid" id="zoom1" src="../admin/image/' . $row['flyers_img'] . '" data-zoom-image="admin/image/' . $row['flyers_img'] . '" alt="' . $row['flyers_meta'] . '">
                                 <div class="text-center mt-4">
                                     <a href="' . $url . '" name="query"><h6 style="color: #dc3545;">' . $row['store_name'] . '</h6></a>
                                     <div class="weekly-ads-date">
@@ -74,7 +74,7 @@ $result = mysqli_query($conn, $sql);
                     if ($current_page == $i) {
                         $class = 'active';
                     }
-                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="store.php?storename=' . $store_name . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
+                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="../store.php?storename=' . $store_name . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
                 }
                 ?>
                 <!-- Current Page Not Clickable -->
