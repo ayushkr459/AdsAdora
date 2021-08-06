@@ -18,10 +18,12 @@ include('../template/_dbconnect.php');
 if (isset($_POST['category_update_btn'])) {
     $edit_id = $_POST['edit_id'];
     $edit_category_name = $_POST['edit_category_name'];
+    $edit_category_name = str_replace("'", "\'", $edit_category_name);
     $edit_category_image = $_FILES['category_img']['name'];
     $edit_category_description = $_POST['edit_category_description'];
     $edit_category_description = str_replace("'", "\'", $edit_category_description);
     $edit_category_meta = $_POST['edit_category_meta'];
+    $edit_category_meta = str_replace("'", "\'", $edit_category_meta);
 
     if ($edit_category_image != "") {
         $query = "UPDATE category SET category_name='$edit_category_name', category_img='$edit_category_image', 
@@ -101,9 +103,11 @@ if (isset($_POST['store_update_btn'])) {
     $edit_id = $_POST['edit_id'];
     $edit_category_name = $_POST['edit_category_name'];
     $edit_store_name = $_POST['edit_store_name'];
+    $edit_store_name = str_replace("'", "\'", $edit_store_name);
     $edit_store_description = $_POST['edit_store_description'];
     $edit_store_description = str_replace("'", "\'", $edit_store_description);
     $edit_store_meta = $_POST['edit_store_meta'];
+    $edit_store_meta = str_replace("'", "\'", $edit_store_meta);
     $edit_store_image = $_FILES['store_img']['name'];
 
     if ($edit_store_image != "") {
@@ -187,6 +191,7 @@ if (isset($_POST['flyers_update_btn'])) {
     $edit_flyers_description = $_POST['edit_flyers_description'];
     $edit_flyers_description = str_replace("'", "\'", $edit_flyers_description);
     $edit_flyers_meta = $_POST['edit_flyers_meta'];
+    $edit_flyers_meta = str_replace("'", "\'", $edit_flyers_meta);
 
     if($edit_start_date && $edit_end_date && $edit_flyers_image !==""){
         $query = "UPDATE flyers SET store_name='$edit_store_name',flyers_img='$edit_flyers_image', start_date='$edit_start_date', end_date='$edit_end_date',
