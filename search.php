@@ -24,7 +24,7 @@ include('header.php');
             $store_name = $row['store_name'];
             $store_description = $row['store_description'];
             $store_img = $row['store_img'];
-            $url = "store.php?storename=".$store_name;
+            $url = "storename/".$store_name;
             echo '
             <div class="result my-2 p-2">
                 <h4><a href="'.$url.'" style="color:#dc3545;">'.$store_name.'</a></h4>

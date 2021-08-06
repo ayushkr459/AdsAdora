@@ -2,7 +2,6 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
-# # RewriteRule ^(.*)$ https://www.adsadora.com/$1 [R,L]
 RewriteRule ^about/ about.php [NC,L]
 RewriteRule ^blog/ blogs.php [NC,L]
 RewriteRule ^category/ category.php [NC,L]
@@ -22,10 +21,5 @@ RewriteRule ^art-blog/ art-blog.php [NC,L]
 RewriteRule ^bike-blog/ bike-blog.php [NC,L]
 RewriteRule ^maskGuide-blog/ maskGuide-blog.php [NC,L]
 RewriteRule ^summer-blog/ summer-blog.php [NC,L]
-
-RewriteRule ^store/([0-9a-zA-Z_-]+) store.php?storename=$1 [NC,L]
-
-
-
-# RewriteRule ^categories/([0-9a-zA-Z_-]+) /categories.php?categoryname=$1 [NC,L]
-# RewriteRule ^([^/\.]+)/([^/\.]+)?$ categories.php?type=$1&categoryname=$2
+RewriteRule ^storename/([a-zA-Z_-]+) store.php?storename=$1
+RewriteRule ^categoryname/([0-9a-zA-Z_-]+) categories.php?categoryname=$1

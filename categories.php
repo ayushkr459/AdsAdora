@@ -161,7 +161,7 @@
                     while ($row = mysqli_fetch_assoc($result)) {
                         $store_name = $row['store_name'];
                         $store_img = $row['store_img'];
-                        $url = "store.php?storename=" . $store_name;
+                        $url = "storename/" . $store_name;
 
                         echo '
                         <div class="col-lg-4S col-md-4 col-sm-6 col-xs-6 justify-content-center mt-3 mb-2 p-2">

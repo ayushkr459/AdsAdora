@@ -10,7 +10,7 @@
       // $store_id = $row['store_id'];
       $store_name = $row['store_name'];
       $store_img = $row['store_img'];
-      $url = "store.php?storename=".$store_name;
+      $url = "storename/".$store_name;
 
       echo '
 

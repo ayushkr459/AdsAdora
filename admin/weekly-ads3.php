@@ -1,3 +1,7 @@
+<?PHP
+session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . ".htsessions");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -277,7 +281,7 @@
                         <table class="table-bordered text-center" id="dataTable" width="100%" collspacing="0">
                             <thead>
                                 <tr>
-                                    <th><input type="checkbox" id="checkAll">All</th>
+                                    <th>Check</th>
                                     <th>S.No</th>
                                     <th>Store Name</th>
                                     <th>Flyers Image</th>
@@ -401,14 +405,15 @@
     <script>
         $(document).ready(function() {
             $('#dataTable').DataTable();
-            $("#checkAll").click(function(){
-                if($(this).is(":checked")){
-                    $(".checkItem").prop('checked',true);
-                }
-                else{
-                    $(".checkItem").prop('checked',false);
-                }
-            });
+            // $("#checkAll").click(function() {
+            //     if ($(this).is(":checked")) {
+            //         $(".checkItem").prop('checked', true);
+            //     } else {
+            //         $(".checkItem").prop('checked', false);
+            //     }
+            // });
+
+             
         });
     </script>
     <!-- Custom scripts for all pages-->

@@ -19,11 +19,11 @@ include('template/_dbconnect.php');
       // $store_id = $row['store_id'];
       $store_name = $row['store_name'];
       $store_img = $row['store_img'];
-      $url = "store.php?storename=" . $store_name;
+      $url = "storename/" . $store_name;
 
       echo '
         <div class="col-lg-2 col-md-3 col-xs-6 justify-content-center mt-3 mb-2 p-2">
-          <a href="' . $url . '" name="query"><img src="admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>
+          <a href="' . $url . '" name="query"><img src="./admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>
           <div class="mt-3">
             <h5 class="text-center"> <a href="' . $url . '" name="query" style="color:#dc3545;">' . $store_name . '</a></h5>
           </div>

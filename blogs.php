@@ -385,7 +385,7 @@
                   $cat_name = $row['category_name'];
 
                   echo '          
-                <li><a href="categories.php?categoryname=' . $cat_name . '">' . $cat_name . '</a></li>
+                <li><a href="categoryname/' . $cat_name . '">' . $cat_name . '</a></li>
               ';
                 }
                 ?>
@@ -404,7 +404,7 @@
                 $result = mysqli_query($conn, $sql);
                 while ($row = mysqli_fetch_assoc($result)) {
                   $store_name = $row['store_name'];
-                  echo '<li><a href="store.php?storename=' . $store_name . '">' . $store_name . '</a></li>';
+                  echo '<li><a href="storename/' . $store_name . '">' . $store_name . '</a></li>';
                 }
                 ?>
               </ul>
@@ -493,63 +493,6 @@
 
 
   ?>
-
-  <!-- Window PopUp End -->
-
-  <!-- PopUp Script -->
-  <!-- <script>
-  var box = document.querySelector(".box");
-  const loginPopup = document.querySelector(".login-popup");
-  const close = document.querySelector(".close");
-
-
-  document.addEventListener("click", function(event) {
-    // If user clicks inside the element, do nothing
-    if (event.target.closest(".box")) return;
-
-    // If user clicks outside the element, hide it!
-    loginPopup.classList.remove("show");
-  });
-
-  window.addEventListener("load", function() {
-
-    showPopup();
-    // setTimeout(function(){
-    //   loginPopup.classList.add("show");
-    // },5000)
-
-  })
-
-  function showPopup() {
-    const timeLimit = 2 // seconds;
-    let i = 0;
-    const timer = setInterval(function() {
-      i++;
-      if (i == timeLimit) {
-        clearInterval(timer);
-        loginPopup.classList.add("show");
-      }
-      console.log(i)
-    }, 1000);
-  }
-
-  close.addEventListener("click", function() {
-    loginPopup.classList.remove("show");
-  })
-
-  setTimeout(function() {
-    loginPopup.classList.remove("show");
-  }, 10000);
-</script> -->
-  <!-- PopUp Script Ends -->
-
-  <!-- Cookie Consent Popup Event Listener -->
-  <!-- <script>
-  window.addEventListener("cookieAlertAccept", function() {
-    alert("cookies accepted")
-  })
-</script> -->
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

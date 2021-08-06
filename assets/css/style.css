@@ -689,3 +689,38 @@ h6 {
     font-size: x-small;
   }
 }
+
+/* new blog styles */
+.blog-info h5{
+  height: 50px;
+  overflow: scroll;
+  font-size: 20px !important;
+}
+.blog-info h4::-webkit-scrollbar{
+  display: none;
+}
+
+.blogs{
+  margin: auto;
+  justify-content: center;
+}
+.col-md-6.blog-card{
+  transition: .5s;
+  max-width: 45%;
+}
+.blog-card:hover{
+    transform: translateY(-10px);
+}
+@media only screen and (max-width: 576px){
+  .col-md-6.blog-card{
+    
+    max-width: initial;
+  }
+  .collapse{
+    padding-left: 0rem;
+    
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    margin-left: 0rem;
+  }
+}
