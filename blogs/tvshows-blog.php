@@ -231,7 +231,7 @@
                                     $cat_name = $row['category_name'];
 
                                     echo '          
-                <li><a href="categoryname/' . $cat_name . '">' . $cat_name . '</a></li>
+                <li><a href="../categoryname/' . $cat_name . '">' . $cat_name . '</a></li>
               ';
                                 }
                                 ?>
@@ -250,7 +250,7 @@
                                 $result = mysqli_query($conn, $sql);
                                 while ($row = mysqli_fetch_assoc($result)) {
                                     $store_name = $row['store_name'];
-                                    echo '<li><a href=" storename/' . $store_name . '">' . $store_name . '</a></li>';
+                                    echo '<li><a href="../storename/' . $store_name . '">' . $store_name . '</a></li>';
                                 }
                                 ?>
                             </ul>
