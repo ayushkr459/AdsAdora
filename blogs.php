@@ -2,342 +2,387 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="Description" content="Enter your description here" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
-  <script src="https://kit.fontawesome.com/595d13cf2d.js" crossorigin="anonymous"></script>
-  <script data-ad-client="ca-pub-4254949403223799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://kit.fontawesome.com/595d13cf2d.js" crossorigin="anonymous"></script>
+    <script data-ad-client="ca-pub-4254949403223799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-  <link rel="icon" href="../assets/images/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="../assets/images/logo.png" type="image/gif" sizes="32x32">
 
-  <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
-  <?php
-  //require _dbconn.php
-  require('template/_dbconnect.php');
-  ?>
+    <?php
+    //require _dbconn.php
+    require('template/_dbconnect.php');
+    ?>
 
-  <title>AdsAdora | Weekly Ads, Sales and Ads Preview</title>
-  <style>
-    /* Modal Style */
+    <title>AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <style>
+        /* Modal Style */
 
-    .form-title {
-      margin: -2rem 0rem 2rem;
-    }
+        .form-title {
+            margin: -2rem 0rem 2rem;
+        }
 
-    .subscribe-form {
-      margin: 0rem 0rem 1rem;
-    }
+        .subscribe-form {
+            margin: 0rem 0rem 1rem;
+        }
 
-    /* Modal Style Ends */
-  </style>
+        /* Modal Style Ends */
+    </style>
 </head>
 
 <body>
-  <!-- Header Section -->
-  <header id="header">
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-      <a href="https://adsadora.com/"><img src="../assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
-      <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav m-auto font-rubik">
-          <li class="nav-item">
-            <a class="nav-link" href="https://adsadora.com/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../category">Categories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../stores">Stores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../weekly-ads">Weekly Ads</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../blog/">Blogs</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0" action="../search.php" method="GET">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search for Stores" name="query" aria-label="Search" required>
-          <button class="btn btn-outline-dark search-store my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-    <!-- <div class=" d-flex justify-content-end my-2" style="margin-right: 100px;">
+    <!-- Header Section -->
+    <header id="header">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <a href="https://adsadora.com/"><img src="../assets/images/logo.png" class="img-fluid" alt="" width="50px"></a>
+            <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://adsadora.com/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../category">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../stores">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../weekly-ads">Weekly Ads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../blog/">Blogs</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" action="../search.php" method="GET">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for Stores" name="query" aria-label="Search" required>
+                    <button class="btn btn-outline-dark search-store my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <!-- <div class=" d-flex justify-content-end my-2" style="margin-right: 100px;">
       <div class="list-group" id="show-list">
         <a href="" class="list-group-item list-group-item-action">Search</a>
         <a href="" class="list-group-item list-group-item-action border-1"></a>
         <a href="" class="list-group-item list-group-item-action border-1"> </a>
       </div>
     </div> -->
-    <!-- Navigation Bar Ends -->
-  </header>
-  <!-- Header Section Ends -->
+        <!-- Navigation Bar Ends -->
+    </header>
+    <!-- Header Section Ends -->
 
-  <!-- Main Section -->
-  <main id="main-site">
+    <!-- Main Section -->
+    <main id="main-site">
+        <!-- Blog Articles -->
+        <div class="container my-3">
+            <h2 class="my-4 text-center">AdsAdora Blogs</h2>
+            <hr>
+            <br>
 
-    <!-- Blog Articles -->
-    <div class="container my-3">
-      <h2 class="my-4">AdsAdora Blogs</h2>
-      <hr>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-big d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Offers</strong>
-              <h4 class="mb-2">
-                <a href="../blogs/target-blog" style="color: #dc3545;">Best-Ever Offers for College Students!</a>
-              </h4>
-              <!-- <div class="mb-1 text-muted">Nov 12</div> -->
-              <p class="card-text mb-auto text-muted">It won’t be an understatement to say that college students are all the more excited to go back to college campus.
-                With the Covid-19 situation getting better, schools and colleges are all set to reopen. This excitement and happiness can be enhanced by shopping for
-                the best-ever goodies for your college life...</p>
-              <strong><a href="../blogs/target-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" alt="College Student Offers" style="width: 200px; height: 250px;" src="../assets/images/target-blog-2.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Travel</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/travel-ideas" style="color: #dc3545;">Travel Ideas post Pandemic!</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Who doesn’t want to travel to beautiful places and enjoy life? Everyone, right? ...</p>
-              <strong><a href="../blogs/travel-ideas" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px;" alt="Travel" src="../assets/images/travel.jpg" />
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Offers</strong>
-              <h4 class="mb-0">
-                <a href="../blogs/walmart-blog" style="color:#dc3545;">Hop into fabulous deals</a>
-              </h4>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">The eagerness of going back to school cannot be described in words, isn’t it? ...</p>
-              <strong><a href="../blogs/walmart-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px;" src="../assets/images/walmart-blog-1.jpg" alt="School Student Offers" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Shows</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/tvshows-blog" style="color: #dc3545; font-size: 20px">5 US TV Shows to binge watch this International Friendship day!</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">It is absolutely true that the pandemic has made us realize the value of true friends and loved ones. Well, do you remember that International Friendship Day is around the corner? This, indeed, is the perfect time to shower your friends with all the love, care and joy!...</p>
-              <strong><a href="../blogs/tvshows-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/image2.jpeg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Food</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/chickenwings-blog" style="color: #dc3545; font-size: 20px">Overcoming #FOMO this National Chicken Wings’ Day</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Suffering from post-pandemic stress? Running late to work? Living alone or don’t know how to cook? Or trying to make things work for you and your partner?
+            <div class="row mb-2 blogs">
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/target-blog">
+                        <img src="../assets/images/target-blog-2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Offers</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/target-blog" style="color: #dc3545;">Best-Ever Offers for College Students!</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/target-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
 
-                Don’t worry! We have your back! With our amazing offers and attractive deals, we are happy to be your happy-go-lucky partner.
-                ...</p>
-              <strong><a href="../blogs/chickenwings-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="food" src="../assets/images/chicken.png" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Movies</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/movie-blog" style="color: #dc3545; font-size: 20px">The Suicide Squad: Harnessing the power of ‘Friendship’</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">From the house of Digital Comics, a.k.a DC, and the likes of James Gunn, the creative pen behind ‘Guardians Of The Galaxy,’ Warner Bros Entertainment is back to cling you to your seats this summer.</p>
-              <strong><a href="../blogs/movie-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/movie2.png" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Sports</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/sports-blog" style="color: #dc3545; font-size: 20px">Who is benefiting from the 9-year-old Hamilton-Mercedes bond?</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">The fastest flight bird, the white-throated needletail, can travel at a maximum speed of 171 km/h. Little did we know that the fastest speed recorded in Formula 1 Grand Prix by Lewis Hamilton is 264.362 km/h, which was over 100 km/h quicker than the quickest flight recorded on the face of the earth.</p>
-              <strong><a href="../blogs/sports-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/sp1.png" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">News</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/maskGuide-blog" style="color: #dc3545; font-size: 20px">US Mask Guidelines</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">The Centers for Disease Control and Prevention made a sharp turnabout on Tuesday when it recommended all vaccinated citizens to resume wearing masks in all schools and indoor spaces in regions of the country where the cases of the virus were increasing. There has been a rapid surge in parts of the country which have low vaccination rates as well as confirmed reports of infections with the contagious Delta variant.</p>
-              <strong><a href="../blogs/maskGuide-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/mask1.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Creativity</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/art-blog" style="color: #dc3545; font-size: 20px">Want to be the next Pedro Linares? Here's what you need!</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Pedro Linares is regarded as a great artist of all times. He is best- known for his phenomenal craft work. He is famous worldwide and has won several awards. Well, Do you aspire to become like Pedro Linares? Don't you worry. We have got your back. </p>
-              <strong><a href="../blogs/art-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/art1.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Bikes</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/bike-blog" style="color: #dc3545; font-size: 20px">Road to Glory- A comeback of the prodigious Harley Davidson</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Revving the throttle until you feel the adrenaline rush in your veins, to going on the most awaited road trip without having to worry about the duration of the journey, Harley Davidson is your one-time stop for all your sweetheart hog.</p>
-              <strong><a href="../blogs/bike-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/bike1.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Lifestyle</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/summer-blog" style="color: #dc3545; font-size: 20px">Beating the Summer Blues and US Heat Wave by ordering on the go!</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Sunshine season has its own charm! Summer season is loved by a lot of people. However, at present U.S.. is facing an intensive heat wave and things are getting tougher. Nonetheless, you can beat the summer blues and U.S. heat wave by ordering some essentials for summer. The summer season is the perfect time to go for a beachy vacation and spruce up your closet.</p>
-              <strong><a href="../blogs/summer-blog" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/summer1.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Covid-19</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/battleCovid" style="color: #dc3545; font-size: 20px">The battle against Covid-19 in the US- a question of time?</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">There is a well known saying among flight attendants: if any time during the course of the flight, it hits turbulence, and in case of an emergency the masks come down, it is advised to put on the mask on you and then turn to others for help. </p>
-              <strong><a href="../blogs/battleCovid" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/covid1.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Food</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/usaFood" style="color: #dc3545; font-size: 20px">The most iconic fast food chains in the USA! </a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Fast- food is tremendously popular among Americans. Undeniably, the majority of Americans are fond of eating fast food. Research shows that most Americans prefer having fast food owing to the fact that they can be prepared quickly. </p>
-              <strong><a href="../blogs/usaFood" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/food2.jpg" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Sports</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/epicKyrie" style="color: #dc3545; font-size: 20px">Going down the memory lane with ‘The Epic Kyrie’ </a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">Basketball, one of the United States' foundational games and a multibillion-dollar industry, is one of the most popular sports among today's youth. It's a ten-players game with two teams of five people each. But what is more popular than the game is the all-time greats that the N.B.A. has produced, like Michael Jordan, LeBron James, Kobe Bryant, and Kyrie Irving. </p>
-              <strong><a href="../blogs/epicKyrie" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/kyrie1.png" />
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body blog-small d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-warning">Sports</strong>
-              <h3 class="mb-0">
-                <a href="../blogs/tokyOlympic" style="color: #dc3545; font-size: 20px">Tokyo Olympics: A breather or ventilator for US big shots?</a>
-              </h3>
-              <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-              <p class="card-text mb-auto mt-2 text-muted">After a long hauled, stress-filled, and air-tight lockdown protocol, US in now hoping that Tokyo Olympics might be their knight in shining armor. If things go according to the plan, big shot brands will be able to resurrect themselves and make a four-fold comeback.</p>
-              <strong><a href="../blogs/tokyOlympic" style="color: #15161d;">Continue reading</a></strong>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" style="width: 200px; height: 250px; object-fit:cover;" alt="Travel" src="../assets/images/olym1.jpeg" />
-          </div>
-        </div>
-      </div>
-    </div>
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/travel-ideas">
+                        <img src="../assets/images/travel.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Travel</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/travel-ideas" style="color: #dc3545;">Travel Ideas post Pandemic!</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/travel-ideas">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
 
-  </main>
-  <!-- Main Section Ends -->
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/walmart-blog">
+                        <img src="../assets/images/walmart-blog-1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Offers</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/walmart-blog" style="color: #dc3545;">Hop into fabulous deals</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/walmart-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/tvshows-blog">
+                        <img src="../assets/images/image2.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shows</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/tvshows-blog" style="color: #dc3545;">5 US TV Shows to binge watch this International Friendship day!</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/tvshows-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/chickenwings-blog">
+                        <img src="../assets/images/chicken.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/chickenwings-blog" style="color: #dc3545;">Overcoming #FOMO this National Chicken Wings’ Day</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/chickenwings-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/movie-blog">
+                        <img src="../assets/images/movie2.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Movies</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/movie-blog" style="color: #dc3545;">The Suicide Squad: Harnessing the power of ‘Friendship’</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/movie-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/sports-blog">
+                        <img src="../assets/images/sp1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/sports-blog" style="color: #dc3545;">Who is benefiting from the 9-year-old Hamilton-Mercedes bond?</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/sports-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/maskGuide-blog">
+                        <img src="../assets/images/mask1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">News</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/maskGuide-blog" style="color: #dc3545;">US Mask Guidelines</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/maskGuide-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/art-blog">
+                        <img src="../assets/images/art1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Creativity</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/art-blog" style="color: #dc3545;">Want to be the next Pedro Linares? Here's what you need!</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/art-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/bike-blog">
+                        <img src="../assets/images/bike1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Bikes</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/bike-blog" style="color: #dc3545;">Road to Glory- A comeback of the prodigious Harley Davidson</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/bike-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/summer-blog">
+                        <img src="../assets/images/summer1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Lifestyle</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/summer-blog" style="color: #dc3545;">Beating the Summer Blues and US Heat Wave by ordering on the go!</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/summer-blog">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/battleCovid">
+                        <img src="../assets/images/covid1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Covid-19</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/battleCovid" style="color: #dc3545;">The battle against Covid-19 in the US- a question of time?</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/battleCovid">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/usaFood">
+                        <img src="../assets/images/food2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/usaFood" style="color: #dc3545;">The most iconic fast food chains in the USA!</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/usaFood">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/epicKyrie">
+                        <img src="../assets/images/kyrie1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/epicKyrie" style="color: #dc3545;">Going down the memory lane with ‘The Epic Kyrie’</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/epicKyrie">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                    <a href="../blogs/tokyOlympic">
+                        <img src="../assets/images/olym1.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                    </a>
+                    <div class="blog-info p-3">
+                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                        <h5 class=" mt-3 mb-2">
+                            <a href="../blogs/tokyOlympic" style="color: #dc3545;">Tokyo Olympics: A breather or ventilator for US big shots?</a>
+                        </h5>
+                        <hr>
+                        <div class="date-read mb-5">
+                            <a href="../blogs/tokyOlympic">
+                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                            </a>
+
+                            <span style="float: right; font-size: 12px; color: #B7B7B7;">31 May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+<!-- Main Section Ends -->
 
   <!-- Footer Section -->
   <footer id="footer">
