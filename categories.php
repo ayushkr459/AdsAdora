@@ -155,7 +155,7 @@
                     while ($row = mysqli_fetch_assoc($result)) {
                         $store_name = $row['store_name'];
                         $store_img = $row['store_img'];
-                        $url = "../storename/" . $store_name;
+                        $url = $store_name;
 
                         echo '
                         <div class="col-lg-4S col-md-4 col-sm-6 col-xs-6 justify-content-center mt-3 mb-2 p-2">
@@ -241,7 +241,7 @@
               $result = mysqli_query($conn, $sql);
               while ($row = mysqli_fetch_assoc($result)) {
                 $store_name = $row['store_name'];
-                echo '<li><a href="../storename/' . $store_name . '">' . $store_name . '</a></li>';
+                echo '<li><a href="' . $store_name . '">' . $store_name . '</a></li>';
               }
               ?>
             </ul>

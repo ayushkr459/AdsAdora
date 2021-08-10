@@ -12,6 +12,7 @@
       $store_img = $row['store_img'];
       $url = $store_name;
 
+      
       echo '
         <div class="col-lg-2 col-md-3 col-xs-6 justify-content-center mt-3 mb-2 p-2">
         <a href="' . $url . '" name="query"><img src="admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>

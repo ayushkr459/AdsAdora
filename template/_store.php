@@ -19,7 +19,7 @@ include('template/_dbconnect.php');
       // $store_id = $row['store_id'];
       $store_name = $row['store_name'];
       $store_img = $row['store_img'];
-      $url = "storename/" . $store_name;
+      $url = $store_name;
 
       echo '
         <div class="col-lg-2 col-md-3 col-xs-6 justify-content-center mt-3 mb-2 p-2">
