@@ -208,7 +208,7 @@
                                     $cat_name = $row['category_name'];
 
                                     echo '          
-                <li><a href="categories.php?categoryname=' . $cat_name . '">' . $cat_name . '</a></li>
+                <li><a href="' . $cat_name . '">' . $cat_name . '</a></li>
               ';
                                 }
                                 ?>

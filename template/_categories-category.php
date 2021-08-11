@@ -17,7 +17,7 @@
           $cat_id = $row['category_id'];
           $cat_name = $row['category_name'];
           $cat_img = $row['category_img'];
-          $url = "categoryname/" . $cat_name;
+          $url = $cat_name;
 
           echo '
           <div class="col-md-3 col-xs-6 mt-3 mb-2 text-center">

@@ -6,7 +6,7 @@
 
     include('./template/_dbconnect.php');
 
-    $query = $_GET['categoryname'];
+    $query = CATEGORY_NAME;
 
     $sql2 = "SELECT * FROM category where category_name = '$query'";
     $result2 = mysqli_query($conn, $sql2);
@@ -112,7 +112,7 @@
 
             include('./template/_dbconnect.php');
 
-            $query = $_GET['categoryname'];
+            $query = CATEGORY_NAME;
 
             $sql2 = "SELECT * FROM category where category_name = '$query'";
             $result2 = mysqli_query($conn, $sql2);
@@ -222,7 +222,7 @@
                 $cat_name = $row['category_name'];
 
                 echo '          
-                <li><a href="../categoryname/' . $cat_name . '">' . $cat_name . '</a></li>
+                <li><a href="' . $cat_name . '">' . $cat_name . '</a></li>
               ';
               }
               ?>

@@ -6,7 +6,7 @@
 
     include('./template/_dbconnect.php');
 
-    $query = $_GET['storename'];
+    $query = STORE_NAME;
 
     $sql2 = "SELECT * FROM store where store_name = '$query'";
     $result2 = mysqli_query($conn, $sql2);
@@ -108,7 +108,7 @@
 
             include('./template/_dbconnect.php');
 
-            $query = $_GET['storename'];
+            $query = STORE_NAME;
 
             $sql2 = "SELECT * FROM store where store_name = '$query'";
             $result2 = mysqli_query($conn, $sql2);
@@ -176,7 +176,7 @@
                                 $result = mysqli_query($conn, $sql);
                                 while ($row = mysqli_fetch_assoc($result)) {
                                     $cat_name = $row['category_name'];
-                                    echo '<li><a href="../categoryname/' . $cat_name . '">' . $cat_name . '</a></li>';
+                                    echo '<li><a href="' . $cat_name . '">' . $cat_name . '</a></li>';
                                 }
                                 ?>
                             </ul>

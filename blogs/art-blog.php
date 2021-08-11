@@ -98,7 +98,7 @@
             <div class="container py-5 text-center">
                 <h1 class="display-4 font-weight-bold">Want to be the next Pedro Linares? Here&apos;s what you need!</h1>
                 <p class="font-italic mb-0">Pedro Linares is regarded as a great artist of all times. He is best- known for his phenomenal craft work. He is famous worldwide and has won several awards. Well, Do you aspire to become like Pedro Linares? Don&apos;t you worry. We have got your back.
-            </p>
+                </p>
                 <!-- <p class="font-italic">Snippe by
                     <a href="https://bootstrapious.com" class="text-white">
                         <u>Bootstrapious</u>
@@ -110,104 +110,104 @@
 
         <!-- For Demo Purpose -->
         <div class="container py-5">
-        <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;border:none;border-bottom:solid #4F81BD 1.0pt;padding:0cm 0cm 4.0pt 0cm;'>
-    <p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.0pt;margin-left:0cm;border:none;padding:0cm;font-size:35px;font-family:"Calibri",sans-serif;color:#17365D;'><strong><span style="font-size:24px;color:#36363D;">Want to be the next Pedro Linares? Here&apos;s what you need!</span></strong></p>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Pedro Linares is regarded as a great artist of all times. He is best- known for his phenomenal craft work. He is famous worldwide and has won several awards. Well, Do you aspire to become like Pedro Linares? Don&apos;t you worry. We have got your back.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">In this blog post, we will elucidate you with what all you need to become like Pedro Linares. Without more ado, let&apos;s dive in!&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Before moving further, let&apos;s first have a look at the benefits of artwork.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">BENEFITS OF ART WORK -&nbsp;</span></u></strong></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Art and Craft is important in every facet of our lives. Even though art activities are a little messy, but they&apos;re valuable for kids. Mentioned below are some prominent benefits of art work or craft work in life.&nbsp;</span></p>
-<ul style="list-style-type: disc;">
-    <li><span style="line-height:115%;font-size:19px;">Helps in developing motor skills.</span></li>
-    <li><span style="line-height:115%;font-size:19px;">Improves creativity as well as productivity of children.</span></li>
-    <li><span style="line-height:115%;font-size:19px;">Helps in language development and enhances their vocabulary.</span></li>
-    <li><span style="line-height:115%;font-size:19px;">Aids in developing social skills.&nbsp;</span></li>
-    <li><span style="line-height:115%;font-size:19px;">Facilitates over-all development.</span></li>
-</ul>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">The benefits of art work and craft work for children are countless. So, make sure that your little ones learn and engage in art work, drawing, painting and sketching. You never know your child can be the next Pedro Linares.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">How art makes life beautiful -&nbsp;</span></u></strong></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">There is no denying the fact that art makes your life a lot better, brighter and beautiful! For some people out there, art is very soothing. People kind joy in admiring beautiful art works. Research proves that art also helps in reducing stress and anxiety related issues. People should definitely engage in art to promote their overall wellness.</span></p>
-<img class="mt-3" src="../assets/images/art1.jpg" alt="sports" style="width:100%; object-fit:cover;">
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:24px;line-height:115%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">Some tips for all the budding artists out there -&nbsp;</span></u></strong></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Do you want to become an artist? Well, we have some small tips for you all.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Make sure you DRAW and PRACTICE each and every day. It will help you become perfect for of course practice makes man perfect.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Experiment with different styles.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Use good quality materials and supplies. Believe us, it helps a lot! Must- haves for artists include - pencils, eraser, painting colors, acrylic colors, crayons, paint brushes and so much more.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Don&apos;t compare your work with others.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Enjoy it while you learn it.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">We hope these tips will be essential for every aspiring artist out there. Don&apos;t forget to check out the list of all the necessary supplies that an artist requires.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">What do you need to become a renowned artist like Pedro Linares?&nbsp;</span></u></strong></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">There are some incredible deals and discounts going on at Walmart and Target. They have a great collection of stationery items. Make sure you check them out.&nbsp;</span></p>
-<img class="mt-3" src="../assets/images/art2.jpg" alt="sports" style="width:100%; object-fit:cover;">
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Well, there are some essentials that every artist or aspiring artist should definitely own.</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Pencils -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">The first thing that every artist should have is a pencil. Make sure that you choose a good quality of pencils to make your art work flawless.&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Colored Pencils -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Next up, you would also need some different colored pencils. Before making the final call, do check out various brands of pencils available.&nbsp;</span></p>
-<img class="mt-3" src="../assets/images/art3.jpg" alt="sports" style="width:100%; object-fit:cover;">
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Eraser -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Like pencil, an eraser is also a must- have for every artist out there! Obviously if you end up making some error, you will need an erase to correct it.</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Pens -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Pens are also essential for an artist&apos;s workstation. There are countless options of brands to choose from. You can go for the one you prefer. Moving on, you can also get sketch pens. They usually come in different colors. However, definitely buy the black one for highlighting and drawing borders.</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Paint brushes -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">It is necessary to have different kinds of paint brushes for every artist to be! You should have round brushes and flat brushes, they all come in different sizes. Another tip is to use brushes with soft hair.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Along with pain brushes, you would need Water colors and palettes too!</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Acrylic Colors -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Acrylic colors are easily available on online stores and markets. They usually come in the set of ten colors. Acrylic colors come in a variety of colors. The primary acrylic colors are - blue, red and yellow. They mostly come in the form of bottles.&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Poster Colors -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Poster colors can also be used in painting. If you want a better finish, consider mixing some fevicol with your poster colors. Just like Acrylic colors, they come in different shades.</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Color Palettes -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Next up, you would require some color palettes. Try choosing the palette that has several sections as it helps in mixing the colors well.&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Canvas -</span></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Canvas are available in different sizes, you can select them according to your convenience. The size of canvas can also be chosen depending on the painting size. &nbsp;You can also use Stretched canvas that is available at most stores. You can hang a stretched canvas on wall after painting.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">About WALMART AND TARGET -&nbsp;</span></u></strong></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Walmart and Target are leading retail stores in the United States.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Walmart -&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Walmart is American based corporation that sells a variety of products like stationery, clothing, furniture, groceries, electronics, toys, footwear, art supplies and what not. You name it and you can get it! Apart from that, Walmart offers great discounts on its products. Make sure you check out their website for further information.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Target -&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Target is one of the renowned corporations in the United States. It sells a variety &nbsp;of products like trendy clothing items, electronics, gadgets, stationery items, grocery items, jewellery, footwear, furniture, art supplies and so much more. In addition to that, &nbsp;it provides fantastic deals at its online stores on most of its products.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:24px;line-height:115%;">Bottom Line -&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">We have outlined for you a list of all the required art supplies. You can shop for all the art supplies at Walmart and Target. They are offering some amazing deals. So, what are you waiting for? Please visit their website and give yourself some art supplies! Walmart and Target have breath - taking collection of doodling kits, art kits and other art supplies. We assure you, with these art supplies every artist will definitely THRIVE!</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;border:none;border-bottom:solid #4F81BD 1.0pt;padding:0cm 0cm 4.0pt 0cm;'>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:15.0pt;margin-left:0cm;border:none;padding:0cm;font-size:35px;font-family:"Calibri",sans-serif;color:#17365D;'><strong><span style="font-size:24px;color:#36363D;">Want to be the next Pedro Linares? Here&apos;s what you need!</span></strong></p>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Pedro Linares is regarded as a great artist of all times. He is best- known for his phenomenal craft work. He is famous worldwide and has won several awards. Well, Do you aspire to become like Pedro Linares? Don&apos;t you worry. We have got your back.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">In this blog post, we will elucidate you with what all you need to become like Pedro Linares. Without more ado, let&apos;s dive in!&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Before moving further, let&apos;s first have a look at the benefits of artwork.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">BENEFITS OF ART WORK -&nbsp;</span></u></strong></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Art and Craft is important in every facet of our lives. Even though art activities are a little messy, but they&apos;re valuable for kids. Mentioned below are some prominent benefits of art work or craft work in life.&nbsp;</span></p>
+            <ul style="list-style-type: disc;">
+                <li><span style="line-height:115%;font-size:19px;">Helps in developing motor skills.</span></li>
+                <li><span style="line-height:115%;font-size:19px;">Improves creativity as well as productivity of children.</span></li>
+                <li><span style="line-height:115%;font-size:19px;">Helps in language development and enhances their vocabulary.</span></li>
+                <li><span style="line-height:115%;font-size:19px;">Aids in developing social skills.&nbsp;</span></li>
+                <li><span style="line-height:115%;font-size:19px;">Facilitates over-all development.</span></li>
+            </ul>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">The benefits of art work and craft work for children are countless. So, make sure that your little ones learn and engage in art work, drawing, painting and sketching. You never know your child can be the next Pedro Linares.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">How art makes life beautiful -&nbsp;</span></u></strong></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">There is no denying the fact that art makes your life a lot better, brighter and beautiful! For some people out there, art is very soothing. People kind joy in admiring beautiful art works. Research proves that art also helps in reducing stress and anxiety related issues. People should definitely engage in art to promote their overall wellness.</span></p>
+            <img class="mt-3" src="../assets/images/art1.jpg" alt="sports" style="width:100%; object-fit:cover;">
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:24px;line-height:115%;">&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">Some tips for all the budding artists out there -&nbsp;</span></u></strong></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Do you want to become an artist? Well, we have some small tips for you all.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Make sure you DRAW and PRACTICE each and every day. It will help you become perfect for of course practice makes man perfect.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Experiment with different styles.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Use good quality materials and supplies. Believe us, it helps a lot! Must- haves for artists include - pencils, eraser, painting colors, acrylic colors, crayons, paint brushes and so much more.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Don&apos;t compare your work with others.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">- Enjoy it while you learn it.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">We hope these tips will be essential for every aspiring artist out there. Don&apos;t forget to check out the list of all the necessary supplies that an artist requires.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">What do you need to become a renowned artist like Pedro Linares?&nbsp;</span></u></strong></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">There are some incredible deals and discounts going on at Walmart and Target. They have a great collection of stationery items. Make sure you check them out.&nbsp;</span></p>
+            <img class="mt-3" src="../assets/images/art2.jpg" alt="sports" style="width:100%; object-fit:cover;">
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Well, there are some essentials that every artist or aspiring artist should definitely own.</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Pencils -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">The first thing that every artist should have is a pencil. Make sure that you choose a good quality of pencils to make your art work flawless.&nbsp;</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Colored Pencils -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Next up, you would also need some different colored pencils. Before making the final call, do check out various brands of pencils available.&nbsp;</span></p>
+            <img class="mt-3" src="../assets/images/art3.jpg" alt="sports" style="width:100%; object-fit:cover;">
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">&nbsp;</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Eraser -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Like pencil, an eraser is also a must- have for every artist out there! Obviously if you end up making some error, you will need an erase to correct it.</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Pens -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Pens are also essential for an artist&apos;s workstation. There are countless options of brands to choose from. You can go for the one you prefer. Moving on, you can also get sketch pens. They usually come in different colors. However, definitely buy the black one for highlighting and drawing borders.</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Paint brushes -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">It is necessary to have different kinds of paint brushes for every artist to be! You should have round brushes and flat brushes, they all come in different sizes. Another tip is to use brushes with soft hair.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Along with pain brushes, you would need Water colors and palettes too!</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Acrylic Colors -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Acrylic colors are easily available on online stores and markets. They usually come in the set of ten colors. Acrylic colors come in a variety of colors. The primary acrylic colors are - blue, red and yellow. They mostly come in the form of bottles.&nbsp;</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Poster Colors -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Poster colors can also be used in painting. If you want a better finish, consider mixing some fevicol with your poster colors. Just like Acrylic colors, they come in different shades.</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Color Palettes -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Next up, you would require some color palettes. Try choosing the palette that has several sections as it helps in mixing the colors well.&nbsp;</span></p>
+            <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
+                <ul style="margin-bottom:0cm;list-style-type: disc;">
+                    <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;font-size:19px;">Canvas -</span></li>
+                </ul>
+            </div>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Canvas are available in different sizes, you can select them according to your convenience. The size of canvas can also be chosen depending on the painting size. &nbsp;You can also use Stretched canvas that is available at most stores. You can hang a stretched canvas on wall after painting.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:24px;line-height:115%;">About WALMART AND TARGET -&nbsp;</span></u></strong></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Walmart and Target are leading retail stores in the United States.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Walmart -&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Walmart is American based corporation that sells a variety of products like stationery, clothing, furniture, groceries, electronics, toys, footwear, art supplies and what not. You name it and you can get it! Apart from that, Walmart offers great discounts on its products. Make sure you check out their website for further information.</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Target -&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">Target is one of the renowned corporations in the United States. It sells a variety &nbsp;of products like trendy clothing items, electronics, gadgets, stationery items, grocery items, jewellery, footwear, furniture, art supplies and so much more. In addition to that, &nbsp;it provides fantastic deals at its online stores on most of its products.&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:24px;line-height:115%;">Bottom Line -&nbsp;</span></p>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:19px;line-height:115%;">We have outlined for you a list of all the required art supplies. You can shop for all the art supplies at Walmart and Target. They are offering some amazing deals. So, what are you waiting for? Please visit their website and give yourself some art supplies! Walmart and Target have breath - taking collection of doodling kits, art kits and other art supplies. We assure you, with these art supplies every artist will definitely THRIVE!</span></p>
 
         </div>
 
@@ -260,8 +260,8 @@
                                     $cat_name = $row['category_name'];
 
                                     echo '          
-                <li><a href="../categoryname/' . $cat_name . '">' . $cat_name . '</a></li>
-              ';
+                                    <li><a href="' . $cat_name . '">' . $cat_name . '</a></li>
+                                    ';
                                 }
                                 ?>
                             </ul>
