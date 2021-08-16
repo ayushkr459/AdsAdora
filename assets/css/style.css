@@ -233,9 +233,6 @@ h3.text-center {
   font-size: 24px;
 }
 
-.hot-deal .cta-btn {
-  margin-top: 15px;
-}
 
 /* NewsLetter Section*/
 
@@ -276,7 +273,6 @@ h3.text-center {
 .newsletter form .input {
   width: calc(100% - 160px);
   margin-right: -4px;
-  border-radius: 40px 0px 0px 40px;
 }
 
 .newsletter form .newsletter-btn {
@@ -620,13 +616,7 @@ h6 {
   overflow: hidden;
 }
 
-#flyers .owl-carousel .item .flyer img {
-  transition: transform 0.5s ease;
-}
 
-#flyers .owl-carousel .item .flyer img:hover {
-  transform: scale(1.1);
-}
 
 #flyers .owl-carousel .owl-nav button {
   position: absolute;
@@ -722,5 +712,103 @@ h6 {
   }
   .navbar-dark .navbar-nav .nav-link{
     margin-left: 0rem;
+  }
+}
+
+
+/* Home page new CSS */
+
+.flyer{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+    /* Remove py-2 and pt-2 from item */
+}
+.flyer:hover{
+  border: 1px solid rgb(114, 114, 114);
+  /* Remove py-2 and pt-2 from item */
+}
+.flyer img{
+  object-fit: cover;
+  object-position: top;
+}
+.flyer > div{
+  padding: 6px;
+}
+.category-row{
+  margin: auto;
+  justify-content: center;
+}
+.category-item{
+  border: 1px solid lightgray;
+  margin: 0.4rem;
+  max-width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  transition: .5s;
+}
+.category-item:hover{
+  transform: translateY(-10px);
+}
+h3.text-center {
+  margin-top: 0px;
+}
+#flyers .container{
+  padding-bottom: 1.5rem !important;
+}
+.wrapper .home-btn{
+    border-radius: 4px;
+    padding: 0.3rem 1rem;
+}
+.hot-deal h2{
+  font-weight: 700;
+}
+.hot-deal p{
+  text-transform: initial;
+}
+.hot-deal a.primary-btn{
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+}
+#hot-deal.section{
+  background-image: none;
+}
+.stores-row{
+  margin: auto;
+  justify-content: center;
+}
+.stores-list {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  margin: 0.5rem;
+  border-radius: 5px;
+  transition: .5s;
+}
+.stores-list:hover{
+  transform: translateY(-10px);
+}
+.stores-list img{
+  object-fit: contain;
+}
+.card-footer .btn-danger{
+  width: 100%;
+}
+#newsletter.section{
+  background: #E4E7ED;
+}
+.newsletter input{
+  border-radius: 5px;
+}
+.newsletter form button{
+  margin-top: -4px;
+}
+@media only screen and (max-width: 576px){
+  .category-item{
+    
+    max-width: 100%;
+  }
+  .owl-item.active{
+    margin: auto;
+    justify-content: center;
   }
 }

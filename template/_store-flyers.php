@@ -2,6 +2,8 @@
 //establish database connection
 include('./template/_dbconnect.php');
 
+$query = STORE_NAME;
+
 $per_page = 1;
 $page = 0;
 $current_page = 1;

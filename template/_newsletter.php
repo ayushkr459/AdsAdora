@@ -7,7 +7,7 @@
       <div class="col-2"></div>
       <div class="col-8">
         <div class="newsletter">
-          <p>Sign to Offers</p>
+          <p>Sign up to get latest updates</p>
           <form action="#" method="POST">
             <?php
             $userEmail = "";

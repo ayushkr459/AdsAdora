@@ -6,14 +6,14 @@ include('template/_dbconnect.php');
 <!-- Stores Section -->
 <div class="container">
   <h3 class="text-center">Popular Stores</h3>
-  <div class="row">
+  <div class="row stores-row">
     <!-- <div class="col-2"></div> -->
 
     <!-- Fetch the Stores -->
 
     <?php
 
-    $sql = "SELECT * FROM `store` LIMIT 12";
+    $sql = "SELECT * FROM `store` LIMIT 15";
     $result = mysqli_query($conn, $sql);
     while ($row = mysqli_fetch_assoc($result)) {
       // $store_id = $row['store_id'];
@@ -22,11 +22,9 @@ include('template/_dbconnect.php');
       $url = $store_name;
 
       echo '
-        <div class="col-lg-2 col-md-3 col-xs-6 justify-content-center mt-3 mb-2 p-2">
-          <a href="' . $url . '" name="query"><img src="./admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto mb-3" width="100" height="100"></a><br>
-          <div class="mt-3">
-            <h5 class="text-center"> <a href="' . $url . '" name="query" style="color:#dc3545;">' . $store_name . '</a></h5>
-          </div>
+        <div class="stores-list col-lg-2 col-md-3 col-xs-6 justify-content-center mt-3 mb-2 p-2 text-center">
+          <a href="' . $url . '" name="query"><img src="./admin/image/' . $store_img . '" alt="' . $store_img . '" class="d-block mx-auto" width="80" height="80"></a>
+            <p class="mt-2" style="font-size: 12px; line-height: 0.35cm;"><a href="' . $url . '" name="query" style="color:#dc3545;">' . $store_name . '</a></p>
         </div>
       ';
     }
