@@ -93,417 +93,498 @@
             <br>
 
             <div class="row mb-2 blogs">
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/target-blog">
-                        <img src="../assets/images/target-blog-2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Offers</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/target-blog" style="color: #dc3545;">Best-Ever Offers for College Students!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/target-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
 
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">16 Feb, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/travel-ideas">
-                        <img src="../assets/images/travel.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Travel</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/travel-ideas" style="color: #dc3545;">Travel Ideas post Pandemic!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/travel-ideas">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
 
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">18 March, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/walmart-blog">
-                        <img src="../assets/images/walmart-blog-1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Offers</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/walmart-blog" style="color: #dc3545;">Hop into fabulous deals</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/walmart-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">14 April, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/tvshows-blog">
-                        <img src="../assets/images/image2.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shows</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/tvshows-blog" style="color: #dc3545;">5 US TV Shows to binge watch this International Friendship day!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/tvshows-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">10 May, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/chickenwings-blog">
-                        <img src="../assets/images/chicken.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/chickenwings-blog" style="color: #dc3545;">Overcoming #FOMO this National Chicken Wings’ Day</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/chickenwings-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">15 June, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/movie-blog">
-                        <img src="../assets/images/movie2.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Movies</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/movie-blog" style="color: #dc3545;">The Suicide Squad: Harnessing the power of ‘Friendship’</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/movie-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">13 July, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/sports-blog">
-                        <img src="../assets/images/sp1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/sports-blog" style="color: #dc3545;">Who is benefiting from the 9-year-old Hamilton-Mercedes bond?</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/sports-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">17 Aug, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/maskGuide-blog">
-                        <img src="../assets/images/mask1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">News</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/maskGuide-blog" style="color: #dc3545;">US Mask Guidelines</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/maskGuide-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">12 Sep, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/art-blog">
-                        <img src="../assets/images/art1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Creativity</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/art-blog" style="color: #dc3545;">Want to be the next Pedro Linares? Here's what you need!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/art-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">13 Oct, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/bike-blog">
-                        <img src="../assets/images/bike1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Bikes</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/bike-blog" style="color: #dc3545;">Road to Glory- A comeback of the prodigious Harley Davidson</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/bike-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">24 Nov, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/summer-blog">
-                        <img src="../assets/images/summer1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Lifestyle</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/summer-blog" style="color: #dc3545;">Beating the Summer Blues and US Heat Wave by ordering on the go!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/summer-blog">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">10 Dec, 2020</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/battleCovid">
-                        <img src="../assets/images/covid1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Covid-19</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/battleCovid" style="color: #dc3545;">The battle against Covid-19 in the US- a question of time?</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/battleCovid">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">20 Jan, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/usaFood">
-                        <img src="../assets/images/food2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/usaFood" style="color: #dc3545;">The most iconic fast food chains in the USA!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/usaFood">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">11 Feb, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/epicKyrie">
-                        <img src="../assets/images/kyrie1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/epicKyrie" style="color: #dc3545;">Going down the memory lane with ‘The Epic Kyrie’</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/epicKyrie">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">23 March, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/tokyOlympic">
-                        <img src="../assets/images/olym1.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/tokyOlympic" style="color: #dc3545;">Tokyo Olympics: A breather or ventilator for US big shots?</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/tokyOlympic">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">16 April, 2021</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Newly added Blogs 09/08/21 -->
-
+                <!-- Blogs added on 17 Aug, 2021 -->
 
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/grocery-tips">
-                        <img src="../assets/images/grocery1.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/grocery-tips" style="color: #dc3545;">5 Tips on How You Can Use Online Grocery Shopping to Your Advantage</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/grocery-tips">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">15 May, 2021</span>
+                        <a href="../blogs/Are-Eco-Friendly-clothing-products-a-Trend-or-is-it-for-the-Long-Haul">
+                            <img src="../assets/images/eco-friendly-cloth1.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Clothing</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Are-Eco-Friendly-clothing-products-a-Trend-or-is-it-for-the-Long-Haul" style="color: #dc3545;">Are Eco-Friendly clothing products a Trend or is it for the Long Haul? </a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Are-Eco-Friendly-clothing-products-a-Trend-or-is-it-for-the-Long-Haul">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">17 Aug, 2021</span>
+                            </div>
                         </div>
-                    </div>
                 </div>
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/hidden-gems">
-                        <img src="../assets/images/hidGems1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Summer</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/hidden-gems" style="color: #dc3545;">Your go to go list for to beat the summer heat!</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/hidden-gems">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">09 June, 2021</span>
+                        <a href="../blogs/Ideas-for-boosting-your-Restaurant-Websites-post-lock-down">
+                            <img src="../assets/images/restroweb1.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Ideas-for-boosting-your-Restaurant-Websites-post-lock-down" style="color: #dc3545;">Ideas for boosting your Restaurant Websites post lock-down</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Ideas-for-boosting-your-Restaurant-Websites-post-lock-down">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">17 Aug, 2021</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/weekend">
-                        <img src="../assets/images/weekend1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Entertainment</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/weekend" style="color: #dc3545;">Is it time for The Weeknd to release a new song? Get your popcorns! </a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/weekend">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">13 July, 2021</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/wearing-formals">
-                        <img src="../assets/images/wearFormals2.jpeg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Office</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/wearing-formals" style="color: #dc3545;">Wearing formals to WFH: Netiquette or a dreadful task?</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/wearing-formals">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">11 August, 2021</span>
-                        </div>
-                    </div>
                 </div>
 
-
-                <!-- Newly added Blogs 11/08/21 -->
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/back-to-school">
-                        <img src="../assets/images/school1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">School</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/back-to-school" style="color: #dc3545;">Back To School: Top 7 deals that you just cannot miss</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/back-to-school">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">11 August, 2021</span>
+                <!-- Blogs added on 16 Aug, 2021 -->
+                    
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Best-fit-of-prices-for-your-choice-of-sports-at-dunham-sports">
+                            <img src="../assets/images/bestfit1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Best-fit-of-prices-for-your-choice-of-sports-at-dunham-sports" style="color: #dc3545;">Best fit of prices for your choice of sports at dunham sports</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Best-fit-of-prices-for-your-choice-of-sports-at-dunham-sports">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">16 Aug, 2021</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
-                    <a href="../blogs/meijer-deals">
-                        <img src="../assets/images/meijer1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
-                    </a>
-                    <div class="blog-info p-3">
-                        <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
-                        <h5 class=" mt-3 mb-2">
-                            <a href="../blogs/meijer-deals" style="color: #dc3545;">Meijer Deals: Become The Super Bee of the American Grocery Stores</a>
-                        </h5>
-                        <hr>
-                        <div class="date-read mb-5">
-                            <a href="../blogs/meijer-deals">
-                                <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
-                            </a>
-
-                            <span style="float: right; font-size: 12px; color: #B7B7B7;">11 August, 2021</span>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/How-to-get-the-best-deals-on-groceries-this-summer">
+                            <img src="../assets/images/sumdeal1.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Summer</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/How-to-get-the-best-deals-on-groceries-this-summer" style="color: #dc3545;">How to get the best deals on groceries this summer?</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/How-to-get-the-best-deals-on-groceries-this-summer">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">16 Aug, 2021</span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+
+                <!-- Added 13 Aug, 2021 -->
+
+
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Shopping-better-with-Snapchat">
+                            <img src="../assets/images/snapchat1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Shopping-better-with-Snapchat" style="color: #dc3545;">Shopping better with Snapchat</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Shopping-better-with-Snapchat">
+
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">11 Aug, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Apple-over-Android-What-is-all-the-fuss-about">
+                            <img src="../assets/images/appleand1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Technology</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Apple-over-Android-What-is-all-the-fuss-about" style="color: #dc3545;">Apple over Android: What is all the fuss about?</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Apple-over-Android-What-is-all-the-fuss-about">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">11 Aug, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Wearing-formals-to-WFH-Netiquette-or-a-dreadful-task">
+                            <img src="../assets/images/wearFormals2.jpeg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Work</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Wearing-formals-to-WFH-Netiquette-or-a-dreadful-task" style="color: #dc3545;">Wearing formals to WFH: Netiquette or a dreadful task?</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Wearing-formals-to-WFH-Netiquette-or-a-dreadful-task">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">13 July, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Is-it-time-for-The-Weeknd-to-release-a-new-song-Get-your-popcorns">
+                            <img src="../assets/images/weekend1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Entertainment</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Is-it-time-for-The-Weeknd-to-release-a-new-song-Get-your-popcorns" style="color: #dc3545;">Is it time for The Weeknd to release a new song? Get your popcorns! </a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Is-it-time-for-The-Weeknd-to-release-a-new-song-Get-your-popcorns">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">13 July, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Your-go-to-go-list-for-to-beat-the-summer-heat">
+                            <img src="../assets/images/hidGems1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Summer</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Your-go-to-go-list-for-to-beat-the-summer-heat" style="color: #dc3545;">Your go to go list for to beat the summer heat!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Your-go-to-go-list-for-to-beat-the-summer-heat">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">09 June, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/5-Tips-on-How-You-Can-Use-Online-Grocery-Shopping-to-Your-Advantage">
+                            <img src="../assets/images/grocery1.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/5-Tips-on-How-You-Can-Use-Online-Grocery-Shopping-to-Your-Advantage" style="color: #dc3545;">5 Tips on How You Can Use Online Grocery Shopping to Your Advantage</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/5-Tips-on-How-You-Can-Use-Online-Grocery-Shopping-to-Your-Advantage">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">15 May, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Tokyo-Olympics-A-breather-or-ventilator-for-US-big-shots">
+                            <img src="../assets/images/olym1.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Tokyo-Olympics-A-breather-or-ventilator-for-US-big-shots" style="color: #dc3545;">Tokyo Olympics: A breather or ventilator for US big shots?</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Tokyo-Olympics-A-breather-or-ventilator-for-US-big-shots">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">16 April, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Going-down-the-memory-lane-with-The-Epic-Kyrie">
+                            <img src="../assets/images/kyrie1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Going-down-the-memory-lane-with-The-Epic-Kyrie" style="color: #dc3545;">Going down the memory lane with ‘The Epic Kyrie’</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Going-down-the-memory-lane-with-The-Epic-Kyrie">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">23 March, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/The-most-iconic-fast-food-chains-in-the-USA">
+                            <img src="../assets/images/food2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/The-most-iconic-fast-food-chains-in-the-USA" style="color: #dc3545;">The most iconic fast food chains in the USA!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/The-most-iconic-fast-food-chains-in-the-USA">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">11 Feb, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/The-battle-against-Covid-19-in-the-US-a-question-of-time">
+                            <img src="../assets/images/covid1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Covid-19</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/The-battle-against-Covid-19-in-the-US-a-question-of-time" style="color: #dc3545;">The battle against Covid-19 in the US- a question of time?</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/The-battle-against-Covid-19-in-the-US-a-question-of-time">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">20 Jan, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Beating-the-Summer-Blues-and-US-Heat-Wave-by-ordering-on-the-go">
+                            <img src="../assets/images/summer1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Lifestyle</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Beating-the-Summer-Blues-and-US-Heat-Wave-by-ordering-on-the-go" style="color: #dc3545;">Beating the Summer Blues and US Heat Wave by ordering on the go!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Beating-the-Summer-Blues-and-US-Heat-Wave-by-ordering-on-the-go">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">10 Dec, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Road-to-Glory-A-comeback-of-the-prodigious-Harley-Davidson">
+                            <img src="../assets/images/bike1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Bikes</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Road-to-Glory-A-comeback-of-the-prodigious-Harley-Davidson" style="color: #dc3545;">Road to Glory- A comeback of the prodigious Harley Davidson</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Road-to-Glory-A-comeback-of-the-prodigious-Harley-Davidson">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">24 Nov, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Want-to-be-the-next-Pedro-Linares-Here-is-what-you-need">
+                            <img src="../assets/images/art1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Creativity</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Want-to-be-the-next-Pedro-Linares-Here-is-what-you-need" style="color: #dc3545;">Want to be the next Pedro Linares? Here's what you need!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Want-to-be-the-next-Pedro-Linares-Here-is-what-you-need">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">13 Oct, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/US-Mask-Guidelines">
+                            <img src="../assets/images/mask1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">News</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/US-Mask-Guidelines" style="color: #dc3545;">US Mask Guidelines</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/US-Mask-Guidelines">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">12 Sep, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Who-is-benefiting-from-the-9-year-old-Hamilton-Mercedes-bond">
+                            <img src="../assets/images/sp1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Who-is-benefiting-from-the-9-year-old-Hamilton-Mercedes-bond" style="color: #dc3545;">Who is benefiting from the 9-year-old Hamilton-Mercedes bond?</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Who-is-benefiting-from-the-9-year-old-Hamilton-Mercedes-bond">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">17 Aug, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/The-Suicide-Squad-Harnessing-the-power-of-Friendship">
+                            <img src="../assets/images/movie2.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Movies</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/The-Suicide-Squad-Harnessing-the-power-of-Friendship" style="color: #dc3545;">The Suicide Squad: Harnessing the power of ‘Friendship’</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/The-Suicide-Squad-Harnessing-the-power-of-Friendship">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">13 July, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Overcoming-FOMO-this-National-Chicken-Wings-Day">
+                            <img src="../assets/images/chicken.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Overcoming-FOMO-this-National-Chicken-Wings-Day" style="color: #dc3545;">Overcoming #FOMO this National Chicken Wings’ Day</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Overcoming-FOMO-this-National-Chicken-Wings-Day">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">15 June, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/5-US-TV-Shows-to-binge-watch-this-International-Friendship-day">
+                            <img src="../assets/images/image2.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shows</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/5-US-TV-Shows-to-binge-watch-this-International-Friendship-day" style="color: #dc3545;">5 US TV Shows to binge watch this International Friendship day!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/5-US-TV-Shows-to-binge-watch-this-International-Friendship-day">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">10 May, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Hop-into-fabulous-deals">
+                            <img src="../assets/images/walmart-blog-1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Offers</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Hop-into-fabulous-deals" style="color: #dc3545;">Hop into fabulous deals</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Hop-into-fabulous-deals">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">14 April, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Travel-Ideas-post-Pandemic">
+                            <img src="../assets/images/travel.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Travel</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/Travel-Ideas-post-Pandemic" style="color: #dc3545;">Travel Ideas post Pandemic!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Travel-Ideas-post-Pandemic">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">18 March, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/best-ever-offers-for-college-students">
+                            <img src="../assets/images/target-blog-2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Offers</span>
+                            <h5 class=" mt-3 mb-2">
+                                <a href="../blogs/best-ever-offers-for-college-students" style="color: #dc3545;">Best-Ever Offers for College Students!</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/best-ever-offers-for-college-students">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">16 Feb, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+       
 
             </div>
-
-        </div>
         </div>
     </main>
     <!-- Main Section Ends -->
@@ -554,7 +635,7 @@
                                     $cat_name = $row['category_name'];
 
                                     echo '          
-                <li><a href="../categoryname/' . $cat_name . '">' . $cat_name . '</a></li>
+                <li><a href="../' . $cat_name . '">' . $cat_name . '</a></li>
               ';
                                 }
                                 ?>
@@ -573,7 +654,7 @@
                                 $result = mysqli_query($conn, $sql);
                                 while ($row = mysqli_fetch_assoc($result)) {
                                     $store_name = $row['store_name'];
-                                    echo '<li><a href="../storename/' . $store_name . '">' . $store_name . '</a></li>';
+                                    echo '<li><a href="../' . $store_name . '">' . $store_name . '</a></li>';
                                 }
                                 ?>
                             </ul>
