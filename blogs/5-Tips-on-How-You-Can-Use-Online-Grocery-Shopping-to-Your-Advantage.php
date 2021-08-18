@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/595d13cf2d.js" crossorigin="anonymous"></script>
     <script data-ad-client="ca-pub-4254949403223799" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <link rel="icon" href="../assets/images/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/gif" sizes="32x32">
 
     <link rel="stylesheet" href="../assets/css/style.css" />
 
@@ -49,9 +49,9 @@
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
             <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logo.png" class="img-fluid" alt="" width="50px">
+                <img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="100px">
             </a>
-            <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a>
+            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
