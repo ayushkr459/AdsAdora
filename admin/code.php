@@ -186,6 +186,7 @@ if (isset($_POST['flyers_update_btn'])) {
     $edit_id = $_POST['edit_id'];
     $edit_store_name = $_POST['edit_store_name'];
     $edit_flyers_image = $_FILES['flyers_img']['name'];
+    $edit_preview_image = $_FILES['preview_img']['name'];
     $edit_start_date = $_POST['edit_startdate'];
     $edit_end_date = $_POST['edit_enddate'];
     $edit_flyers_description = $_POST['edit_flyers_description'];
@@ -193,13 +194,14 @@ if (isset($_POST['flyers_update_btn'])) {
     $edit_flyers_meta = $_POST['edit_flyers_meta'];
     $edit_flyers_meta = str_replace("'", "\'", $edit_flyers_meta);
 
-    if($edit_start_date && $edit_end_date && $edit_flyers_image !==""){
-        $query = "UPDATE flyers SET store_name='$edit_store_name',flyers_img='$edit_flyers_image', start_date='$edit_start_date', end_date='$edit_end_date',
+    if($edit_start_date && $edit_end_date && $edit_flyers_image && $edit_preview_image !==""){
+        $query = "UPDATE flyers SET store_name='$edit_store_name',flyers_img='$edit_flyers_image', preview_img='$edit_preview_image', start_date='$edit_start_date', end_date='$edit_end_date',
                  flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
 
         $query_run = mysqli_query($conn, $query);
         if ($query_run) {
             move_uploaded_file($_FILES["flyers_img"]["tmp_name"], "image/" . $_FILES["flyers_img"]["name"]);
+            move_uploaded_file($_FILES["preview_img"]["tmp_name"], "image/" . $_FILES["preview_img"]["name"]);
             echo '<script>alert("Data Updated successfully")</script>';
             header('Location:weekly-ads.php');
         } else {
@@ -209,6 +211,23 @@ if (isset($_POST['flyers_update_btn'])) {
         }
         // header('Location:weekly-ads.php');
     }
+    else if ($edit_preview_image && $edit_flyers_image !== "") {
+        $query = "UPDATE flyers SET store_name='$edit_store_name', preview_img='$edit_preview_image', flyers_img='$edit_flyers_image',
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+
+        if ($query_run) {
+            move_uploaded_file($_FILES["preview_img"]["tmp_name"], "image/" . $_FILES["preview_img"]["name"]);
+            move_uploaded_file($_FILES["flyers_img"]["tmp_name"], "image/" . $_FILES["flyers_img"]["name"]);
+            echo '<script>alert("Data Updated successfully")</script>';
+            header('Location:weekly-ads.php');
+        } else {
+            echo '<script>alert("Data not updated")</script>';
+            echo ("Error description: " . mysqli_error($conn)) . " Give this error back to developer";
+            // header('Location:stores.php');
+        }
+    }
     else if ($edit_flyers_image !== "") {
         $query = "UPDATE flyers SET store_name='$edit_store_name', flyers_img='$edit_flyers_image', 
                  flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
@@ -217,6 +236,22 @@ if (isset($_POST['flyers_update_btn'])) {
 
         if ($query_run) {
             move_uploaded_file($_FILES["flyers_img"]["tmp_name"], "image/" . $_FILES["flyers_img"]["name"]);
+            echo '<script>alert("Data Updated successfully")</script>';
+            header('Location:weekly-ads.php');
+        } else {
+            echo '<script>alert("Data not updated")</script>';
+            echo ("Error description: " . mysqli_error($conn)) . " Give this error back to developer";
+            // header('Location:stores.php');
+        }
+    }
+    else if ($edit_preview_image !== "") {
+        $query = "UPDATE flyers SET store_name='$edit_store_name', preview_img='$edit_preview_image',
+                 flyers_description='$edit_flyers_description', flyers_meta='$edit_flyers_meta' WHERE flyers_id='$edit_id'";
+
+        $query_run = mysqli_query($conn, $query);
+
+        if ($query_run) {
+            move_uploaded_file($_FILES["preview_img"]["tmp_name"], "image/" . $_FILES["preview_img"]["name"]);
             echo '<script>alert("Data Updated successfully")</script>';
             header('Location:weekly-ads.php');
         } else {

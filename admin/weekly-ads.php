@@ -60,6 +60,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                 // If submit multiple button is clicked
                 if (isset($_POST['submit-multiple'])) {
                     $fileCount = count($_FILES['file']['name']);
+                    $previewfile = $_FILES['preview-file']['name'];
                     $storename = $_REQUEST['storename'];
                     $startdate = $_REQUEST['startdate'];
                     $enddate = $_REQUEST['enddate'];
@@ -69,8 +70,8 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                     $meta = str_replace("'", "\'", $meta);
                     for ($i = 0; $i < $fileCount; $i++) {
                         $fileName = $_FILES['file']['name'][$i];
-                        $sql = $sql = "INSERT INTO flyers (store_name, flyers_img, start_date, end_date, flyers_description, flyers_meta, visible)
-                VALUES ('$storename', '$fileName', '$startdate', '$enddate', '$description', '$meta', '0')";
+                        $sql = $sql = "INSERT INTO flyers (store_name, flyers_img, preview_img, start_date, end_date, flyers_description, flyers_meta, visible)
+                VALUES ('$storename', '$fileName', '$previewfile', '$startdate', '$enddate', '$description', '$meta', '0')";
 
                         if ($conn->query($sql) === TRUE) {
                             echo 'Flyers Inserted Successfully ';
@@ -79,6 +80,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                                 . mysqli_error($conn);
                         }
                         move_uploaded_file($_FILES['file']['tmp_name'][$i], 'image/' . $fileName);
+                        move_uploaded_file($_FILES['preview-file']['tmp_name'][$i], 'image/' . $previewfile);
                     }
                 }
                 ?>
@@ -116,6 +118,12 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                                 <label for="image" class="col-sm-2 col-form-label">Flyers Image</label>
                                 <div class="col-sm-10">
                                     <input type="file" id="file" name="file[]" accept="image/*" required multiple>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="image" class="col-sm-2 col-form-label">Preview Image</label>
+                                <div class="col-sm-10">
+                                    <input type="file" id="preview-file" name="preview-file" accept="image/*" required>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -279,13 +287,14 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
 
                     ?>
                         <table class="table-bordered text-center" id="dataTable" width="100%" collspacing="0">
-                            <a href="#" onclick="delete_all()">Delete New</a>
+                            <!-- <a href="#" onclick="delete_all()">Delete New</a> -->
                             <thead>
                                 <tr>
                                     <th><input type="checkbox" id="select_all" onclick="select_all()">Select All</th>
                                     <th>S.No</th>
                                     <th>Store Name</th>
                                     <th>Flyers Image</th>
+                                    <th>Preview Image</th>
                                     <th>Start Date</th>
                                     <th>End Date</th>
                                     <th>Flyers Description</th>
@@ -307,6 +316,8 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                                             <td><?php echo $row['flyers_id'] ?></td>
                                             <td><?php echo $row['store_name'] ?></td>
                                             <td><?php echo '<img src="image/' . $row['flyers_img'] . '" alt="" width="100px;" height="100px;">' ?>
+                                            </td>
+                                            <td><?php echo '<img src="image/' . $row['preview_img'] . '" alt="" width="100px;" height="100px;">' ?>
                                             </td>
                                             <td><?php echo $row['start_date'] ?></td>
                                             <td><?php echo $row['end_date'] ?></td>

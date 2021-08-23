@@ -66,6 +66,11 @@ include('sidebar.php')
                         <input type="file" name="flyers_img" value="" id="flyers_img" class="form-control">
                     </div>
                     <div class="form-group">
+                        <label>Preview Image</label> <br>
+                        <?php echo '<img src="image/' . $row['preview_img'] . '" alt="" width="100px;" height="100px;">' ?>
+                        <input type="file" name="preview_img" value="" id="preview_img" class="form-control">
+                    </div>
+                    <div class="form-group">
                         <label>Start Date</label> <br>
                         <?php echo $row['start_date'] ?>
                         <input type="date" name="edit_startdate" value="" id="edit_startdate" class="form-control">
