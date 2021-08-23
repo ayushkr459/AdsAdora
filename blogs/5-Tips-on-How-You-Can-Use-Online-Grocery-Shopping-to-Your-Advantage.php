@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+        <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,7 +107,7 @@
         </div>
 
         <!-- For Demo Purpose -->
-        <div class="container py-5">
+        <div class="container py-3">
         <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>One of the most time-consuming and hectic tasks for many US citizens is going on grocery shopping. It&apos;s something you have to do, and yet there is nothing enjoyable about it.</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>If you live in an urban area and are looking for an alternative to the tedious grocery shopping trips, the best way to get your groceries is to order them online. It is the future of online shopping, and that is what makes it worth trying.</p>
@@ -134,39 +132,28 @@
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <img class="mt-3 mb-3" src="../assets/images/grocery2.png" alt="sports" style="width:100%; object-fit:cover;">
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: decimal;margin-left:8px;">
+    <ul style="margin-bottom:0cm;list-style-type: decimal;margin-left:8px; padding-left: 0.5rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>Invest your time and effort to find the most appropriate grocery mart</strong></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>Online grocery shopping is pretty much a big thing these days. Gone are the days when we&apos;d have to look for a grocery store in our locality and then drive there, hoping that they have what we need. You might be a little skeptical about online grocery shopping, but that&apos;s completely okay. If you&apos;re in the United States, you&apos;re lucky to have an option like Instacart, a grocery delivery app that allows you to get groceries from Costco, Whole Foods, ShopRite, or Petco, among many others. Also, widespread grocery supermarkets like Kroger, Walgreens, Acme, Albertsons, Meijer, and Walmart can come in handy if you want to prepare a special meal and can&apos;t make it to the grocery store. These leading stores now offer both home delivery and store pickup for their customers&apos; ease.</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
-<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;margin-left:8px;">
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Online grocery shopping is pretty much a big thing these days. Gone are the days when we&apos;d have to look for a grocery store in our locality and then drive there, hoping that they have what we need. You might be a little skeptical about online grocery shopping, but that&apos;s completely okay. If you&apos;re in the United States, you&apos;re lucky to have an option like Instacart, a grocery delivery app that allows you to get groceries from Costco, Whole Foods, ShopRite, or Petco, among many others. Also, widespread grocery supermarkets like Kroger, Walgreens, Acme, Albertsons, Meijer, and Walmart can come in handy if you want to prepare a special meal and can&apos;t make it to the grocery store. These leading stores now offer both home delivery and store pickup for their customers&apos; ease.</p>
+        <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>Check whether you have your entire list in cart and their prices</strong></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>The ease with which we can now order groceries has without a doubt, made our lives a lot easier. But at the same time, it has also made us complacent that we tend to order things that we don&apos;t need. While it is good to have a little extra of the essential grocery items, especially the fresh produce, stocking up on everything is not a good idea, especially if you&apos;re on a fixed income and budget crunch. So, how can you avoid buying things that you don&apos;t need? The most obvious and logical answer is to create a grocery list and stick to it. Also, keep an eye on the cart total so that you can manage your product list wisely.</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
-<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;margin-left:8px;">
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>The ease with which we can now order groceries has without a doubt, made our lives a lot easier. But at the same time, it has also made us complacent that we tend to order things that we don&apos;t need. While it is good to have a little extra of the essential grocery items, especially the fresh produce, stocking up on everything is not a good idea, especially if you&apos;re on a fixed income and budget crunch. So, how can you avoid buying things that you don&apos;t need? The most obvious and logical answer is to create a grocery list and stick to it. Also, keep an eye on the cart total so that you can manage your product list wisely.</p>
+        <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>Avail best prices by conducting price research and comparison</strong></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>How many times have you bought something just because of its economical &nbsp;price? If you are like most US citizens, the answer is probably yes. This is because most people pay more attention to price than anything else when it comes to shopping. As a result, online grocery shopping can be very advantageous to consumers. When you shop for groceries online, you can get the best deals due to the range of stores available at the tap of your finger. Thus, price comparison can help you get the desired products at the lowest possible price. Also, you can avail of specific discounts on the payable amount if your cart amount crosses a particular range by applying the listed coupon code.</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>&nbsp;</strong></p>
-<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;margin-left:8px;">
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>How many times have you bought something just because of its economical &nbsp;price? If you are like most US citizens, the answer is probably yes. This is because most people pay more attention to price than anything else when it comes to shopping. As a result, online grocery shopping can be very advantageous to consumers. When you shop for groceries online, you can get the best deals due to the range of stores available at the tap of your finger. Thus, price comparison can help you get the desired products at the lowest possible price. Also, you can avail of specific discounts on the payable amount if your cart amount crosses a particular range by applying the listed coupon code.</p>
+        <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>Make sure to take advantage of Big Sales in Grocery Supermarkets.</strong></li>
-    </ul>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>Everyone wants to know about the best time to buy groceries. It&apos;s a fine line between the best time to buy groceries and the best time not to buy them. Grocery stores in the United States offer huge sales and heavy discounts during festive seasons and particular occasions. Food doesn&apos;t last long enough for most of us, so we have to shop quickly. Also, make sure to check the banner ads on the grocery market&apos;s webpage or application. Certain big grocery supermarkets also release weekly ads listing all their best deals. So, if anything isn&apos;t essential at the moment, you need not order it and wait for the right time to get the best deal.</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
-<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;margin-left:8px;">
+        
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Everyone wants to know about the best time to buy groceries. It&apos;s a fine line between the best time to buy groceries and the best time not to buy them. Grocery stores in the United States offer huge sales and heavy discounts during festive seasons and particular occasions. Food doesn&apos;t last long enough for most of us, so we have to shop quickly. Also, make sure to check the banner ads on the grocery market&apos;s webpage or application. Certain big grocery supermarkets also release weekly ads listing all their best deals. So, if anything isn&apos;t essential at the moment, you need not order it and wait for the right time to get the best deal.</p>
+        <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>&nbsp;</strong></p>
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong>Utilize online coupons, promo codes, or loyalty cards before paying</strong></li>
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>In recent years, many online coupons, promo codes, and loyalty cards are constantly surfing the grocery markets. The incredible thing about all this is that several different cards and websites are entirely free to sign up to and use. Also, several other sites are specifically dedicated to providing coupons for the leading stores to the general public completely free of cost. All you need to do is find the relevant one for you and put your shop&apos;s discount number into the cart.</p>
     </ul>
 </div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>In recent years, many online coupons, promo codes, and loyalty cards are constantly surfing the grocery markets. The incredible thing about all this is that several different cards and websites are entirely free to sign up to and use. Also, several other sites are specifically dedicated to providing coupons for the leading stores to the general public completely free of cost. All you need to do is find the relevant one for you and put your shop&apos;s discount number into the cart.</p>
+
+
+
+
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>We hope you enjoyed our tips you can use for ordering online grocery shopping to your advantage. We know that grocery shopping can be a constant pain and money drain for your wallet, but you can get all of your groceries at a relatively affordable price with online grocery shopping.</p>
 

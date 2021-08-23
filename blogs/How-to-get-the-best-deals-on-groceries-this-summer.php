@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" class="img-fluid" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+            <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,7 +107,7 @@
         </div>
 
         <!-- For Demo Purpose -->
-        <div class="container py-5">
+        <div class="container py-3">
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">Here comes the most delightful time of the year - the sunshine season! There&apos;s no denying the fact that people feel a lot happier during this time of the year. Certainly, there&apos;s no need to wear layers of thick and warm clothes and you can go on vacations too!&nbsp;</span></p>
 <img class="mt-3" src="../assets/images/sumdeal1.jpg" alt="sports" style="width:100%; object-fit:cover;">
@@ -130,7 +128,7 @@
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">In this particular blog post, we will elucidate you all on how to get the best deals on groceries this summer. Without much ado, let&apos;s dive into the hottest sale of the season! We assure you these deals will be definitely helpful in beating the summer heat.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:16px;line-height:115%;color:#36363D;">Summer household essentials and grocery list -&nbsp;</span></u></strong></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">Isn&apos;t it too hot to go and do your grocery shopping? Well, then we are going to make it simpler for you. Enlisted below are some summer time household and grocery essentials that you can easily order online.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">&nbsp;</span></p>
+
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:16px;line-height:115%;color:#36363D;">List of some summer foods essentials -&nbsp;</span></strong></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;"><strong>Fresh Veggies</strong></span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">The first thing to stock up this summer season is definitely some fresh veggies. You can shop for veggies like cucumbers, tomatoes, beens, peppers, eggplant and so on. The nutritional benefits of these vegetables are countless. Spice up your dishes with these vegetables as they have a lot of health benefits.</span></p>
@@ -168,36 +166,35 @@
     <li><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Fresh Juices</span></li>
     <li><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Mixers</span></li>
 </ul>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:36.0pt;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">&nbsp;</span></p>
+
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><u><span style="font-size:16px;line-height:115%;color:#36363D;">Order from Walgreens, Target, Costco, Walmart and Kroger -</span></u></strong></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">Presently, five U.S. stores are offering breathtaking deals and discounts on the purchase of groceries and other summer essentials. These stores are as follows-&nbsp;</span></p>
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Walgreens</span></li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">At Walgreens, you can get access to all the health and wellness products out there. Not just that, you can shop for summer essentials and groceries like pantry items, fresh veggies and fruits, frozen foods and so on. Head out to their website for more deals and discounts.</span></p>
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Target</span></li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">At Target, you can choose from a wide array of products. You can shop for essentials like face masks, cleaners, protein boxes and so much more.</span></p>
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Costco</span></li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">Costco also sells a huge variety of products and grocery items.&nbsp;</span></p>
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Walmart</span></li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">At Walmart, you can shop a variety of stuff for fresh fruits, veggies, meat, sea food, bakery items, snacks and beverages. In addition to this, you can also shop for some household essentials and beauty products. Don&apos;t forget to check their website out for amazing deals. &nbsp;</span></p>
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="line-height:115%;color:#36363D;font-size:16px;color:#36363D;">Kroger</span></li>
     </ul>
 </div>

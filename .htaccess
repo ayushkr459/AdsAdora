@@ -21,5 +21,6 @@ RewriteRule ^art-blog/ art-blog.php [NC,L]
 RewriteRule ^bike-blog/ bike-blog.php [NC,L]
 RewriteRule ^maskGuide-blog/ maskGuide-blog.php [NC,L]
 RewriteRule ^summer-blog/ summer-blog.php [NC,L]
-RewriteRule ^([a-zA-Z\s_-]+$) sc_router.php?param1=$1
+RewriteRule ^([a-zA-Z0-9%\s_-]+$) sc_router.php?param1=$1
+# RewriteRule ^([a-zA-Z0-9%\s_-]+$) store.php?storename=$1
 RewriteRule ^categoryname/([0-9a-zA-Z\s_-]+) categories.php?categoryname=$1

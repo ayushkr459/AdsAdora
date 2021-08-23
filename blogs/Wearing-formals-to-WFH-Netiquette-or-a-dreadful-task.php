@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" class="img-fluid" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+            <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,12 +107,12 @@
         </div>
 
         <!-- For Demo Purpose -->
-        <div class="container py-5">
+        <div class="container py-3">
         
 
 
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>Do you think if the idea of mandating formal attire while working remotely at home is holding back employees?</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
+
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>With the pandemic taking a toll on everyone&apos;s day-to-day lives, community institutions like schools, colleges, workplaces, and offices have all resorted to the online operation or Work From Home culture.&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>As a result, many big companies like Amazon, Microsoft, Apple, Uber, Lyft, etc. have made it mandatory to wear formal clothing even during WFH. While Work From Home isn&apos;t a preferred option for mega-corporations, no other option is available that keeps everybody safe.&nbsp;</span></p>
@@ -130,8 +128,8 @@
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>In the 21st century, the era of millennials, the youth strongly believe in their individuality and are not very keen on following predefined patterns. Some of the very woke and young rebels have grown to think out of the box and thus believe that wearing formals to office daily might stifle their identity and funnel them into following social norms.</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&bull;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Why is following a dress code to office considered indispensable?</strong></span></p>
+
+<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&bull; <strong>Why is following a dress code to office considered indispensable?</strong></span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>We all know that the routine office dress code- a formal attire paired up with proper shoes, is a must for many companies, especially those dealing in Financial, Law, and Media firms. Young start-ups or tech companies are not very rigid and thus allow employees to wear decent shirts and jeans to work. However, some firms fall somewhere in the middle as they allow casual clothing once a week. &nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
@@ -143,8 +141,8 @@
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>P.S.- You can always pair up your formal shirt with your favorite Netflix and Chill Pyjamas if you are in a hurry. And don&apos;t forget to check if your on-screen presence is alright or do you need a minute to groom yourself better before you log in.&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&bull;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>What is the most comfortable outfit for a Work From Home office?</strong>&nbsp;</span></p>
+
+<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&bull;<strong> What is the most comfortable outfit for a Work From Home office?</strong>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>The primary aim of a WFH outfit is to keep you comfortable and at ease while you look neat and tidy, sharp, and presentable to the clients or the meeting participants. Thus, it is essential to keep in mind that your work outfit must look professional and should fall in line with your work type and that you need not dress up, per se, or necessarily pass a fashion statement.&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
@@ -165,8 +163,8 @@
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>On a side note, when wearing a sweater, make sure to tuck it in. If need be, trim your beard, comb your hair and apply wax to look sharp.</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
-<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&bull;<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Where can one get a decent shirt or formal suit in the United States at affordable prices?</strong></span></p>
+
+<p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&bull;<strong> Where can one get a decent shirt or formal suit in the United States at affordable prices?</strong></span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>When it comes to clothing, at one point or another, we&apos;ve all felt the frustration of searching for a bargain while a harsh winter is bearing down. That&apos;s where this guide comes in. We&apos;ve selected eight national and international shopping areas where you can find a world of affordable clothing, whether you&apos;re looking for a shirt, suit, or both.</span></p>
 <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><span style='font-family:"Calibri",sans-serif;'>&nbsp;</span></p>

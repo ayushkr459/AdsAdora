@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" class="img-fluid" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+            <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -137,8 +135,8 @@
     <li><span style="line-height:115%;color:#36363D;font-size:16px;">After Hours</span></li>
     <li><span style="line-height:115%;color:#36363D;font-size:16px;">Until I Bleed Out</span></li>
 </ul>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:36.0pt;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">&nbsp;</span></p>
+
+
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">Undeniably, this particular album contains his most acclaimed songs of all times. The album was released by Republic Records and XO. The lyrics as well as the music videos are phenomenal! Several fans of the Weeknd think that After Hours is by far his best album. The album is chock full of a variety of songs and music videos that leave fans awestruck. It is because of the dark lyrics of the songs that fans praised it more. His songs are all the more appealing to his younger audience pertaining to great beats of the songs.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">In addition, the album significantly lifted the career of the Weeknd, making him a lot more popular and people&apos;s favorite! The Weeknd&apos;s look in his red suit totally stole the hearts of his audience, his amazing dance moves was a plus!&nbsp;</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:115%;color:#36363D;">What do you all think about After Hours? Isn&apos;t it an amazing album? Are you all excited about his new release? I&apos;m sure you are!&nbsp;</span></p>

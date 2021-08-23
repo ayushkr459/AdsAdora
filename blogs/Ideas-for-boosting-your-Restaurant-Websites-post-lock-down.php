@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" class="img-fluid" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+            <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,7 +107,7 @@
         </div>
 
         <!-- For Demo Purpose -->
-        <div class="container py-5">
+        <div class="container py-3">
         <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">No one likes to wait for long times when it comes to deciding and ordering their favorite meals. Delivering food is a vital part of the restaurant industry. The ease of ordering, availability of dishes, and delivery time are some of the main factors that would help a restaurant receive a high rating. All of this can be obtained only when the restaurant&rsquo;s online impact is high.</span></p>
         <img class="mt-3" src="../assets/images/restroweb1.jpg" alt="sports" style="width:100%; object-fit:cover;">
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
@@ -119,70 +117,61 @@
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Did you that majority of the people check out the restaurant&apos;s website first before they finally decide to go there in person? As a matter of fact, nearly 68% of customers as of 2019 did not go to the food outlet just because their website was not appealing enough.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">In the current pandemic driven times where nearly 62% of any restaurant&rsquo;s income is channeled through online food ordering and the incorporation of home delivery methods, the outline and plotting of your restaurant&rsquo;s website is the only thing that will keep you in the game.&nbsp;</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">The consumer should have an ease in deciding what to eat So, just lay back and read about the prominent ideas and features for a great restaurant website.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ol style="margin-bottom:0cm;list-style-type: circle;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="line-height:107%;font-size:16px;">Pertinent information should be placed out so that it is easily accessible</span></strong><span style="line-height:107%;font-size:16px;">: -</span></li>
-    </ol>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">The chief task for any restaurant owner is to get more consumers in the eatery, right? And you can achieve this by phrasing out the geographical location of your restaurant on an easy way so that all the hungry stomachs or food-heads come marching right in.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Make sure to include the state plus the city, street name and any additional landmarks that are nearby for the customers convivence in finding the dining building. You can also include the name and contact number regarding the restaurant. The hours of operation are also important alongside the e-mail address.</span></p>
-<img class="mt-3" src="../assets/images/restroweb2.jpg" alt="sports" style="width:100%; object-fit:cover;">
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ol style="margin-bottom:0cm;list-style-type: circle;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="line-height:107%;font-size:16px;">Provide a back story to your restaurant: -</span></strong></li>
-    </ol>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Just like you have a personality, so does your business and you should really polish both these sections. Incorporate answers regarding, is your restaurant a family-run and if yes then what is the current generation that is running it?, do you serve special and unique dishes that are not easily accessible elsewhere?, a fascinating tale on how the first brick of your resturant was laid and what was the basic idea behind it? And so on.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">All this is important because many people tend to form an emotional bond between the food and themselves. Questions like, the values of the resturant as a business, the variety in taste and quality of food? Sometimes the hometown of the owner, and so on is also beneficial as it creates a personal connection and increases the consumer excitement about your business.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ol style="margin-bottom:0cm;list-style-type: circle;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="line-height:107%;font-size:16px;">Detailed menu</span></strong><span style="line-height:107%;font-size:16px;">:-</span></li>
-    </ol>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Remember a menu for your site; if conceivable, add it as composed substance on your site instead of a picture. So, in case somebody is looking for crab rolls in New York, and you end up having crab rolls on your menu and your own area in New York, your eatery might surface as a choice. A few caf&eacute;s will connect their menu to home delivery systems instead of have one that is on their site. Yet, food sweethearts appreciate scrutinizing menus and arranging visits around your menu, so have it directly on your site and make it simple to discover to give a superior client experience.&nbsp;</span></p>
-<img class="mt-3" src="../assets/images/restroweb3.jpg" alt="sports" style="width:100%; object-fit:cover;">
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">You additionally have as much room as you need to portray the dishes. Incorporate insights regarding &nbsp;preparation and, if conceivable, regardless of whether dishes are well disposed to normal dietary limitations like veggie lover, vegetarian, without gluten, or sans nut.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ol style="margin-bottom:0cm;list-style-type: circle;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="line-height:107%;font-size:16px;">Online Ordering: -</span></strong></li>
-    </ol>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">With the help of a few sites customers can now order from your resturant and enjoy the yummy feast at their homes. Did you knew that, 67% of customers like to utilize a caf&eacute;&apos;s or an eatery&rsquo;s own site or application for food conveyance as opposed to an outsider application.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;It&apos;s additionally productive for you as an entrepreneur, as you can let loose staff who may somehow be taking requests via telephone. Clients can likewise see when dishes are inaccessible. Furthermore, a web-based requesting page also permits you to turn on QR code requesting, which is unquestionably helpful for contactless, on-premise feasting. Clients can check the QR code, go to your web-based requesting page, request their food and pay, permitting your staff to take on different errands.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ol style="margin-bottom:0cm;list-style-type: circle;">
-        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="line-height:107%;font-size:16px;">Let the visual content speak on behalf of your resturant: -</span></strong></li>
-    </ol>
-</div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Striking pictures or recordings of your food promptly get likely clients&apos; consideration.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">You also must have noticed that whenever there is a picture or video of snacks and foods, an instant fire of hunger is lit inside our souls that can only be satisfied after we consume the goodies.</span></p>
-<img class="mt-3" src="../assets/images/restroweb4.jpg" alt="sports" style="width:100%; object-fit:cover;">
+<ul style="padding-left: 1rem;">
+    <li style="list-style: disc;"><strong>Pertinent information should be placed out so that it is easily accessible</strong></li>
+    <img class="mt-3" src="../assets/images/restroweb2.jpg" alt="sports" style="width:100%; object-fit:cover;">
+    <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
+    <p>The chief task for any restaurant owner is to get more consumers in the eatery, right? And you can achieve this by phrasing out the geographical location of your restaurant on an easy way so that all the hungry stomachs or food-heads come marching right in.</p>
+    <p></p>
+    <p>Make sure to include the state plus the city, street name and any additional landmarks that are nearby for the customers convivence in finding the dining building. You can also include the name and contact number regarding the restaurant. The hours of operation are also important alongside the e-mail address.</p>
+    
+    <li style="list-style: disc;"><strong>Provide a back story to your restaurant</strong></li>
+    <p>Just like you have a personality, so does your business and you should really polish both these sections. Incorporate answers regarding, is your restaurant a family-run and if yes then what is the current generation that is running it?, do you serve special and unique dishes that are not easily accessible elsewhere?, a fascinating tale on how the first brick of your resturant was laid and what was the basic idea behind it? And so on.</p>
+    <p>All this is important because many people tend to form an emotional bond between the food and themselves. Questions like, the values of the resturant as a business, the variety in taste and quality of food? Sometimes the hometown of the owner, and so on is also beneficial as it creates a personal connection and increases the consumer excitement about your business</p>
+    
+    <li style="list-style: disc;"><strong>Detailed menu</strong></li>
+    <img class="mt-3" src="../assets/images/restroweb3.jpg" alt="sports" style="width:100%; object-fit:cover;">
+    <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
+    <p>Remember a menu for your site; if conceivable, add it as composed substance on your site instead of a picture. So, in case somebody is looking for crab rolls in New York, and you end up having crab rolls on your menu and your own area in New York, your eatery might surface as a choice. A few caf&eacute;s will connect their menu to home delivery systems instead of have one that is on their site. Yet, food sweethearts appreciate scrutinizing menus and arranging visits around your menu, so have it directly on your site and make it simple to discover to give a superior client experience.</p>
+    <p>You additionally have as much room as you need to portray the dishes. Incorporate insights regarding &nbsp;preparation and, if conceivable, regardless of whether dishes are well disposed to normal dietary limitations like veggie lover, vegetarian, without gluten, or sans nut.</p>
+    
+    <li style="list-style: disc;"><strong>Online Ordering</strong></li>
+    <p>With the help of a few sites customers can now order from your resturant and enjoy the yummy feast at their homes. Did you knew that, 67% of customers like to utilize a caf&eacute;&apos;s or an eatery&rsquo;s own site or application for food conveyance as opposed to an outsider application.</p>
+    <p>It&apos;s additionally productive for you as an entrepreneur, as you can let loose staff who may somehow be taking requests via telephone. Clients can likewise see when dishes are inaccessible. Furthermore, a web-based requesting page also permits you to turn on QR code requesting, which is unquestionably helpful for contactless, on-premise feasting. Clients can check the QR code, go to your web-based requesting page, request their food and pay, permitting your staff to take on different errands.</p>
+    
+    <li style="list-style: disc;"><strong>Let the visual content speak on behalf of your resturant</strong></li>
+    <p>Striking pictures or recordings of your food promptly get likely clients&apos; consideration.</span></p>
+    <p>You also must have noticed that whenever there is a picture or video of snacks and foods, an instant fire of hunger is lit inside our souls that can only be satisfied after we consume the goodies.</p>
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Also, consider having pictures of your culinary &nbsp; &nbsp; expert and other staff showing kitchen activities or administration.&nbsp;</span></p>
+
+</ul>
+<!-- <div style='font-size:15px;font-family:"Calibri",sans-serif;'>
+    <ol style="list-style-type: disc;">
+        <li style='line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:16px;">Pertinent information should be placed out so that it is easily accessible</span></strong><span style="line-height:107%;font-size:16px;">: -</span></li>
+    </ol>
+</div> -->
+
+
+
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;"> Also, consider having pictures of your culinary expert and other staff showing kitchen activities or administration.&nbsp;</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Showing the inside of your eatery can likewise help clients realize what&apos;s in store. Is the resturant easygoing or extravagant? What&apos;s the energy? Is there an outside space? These pictures assist clients with imagining themselves in your eatery. One note: Having inferior quality pictures will have the contrary impact, turning clients off or leaving them doubting the nature of your foundation.&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">It&apos;s OK on the off chance that you can&apos;t photo your entire menu; center around having a couple of expert looking, savoury pictures that &nbsp;will make your site fly. Ultimately, having more pictures can assist with expanded requests of food orders.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Showing the inside of your eatery can likewise help clients realize what&apos;s in store. Is the resturant easygoing or extravagant? What&apos;s the energy? Is there an outside space? These pictures assist clients with imagining themselves in your eatery. One note: Having inferior quality pictures will have the contrary impact, turning clients off or leaving them doubting the nature of your foundation.&nbsp;</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">It&apos;s OK on the off chance that you can&apos;t photo your entire menu; center around having a couple of expert looking, savoury pictures that &nbsp;will make your site fly. Ultimately, having more pictures can assist with expanded requests of food orders.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
-    <ol style="margin-bottom:0cm;list-style-type: circle;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><strong><span style="line-height:107%;font-size:16px;">Ongoing Social Media influence</span></strong><span style="line-height:107%;font-size:16px;">: -</span></li>
-    </ol>
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Connect your online media records to your site with the goal that curious clients can study and follow you as well as your culinary skills. On the off chance that your posts on a specific record are powerful, as on Instagram or Twitter, for instance, consider implanting the channel on your site so clients can get all the preference for your eatery&apos;s character and can without much of a stretch stay aware of any advancements or specials.</span></p>
+    </ul>
 </div>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">Connect your online media records to your site with the goal that curious clients can study and follow you as well as your culinary skills. On the off chance that your posts on a specific record are powerful, as on Instagram or Twitter, for instance, consider implanting the channel on your site so clients can get all the preference for your eatery&apos;s character and can without much of a stretch stay aware of any advancements or specials.</span></p>
+
 <img class="mt-3" src="../assets/images/restroweb5.jpg" alt="sports" style="width:100%; object-fit:cover;">
 
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">It&apos;s important for the site to be simple and user friendly. The more modern and streamlined the site is, the better. In addition, the site needs to be geared toward the type of customers you&apos;re trying to attract. The site should be clean and easy to navigate so that maximum traffic can flow through your website.</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">It&apos;s important for the site to be simple and user friendly. The more modern and streamlined the site is, the better. In addition, the site needs to be geared toward the type of customers you&apos;re trying to attract. The site should be clean and easy to navigate so that maximum traffic can flow through your website.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:36.0pt;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><span style="font-size:16px;line-height:107%;">&nbsp;</span></p>
 

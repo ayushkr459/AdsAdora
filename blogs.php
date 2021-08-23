@@ -95,6 +95,90 @@
 
             <div class="row mb-2 blogs">
 
+                <!-- Blogs added on 19 Aug, 2021 -->
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/School-Supplies-Give-your-child-a-Perfect-Study-Buddy-with-Staples">
+                            <img src="../assets/images/school-supp1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Education</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/School-Supplies-Give-your-child-a-Perfect-Study-Buddy-with-Staples" style="color: #dc3545;">School Supplies: Give your child a Perfect Study Buddy with Staples</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/School-Supplies-Give-your-child-a-Perfect-Study-Buddy-with-Staples">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">19 Aug, 2021</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Bewitching-Meals-Top-5-desserts-to-drool-over-this-Summer">
+                            <img src="../assets/images/bewitch1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Bewitching-Meals-Top-5-desserts-to-drool-over-this-Summer" style="color: #dc3545;">Bewitching Meals: Top 5 desserts to drool over this Summer</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Bewitching-Meals-Top-5-desserts-to-drool-over-this-Summer">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">19 Aug, 2021</span>
+                            </div>
+                        </div>
+                </div>
+
+
+                <!-- Blogs added on 18 Aug, 2021 -->
+
+
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/American-Grocery-chains-to-your-rescue-amidst-Pandemic">
+                            <img src="../assets/images/american-grocery1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Pandemic</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/American-Grocery-chains-to-your-rescue-amidst-Pandemic" style="color: #dc3545;">American Grocery chains to your rescue amidst Pandemic</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/American-Grocery-chains-to-your-rescue-amidst-Pandemic">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">18 Aug, 2021</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Give-yourself-a-Fresh-and-Local-start-next-year-with-Kroger">
+                            <img src="../assets/images/kroger1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3" >
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Give-yourself-a-Fresh-and-Local-start-next-year-with-Kroger" style="color: #dc3545;">Give yourself a Fresh and Local start next year with Kroger</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Give-yourself-a-Fresh-and-Local-start-next-year-with-Kroger">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">18 Aug, 2021</span>
+                            </div>
+                        </div>
+                </div>
+                
+
 
                 <!-- Blogs added on 17 Aug, 2021 -->
 

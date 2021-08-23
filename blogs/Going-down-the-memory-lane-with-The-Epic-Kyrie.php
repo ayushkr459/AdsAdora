@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" class="img-fluid" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+            <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,8 +107,8 @@
         </div>
 
         <!-- For Demo Purpose -->
-        <div class="container py-5">
-        <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:center;'><strong>Going down the memory lane with &lsquo;The Epic Kyrie&rsquo;</strong></p>
+        <div class="container py-3">
+        
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Basketball, one of the United States&apos; foundational games and a multibillion-dollar industry, is one of the most popular sports among today&apos;s youth. It&apos;s a ten-players game with two teams of five people each. But what is more popular than the game is the all-time greats that the N.B.A. has produced, like Michael Jordan, LeBron James, Kobe Bryant, and Kyrie Irving.</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
@@ -120,7 +118,7 @@
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Because it was raining cats and dogs for days due to the New England Storm, James couldn&apos;t go outside to play. So, with the boredom growing, he decided to pick up a ball and requested that the school Janitor bring him two cardboard boxes to play with. The janitor instead brought him two peach baskets. He then hammered the baskets to the Gymnasium balcony at two opposing ends at about 10 feet from the ground.</p>
 <img class="mt-3 mb-3" src="../assets/images/kyrie1.png" alt="sports" style="width:100%; object-fit:cover;">
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
+
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:center;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Soon, the game started to grow and expand beyond the scope of the campus. People began playing Basketball in New England, and then finally, when the news traveled, people began playing Basketball. The sport was soon impacting hundreds of millions of people of all ages. Basketball is now gaining manifold popularity worldwide and has become a recognized Olympics sport.</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
@@ -130,8 +128,7 @@
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Irving, born on March 23, 1992, in Melbourne, Australia, was selected as &apos;Rookie of the Year,&apos; the top overall pick out in the 2011 N.B.A. Draft after playing only 11 games with the Duke University Blue Devils. The Cleveland Cavaliers were the ones to select him, and he stayed with them for six seasons. This later brought good returns to the Cavaliers as he assisted them in a historic triumph at the 2016 N.B.A. Finals and received his first N.B.A. ring.</p>
 <img class="mt-3 mb-3" src="../assets/images/kyrie2.png" alt="sports" style="width:100%; object-fit:cover;">
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:center;'>&nbsp;</p>
+
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Irving&apos;s basketball journey has been happy- as he successfully established himself amongst the list of top players to watch in the &apos;League&apos; industry. In 2017, Irving left Cleveland Cavaliers to join hands with Boston Celtics.</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
@@ -145,49 +142,47 @@
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Also, sports enthusiasts buying official player merchandise from Nike seek the level of comfort a particular player faces in the game. Exclusive player editions like Jordan, LeBron, and Kyrie have thus gained a so-far-so-excellent response from the target audience.</p>
 <img class="mt-3 mb-3" src="../assets/images/kyrie3.png" alt="sports" style="width:100%; object-fit:cover;">
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
-<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
+
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Here is a list of all the Kyrie Irving&apos;s ultimate &apos;Kyrie&apos; editions from the decade:</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 1- &nbsp; Nike X Irving product line&apos;s debutant basketball shoes, Kyrie 1 was the heartthrob of many toddlers due to catchy themes, colorful motifs, and economical price. It was the beginning of a shoe-per-star era of Irving.</li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 2- Irving&apos;s most artistically appealing basketball shoe is the Kyrie 2. If you are looking for a great performance model, you already have a winner! It was the most iconic shoe in the Kyrie series, owing to the iconic Krispy Kreme collaboration.</li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 3- Kyrie 3 is a monstrous performer in the basketball shoe industry. It was designed to the likes of Kyrie&apos;s quickness and agility. For a player as swift as Kyrie, the traction pods are an ideal match. Also, it is a precious shoe for Irving as it pays a mysterious tribute to his late mother, Elizabeth, by mentioning her birthdate in Roman numerals VIII and XIII (August 13) that goes along his left and suitable wrist tattoos.</li>
     </ul>
 </div>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 4- Kyrie 4 is one of the most comfortable sneakers. This pair of shoes is the best bet for flexible traction and responsive cushioning. This shoe rightfully captures the lightning-fast foot movement of Kyrie and speaks to his impeccable methodology.</li>
     </ul>
 </div>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 5- Kyrie 5 is an evolutionary signature sneaker. Kyrie&apos;s Flytrap was first introduced on these shoes, and the Flywire in these shoes connects the foot to revolutionary cushioning technology. Instilled in it is the Nike Air Zoom Turbo unit, which provides excellent forefoot responsiveness.</li>
     </ul>
 </div>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 6- Kyrie 6 is a speed-specifically designed shoe with a locked-in midfoot strap and curved outsole for quick movements. It is designed in such a way that it grips the court at all times. In addition to this, this is your best option at on-court acceleration.</li>
     </ul>
 </div>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem;">
         <li style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Kyrie 7- Impressed by Kyrie&apos;s supersonic speed? This is the right fit for you! Kyrie 7 is the latest power-packed shoe under the edition. It is scientifically designed to provide your feet with 360-degree traction on the field. Additionally, the Air Zoom Turbo enables you to create your shot while dribbling as fluently as Irving.</li>
     </ul>
 </div>

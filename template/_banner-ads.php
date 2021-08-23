@@ -17,6 +17,8 @@ $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
                 $store_name = $row['store_name'];
                 $url = $store_name;
+                $url = str_replace("'", "-", $url);
+                $url = str_replace("&", "_", $url);
                 $start_date = date("d/m/Y", strtotime($row['start_date']));
                 $end_date = date("d/m/Y", strtotime($row['end_date']));
                 echo '

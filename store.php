@@ -7,8 +7,11 @@
     include('./template/_dbconnect.php');
 
     $query = STORE_NAME;
+    $query = str_replace("-", "'", $query);
+    $query = str_replace("_", "&", $query);
+    // echo $query;
 
-    $sql2 = "SELECT * FROM store where store_name = '$query'";
+    $sql2 = "SELECT * FROM store where store_name = \"$query\"";
     $result2 = mysqli_query($conn, $sql2);
     $row2 = mysqli_fetch_assoc($result2);
 
@@ -109,8 +112,10 @@
             include('./template/_dbconnect.php');
 
             $query = STORE_NAME;
+            $query = str_replace("-", "'", $query);
+            $query = str_replace("_", "&", $query);
 
-            $sql2 = "SELECT * FROM store where store_name = '$query'";
+            $sql2 = "SELECT * FROM store where store_name = \"$query\"";
             $result2 = mysqli_query($conn, $sql2);
 
             while ($row2 = mysqli_fetch_assoc($result2)) {

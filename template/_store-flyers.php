@@ -3,6 +3,8 @@
 include('./template/_dbconnect.php');
 
 $query = STORE_NAME;
+$query = str_replace("-", "'", $query);
+$query = str_replace("_", "&", $query);
 
 $per_page = 1;
 $page = 0;
@@ -19,11 +21,12 @@ if (isset($_GET['page'])) {
         $page = $page * $per_page;
     }
 }
-$num_rows = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM flyers where store_name = '$query'"));
+$num_rows = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM flyers where store_name = \"$query\""));
+// echo $query;
 $record = $num_rows;
 $pagi = ceil($record / $per_page);
 
-$sql = "SELECT * FROM flyers where store_name = '$query' limit $page,$per_page";
+$sql = "SELECT * FROM flyers where store_name = \"$query\" limit $page,$per_page";
 $result = mysqli_query($conn, $sql);
 // $row = mysqli_fetch_assoc($result);
 
@@ -37,12 +40,15 @@ $result = mysqli_query($conn, $sql);
             <h3 class="text-center mb-4" style="color: #dc3545;"><?php echo $store_name ?> Weekly Ads</h3>
             <ul class="pagination mt-3 justify-content-center" style="color:#dc3545;">
                 <?php
+                $query2 = STORE_NAME;
+                $query2 = str_replace("'", "-", $query2);
+                $query2 = str_replace("&", "_", $query2);
                 for ($i = 1; $i <= $pagi; $i++) {
                     $class = '';
                     if ($current_page == $i) {
                         $class = 'active';
                     }
-                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="../store.php?storename=' . $store_name . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
+                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="../store.php?storename=' . $query2 . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
                 }
                 ?>
                 <!-- Current Page Not Clickable -->
@@ -53,6 +59,8 @@ $result = mysqli_query($conn, $sql);
                 while ($row = mysqli_fetch_assoc($result)) {
                     $store_name = $row['store_name'];
                     $url = $store_name;
+                    $url = str_replace("'", "-", $url);
+                    $url = str_replace("&", "_", $url);
                     $start_date = date("d/m/Y", strtotime($row['start_date']));
                     $end_date = date("d/m/Y", strtotime($row['end_date']));
                     echo '<div class="flyer">
@@ -71,12 +79,15 @@ $result = mysqli_query($conn, $sql);
             ?>
             <ul class="pagination mt-3 justify-content-center" style="color:#dc3545;">
                 <?php
+                $query3 = STORE_NAME;
+                $query3 = str_replace("'", "-", $query3);
+                $query3 = str_replace("&", "_", $query3);
                 for ($i = 1; $i <= $pagi; $i++) {
                     $class = '';
                     if ($current_page == $i) {
                         $class = 'active';
                     }
-                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="../store.php?storename=' . $store_name . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
+                    echo '<li style="color:#dc3545;" class="page-item ' . $class . '"><a href="../store.php?storename=' . $query3 . '&page=' . $i . '" class="page-link" style="color:#dc3545; z-index:0;">' . $i . '</a></li>';
                 }
                 ?>
                 <!-- Current Page Not Clickable -->

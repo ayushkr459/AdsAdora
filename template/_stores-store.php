@@ -11,6 +11,8 @@
       $store_name = $row['store_name'];
       $store_img = $row['store_img'];
       $url = $store_name;
+      $url = str_replace("'", "-", $url);
+      $url = str_replace("&", "_", $url);
 
       echo '
 

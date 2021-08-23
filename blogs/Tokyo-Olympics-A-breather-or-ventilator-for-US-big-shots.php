@@ -48,10 +48,8 @@
     <header id="header">
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
-            <a href="https://www.avmnewslive.com/flyers/">
-                <img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="100px">
-            </a>
-            <!-- <a class="navbar-brand font-rale" href="https://www.avmnewslive.com/flyers/">AdsAdora</a> -->
+            <a href="https://adsadora.com/"><img src="../assets/images/logon.png" class="img-fluid" style="width: 190px; height: 50px; object-fit:cover; margin-top: -7px;" alt="" width="120px"></a>
+            <!-- <a class="navbar-brand font-rale" href="https://adsadora.com/">AdsAdora</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,8 +107,8 @@
         </div>
 
         <!-- For Demo Purpose -->
-        <div class="container py-5">
-        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;text-align:center;'><strong><span style="font-size:16px;line-height:115%;color:black;">Tokyo Olympics: A breather or ventilator for US big shots?</span></strong></p>
+        <div class="container py-3">
+        
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;">After a long hauled, stress-filled, and air-tight lockdown protocol, US in now hoping that Tokyo Olympics might be their knight in shining armor. If things go according to the plan, big shot brands will be able to resurrect themselves and make a four-fold comeback.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;">Banking on the impeccable athletes participating this Summer Games, it is only a matter of days before US gets a victory over covid setback and Olympic Season all together.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">Sports enthusiasts are excited for watching Simone Biles, Allyson Felix, and Adam Peaty defying laws of physics, while sponsors are ready to witness an increment in their Return on Investment.&nbsp;</span></p>
@@ -118,9 +116,9 @@
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">Evidently, inviting sponsors with no audience presence was a tough call. Nevertheless, it has its own pros for the revenue generated through livestreaming and sponsorship is predicted to be massive.</span></p>
 <img class="mt-3" src="../assets/images/olym1.jpeg" alt="sports" style="width:100%; object-fit:cover;">
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">&nbsp;</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">&nbsp;</span></p>
+
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;margin-left:8px;">
+    <ul style="margin-bottom:0cm;list-style-type: disc; padding-left: 1rem">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><strong><span style="line-height:115%;color:black;">Olympic sponsors: Money minds behind sporting events</span></strong></li>
     </ul>
 </div>
@@ -135,9 +133,9 @@
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">Surprisingly, Google hasn&rsquo;t made its way to the Global Olympic sponsors yet. As an alternative, they&rsquo;re an Official Supporter, given the 4th tier of sponsorship.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">Despite having signed up for multiple-year contracts, Worldwide Olympic Funds are not the chief spenders fundamentally. Companies like Bridgestone, Atos, Dow Chemicals, Alibaba, General Electricals, Intel, Omega, Panasonic, and Visa are enlisted as Global Olympic Sponsors, but their aggregate expenditure over the initial six months only amounted to $50.7M, which comprised of only 2% of all Olympic sponsors spending.</span></p>
 <p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">The rest 5% aggregating to $115M is divided among 30 companies.</span></p>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><span style="font-size:16px;line-height:115%;color:black;">&nbsp;</span></p>
+
 <div style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'>
-    <ul style="margin-bottom:0cm;list-style-type: disc;margin-left:8px;">
+    <ul style="margin-bottom:0cm;list-style-type: disc;padding-left: 1rem;">
         <li style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;line-height:115%;font-size:15px;font-family:"Arial",sans-serif;'><strong><span style="line-height:115%;color:black;font-size:16px;color:black;">A boon or bane situation for Tokyo Olympics&rsquo; sponsors</span></strong></li>
     </ul>
 </div>

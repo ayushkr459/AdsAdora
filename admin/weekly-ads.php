@@ -279,9 +279,10 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
 
                     ?>
                         <table class="table-bordered text-center" id="dataTable" width="100%" collspacing="0">
+                            <a href="#" onclick="delete_all()">Delete New</a>
                             <thead>
                                 <tr>
-                                    <th><input type="checkbox" id="select-all">Select All</th>
+                                    <th><input type="checkbox" id="select_all" onclick="select_all()">Select All</th>
                                     <th>S.No</th>
                                     <th>Store Name</th>
                                     <th>Flyers Image</th>
@@ -293,39 +294,41 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                                     <th>Delete</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <?php
-                                while ($row = mysqli_fetch_assoc($query_run)) {
+                            <form method="POST" id="frm">
+                                <tbody>
+                                    <?php
+                                    while ($row = mysqli_fetch_assoc($query_run)) {
 
-                                ?>
-                                    <tr>
-                                        <td>
-                                            <input type="checkbox" name='check[]' onclick="toggleCheckbox(this)" value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
-                                        </td>
-                                        <td><?php echo $row['flyers_id'] ?></td>
-                                        <td><?php echo $row['store_name'] ?></td>
-                                        <td><?php echo '<img src="image/' . $row['flyers_img'] . '" alt="" width="100px;" height="100px;">' ?>
-                                        </td>
-                                        <td><?php echo $row['start_date'] ?></td>
-                                        <td><?php echo $row['end_date'] ?></td>
-                                        <td><?php echo $row['flyers_description'] ?></td>
-                                        <td><?php echo $row['flyers_meta'] ?></td>
-                                        <td>
-                                            <form action="flyers_edit.php" method="POST">
-                                                <input type="hidden" name="edit_id" value="<?php echo $row['flyers_id'] ?>">
-                                                <button type="submit" name="edit_flyers_btn" class="btn btn-primary">Edit</button>
-                                            </form>
-                                        </td>
-                                        <td>
-                                            <form action="code.php" method="POST">
-                                                <input type="hidden" name="delete_id" value="<?php echo $row['flyers_id'] ?>">
-                                                <button type="submit" name="flyers_delete_btn" class="btn btn-danger">Delete</button>
-                                            </form>
-                                        </td>
-                                    </tr>
-                                <?php
-                                } ?>
-                            </tbody>
+                                    ?>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="checkbox[]" id="<?php echo $row['flyers_id'] ?>" onclick="toggleCheckbox(this)" value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
+                                            </td>
+                                            <td><?php echo $row['flyers_id'] ?></td>
+                                            <td><?php echo $row['store_name'] ?></td>
+                                            <td><?php echo '<img src="image/' . $row['flyers_img'] . '" alt="" width="100px;" height="100px;">' ?>
+                                            </td>
+                                            <td><?php echo $row['start_date'] ?></td>
+                                            <td><?php echo $row['end_date'] ?></td>
+                                            <td><?php echo $row['flyers_description'] ?></td>
+                                            <td><?php echo $row['flyers_meta'] ?></td>
+                                            <td>
+                                                <form action="flyers_edit.php" method="POST">
+                                                    <input type="hidden" name="edit_id" value="<?php echo $row['flyers_id'] ?>">
+                                                    <button type="submit" name="edit_flyers_btn" class="btn btn-primary">Edit</button>
+                                                </form>
+                                            </td>
+                                            <td>
+                                                <form action="code.php" method="POST">
+                                                    <input type="hidden" name="delete_id" value="<?php echo $row['flyers_id'] ?>">
+                                                    <button type="submit" name="flyers_delete_btn" class="btn btn-danger">Delete</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    <?php
+                                    } ?>
+                                </tbody>
+                            </form>
                             <tfoot>
                                 <form action="code.php" method="POST">
                                     <button type="submit" name="delete_multiple_flyers" class="btn btn-danger mb-2" style="display: block;">Delete Checked Flyers</button>
@@ -361,6 +364,8 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+
+
 
     <!-- Custom Script -->
     <script>
@@ -400,17 +405,37 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
     <!-- DataTable -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/dataTables.bootstrap4.min.js" integrity="sha512-OQlawZneA7zzfI6B1n1tjUuo3C5mtYuAWpQdg+iI9mkDoo7iFzTqnQHf+K5ThOWNJ9AbXL4+ZDwH7ykySPQc+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    
     <!-- Script -->
     <script>
         $(document).ready(function() {
             $('#dataTable').DataTable();
-
-            $("#select-all").click(function(){
-                $("input[type='checkbox']").prop('checked',this.checked);
-            });
         });
+
+        function select_all() {
+            if ($('#select_all').prop("checked")) {
+                $('input[type=checkbox]').each(function() {
+                    $('#' + this.id).prop('checked', true);
+                });
+            } else {
+                $('input[type=checkbox]').each(function() {
+                    $('#' + this.id).prop('checked', false);
+                });
+            }
+        }
+
+        function delete_all() {
+            $.ajax({
+                url: 'delete.php',
+                type: 'post',
+                data: $('#frm').serialize(),
+                success: function() {
+                    
+                }
+            })
+        }
     </script>
+
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
