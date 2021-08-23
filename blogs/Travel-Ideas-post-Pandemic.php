@@ -23,7 +23,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>Travel Ideas | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>Travel Ideas post Pandemic! | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 

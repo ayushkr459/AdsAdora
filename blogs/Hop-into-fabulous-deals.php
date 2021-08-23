@@ -23,7 +23,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>Walmart Blog | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>Hop into fabulous deals for school students | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 

@@ -23,7 +23,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>5 TV Shows To Binge Watch | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>5 US TV Shows to binge watch this International Friendship day! | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 
