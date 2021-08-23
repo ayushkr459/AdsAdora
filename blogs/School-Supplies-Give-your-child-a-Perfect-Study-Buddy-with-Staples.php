@@ -23,7 +23,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>Target Blog | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>School Supplies: Give your child a Perfect Study Buddy with Staples | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 

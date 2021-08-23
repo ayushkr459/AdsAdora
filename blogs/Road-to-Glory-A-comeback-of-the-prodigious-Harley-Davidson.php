@@ -23,7 +23,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>Target Blog | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>Road to Glory- A comeback of the prodigious Harley Davidson | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 

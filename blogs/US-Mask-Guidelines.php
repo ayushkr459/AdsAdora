@@ -23,7 +23,7 @@
     // require('template/_dbconnect.php');
     ?>
 
-    <title>Target Blog | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
+    <title>US Mask Guidelines | AdsAdora | Weekly Ads, Sales and Ads Preview</title>
     <style>
         /* Modal Style */
 
