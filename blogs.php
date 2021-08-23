@@ -95,6 +95,46 @@
 
             <div class="row mb-2 blogs">
 
+                <!-- Blogs added on 20 Aug, 2021 -->
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Star-Market-offering-super-summer-savings-on-quality-products">
+                            <img src="../assets/images/star-market1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Star-Market-offering-super-summer-savings-on-quality-products" style="color: #dc3545;">Star Market offering super summer savings on quality products</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Star-Market-offering-super-summer-savings-on-quality-products">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">20 Aug, 2021</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
+                        <a href="../blogs/Holiday-Shopping-Guide-around-how-to-get-the-best-deals-in-all-Target-stores">
+                            <img src="../assets/images/holiday-shop1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                        </a>
+                        <div class="blog-info p-3">
+                            <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
+                            <h5 class=" mt-3 mb-2">
+                                    <a href="../blogs/Holiday-Shopping-Guide-around-how-to-get-the-best-deals-in-all-Target-stores" style="color: #dc3545;">Holiday Shopping Guide around how to get the best deals in all Target stores</a>
+                            </h5>
+                            <hr>
+                            <div class="date-read mb-5">
+                                <a href="../blogs/Holiday-Shopping-Guide-around-how-to-get-the-best-deals-in-all-Target-stores">
+                                    <span style="color: #ED4662; float: left; font-size: 12px;">Continue Reading..</span>
+                                </a>
+                                
+                                <span style="float: right; font-size: 12px; color: #B7B7B7;">20 Aug, 2021</span>
+                            </div>
+                        </div>
+                </div>
+
                 <!-- Blogs added on 19 Aug, 2021 -->
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/School-Supplies-Give-your-child-a-Perfect-Study-Buddy-with-Staples">
