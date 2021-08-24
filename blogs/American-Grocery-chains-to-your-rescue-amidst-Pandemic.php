@@ -109,7 +109,7 @@
         <!-- For Demo Purpose -->
         <div class="container py-3">
         <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>The COVID-19 pandemic has had a massive impact on small companies so far. Many companies have had to decrease their hours and personnel around the area. Some firms have entirely shut down in an attempt to assist stop the spread, resulting in massive earnings drops and a sense of crushing anxiety among their owners and staff.</p>
-        <img class="mt-3" src="../assets/images/american-grocery1-min.png" alt="sports" style="width:100%; object-fit:cover;">
+        <img class="mt-3" src="../assets/images/american-grocery1-min.jpg" alt="sports" style="width:100%; object-fit:cover;">
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>Most packaged food categories are established and rely primarily on population growth, posing a challenge for food marketers to introduce anything fresh to the market. Companies who invest in new product releases, component modifications, and alternative marketing strategies to appeal to changing customer tastes have many opportunities.</p>
 <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
