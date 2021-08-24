@@ -97,7 +97,7 @@
                 <!-- Blogs added on 23 Aug, 2021 -->
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/USA-Infrastructure-bill-2021">
-                            <img src="../assets/images/usbill1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/usbill1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">News</span>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Top-Tips-for-Super-Organized-Shopping-at-Hy-Vee’s">
-                            <img src="../assets/images/top-tips1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/top-tips1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">News</span>
@@ -138,7 +138,7 @@
                 <!-- Blogs added on 20 Aug, 2021 -->
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Star-Market-offering-super-summer-savings-on-quality-products">
-                            <img src="../assets/images/star-market1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/star-market1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Holiday-Shopping-Guide-around-how-to-get-the-best-deals-in-all-Target-stores">
-                            <img src="../assets/images/holiday-shop1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/holiday-shop1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
@@ -178,7 +178,7 @@
                 <!-- Blogs added on 19 Aug, 2021 -->
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/School-Supplies-Give-your-child-a-Perfect-Study-Buddy-with-Staples">
-                            <img src="../assets/images/school-supp1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/school-supp1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Education</span>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Bewitching-Meals-Top-5-desserts-to-drool-over-this-Summer">
-                            <img src="../assets/images/bewitch1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/bewitch1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
@@ -221,7 +221,7 @@
 
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/American-Grocery-chains-to-your-rescue-amidst-Pandemic">
-                            <img src="../assets/images/american-grocery1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/american-grocery1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Pandemic</span>
@@ -240,7 +240,7 @@
                 </div>
                 <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Give-yourself-a-Fresh-and-Local-start-next-year-with-Kroger">
-                            <img src="../assets/images/kroger1-min.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/kroger1-min.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3" >
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
@@ -305,7 +305,7 @@
                     
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Best-fit-of-prices-for-your-choice-of-sports-at-dunham-sports">
-                            <img src="../assets/images/bestfit1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/bestfit1.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3" >
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
@@ -348,7 +348,7 @@
 
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Shopping-better-with-Snapchat">
-                            <img src="../assets/images/snapchat1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/snapchat1.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3" >
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Shopping</span>
@@ -368,7 +368,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Apple-over-Android-What-is-all-the-fuss-about">
-                            <img src="../assets/images/appleand1.png" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/appleand1.jpg" alt="work" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3" >
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Technology</span>
@@ -426,7 +426,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Your-go-to-go-list-for-to-beat-the-summer-heat">
-                            <img src="../assets/images/hidGems1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/hidGems1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3" >
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Summer</span>
@@ -464,7 +464,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Tokyo-Olympics-A-breather-or-ventilator-for-US-big-shots">
-                            <img src="../assets/images/olym1.jpeg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/olym1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
@@ -483,7 +483,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Going-down-the-memory-lane-with-The-Epic-Kyrie">
-                            <img src="../assets/images/kyrie1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/kyrie1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
@@ -616,7 +616,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Who-is-benefiting-from-the-9-year-old-Hamilton-Mercedes-bond">
-                            <img src="../assets/images/sp1.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/sp1.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Sports</span>
@@ -635,7 +635,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/The-Suicide-Squad-Harnessing-the-power-of-Friendship">
-                            <img src="../assets/images/movie2.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/movie2.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Movies</span>
@@ -654,7 +654,7 @@
                     </div>
                     <div class="col-md-6 blog-card" style="border: 1px solid #B7B7B7; padding: 0; border-radius: 5px; margin: 1rem;">
                         <a href="../blogs/Overcoming-FOMO-this-National-Chicken-Wings-Day">
-                            <img src="../assets/images/chicken.png" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
+                            <img src="../assets/images/chicken.jpg" alt="target-blog" style="width: 100%; height: 200px; object-fit:cover; border-radius: 5px;">
                         </a>
                         <div class="blog-info p-3">
                             <span class="blog-category" style="background: #DC3545; padding: 0.2rem 1.5rem 0.2rem 1.5rem; color: white; border-radius: 20px;">Food</span>
