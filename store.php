@@ -37,7 +37,8 @@
 
     <link rel="icon" href="../assets/images/favicon.png" type="image/gif" sizes="32x32">
 
-    <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/simplePagination.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
 
     <title> ' . $store_name . '  | AdsAdora | Weekly Ads, Sales and Ads Preview </title>
     <style>
@@ -286,17 +287,50 @@
 
     ?>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js" integrity="sha512-UH428GPLVbCa8xDVooDWXytY8WASfzVv3kxCvTAFkxD2vPjouf1I3+RJ2QcSckESsb7sI+gv3yhsgw9ZhM7sDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js" integrity="sha512-frFP3ZxLshB4CErXkPVEXnd5ingvYYtYhE5qllGdZmcOlRKNEPbufyupfdSTNmoF5ICaQNO6SenXzOZvoGkiIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.4/jquery.simplePagination.min.js" integrity="sha512-J4OD+6Nca5l8HwpKlxiZZ5iF79e9sgRGSf0GxLsL1W55HHdg48AEiKCXqvQCNtA1NOMOVrw15DXnVuPpBm2mPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Custom Javascript -->
     <script src="./index.js"></script>
+    <script>
+        var record = '<?php echo $record; ?>';
+        var listOfViews = <?php echo json_encode($listOfView); ?>;
+        // $('#pagination-demo').twbsPagination({
+        //     totalPages: record,
+        //     visiblePages: 5,
+        //     next: 'Next',
+        //     prev: 'Prev',
+        //     onPageClick: function(event, page) {
+        //         document.getElementById('page-content').innerHTML = listOfViews[page - 1];
+        //     }
+        // });
+        $('#pagination-demo').pagination({
+            items: record,
+            itemOnPage: 5,
+            currentPage: 0,
+            displayedPages: 5,
+            edges: 1,
+            cssStyle: 'light-theme',
+            prevText: '<span aria-hidden="true">&laquo;</span>',
+            nextText: '<span aria-hidden="true">&raquo;</span>',
+            onInit: function() {
+                document.getElementById('page-content').innerHTML = listOfViews[0];
+            },
+            onPageClick: function(event, page) {
+                document.getElementById('page-content').innerHTML = listOfViews[event - 1];
+            }
+        });
+    </script>
+
 </body>
 
 </html>

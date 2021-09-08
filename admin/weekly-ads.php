@@ -89,7 +89,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                     <div class="card-body">
                         <h5>Multiple Flyers Upload</h5>
                         <hr>
-                        <form method="POST" action="" enctype="multipart/form-data">
+                        <form method="post" action="" enctype="multipart/form-data">
                             <div class="form-group row">
                                 <label for="storename" class="col-sm-2 col-form-label">Select Store</label>
                                 <div class="col-sm-10">
@@ -287,7 +287,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
 
                     ?>
                         <table class="table-bordered text-center" id="dataTable" width="100%" collspacing="0">
-                            <!-- <a href="#" onclick="delete_all()">Delete New</a> -->
+                            <a href="javascript:void(0)" onclick="delete_all()">Delete New</a>
                             <thead>
                                 <tr>
                                     <th><input type="checkbox" id="select_all" onclick="select_all()">Select All</th>
@@ -439,11 +439,11 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
             $.ajax({
                 url: 'delete.php',
                 type: 'post',
-                data: $('#frm').serialize(),
+                data: jQuery('#frm').serialize(),
                 success: function() {
                     
                 }
-            })
+            });
         }
     </script>
 

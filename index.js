@@ -3,12 +3,13 @@
 // });
 
 $(document).ready(function () {
+  $("#zoom1").css('cursor', 'zoom-in'); 
   $("#zoom1").on("click", function () {
     if ($(".enabled").length === 0) {
       $(".zoomContainer").show();
       $("#zoom1").elevateZoom({
         zoomType: "inner",
-        cursor: "crosshair",
+        cursor: "zoom-out",
       });
       $(this).toggleClass("enabled");
     } else {

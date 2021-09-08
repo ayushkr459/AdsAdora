@@ -300,7 +300,7 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
                                 ?>
                                     <tr>
                                         <td>
-                                            <input type="checkbox" class="checkItem" name='check[]' onclick="toggleCheckbox(this)" value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
+                                            <input type="checkbox" class="checkItem" name='checkbox[]' value="<?php echo $row['flyers_id'] ?>" <?php echo $row['visible'] == 1 ? "checked" : "" ?>>
                                         </td>
                                         <td><?php echo $row['flyers_id'] ?></td>
                                         <td><?php echo $row['store_name'] ?></td>
@@ -363,32 +363,6 @@ session_save_path(__DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "
     </a>
 
     <!-- Custom Script -->
-    <!-- <script>
-        function toggleCheckbox(box) {
-            var id = $(box).attr('value');
-
-            if ($(box).prop("checked") == true) {
-                var visible = 1;
-            } else {
-                var visible = 0;
-            }
-
-            var data = {
-                "search_data": 1,
-                "id": id,
-                "visible": visible
-            };
-
-            $.ajax({
-                type: "post",
-                url: "code.php",
-                data: data,
-                success: function(response) {
-                    // alert("Data Checked")
-                }
-            })
-        }
-    </script> -->
 
 
     <!-- Bootstrap core JavaScript-->
